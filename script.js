@@ -10,7 +10,7 @@ const questions = [
     "What's your favorite music genre?",
     "What's your favorite book genre?"
   ];
-
+  
   const alternatives = [
     ['Red', 'Blue', 'Green', 'Yellow', 'Orange', 'Purple', 'Pink', 'Black', 'White'],
     ['Dog', 'Cat', 'Bird', 'Fish', 'Rabbit', 'Horse', 'Lion', 'Tiger', 'Elephant'],
@@ -23,8 +23,7 @@ const questions = [
     ['Pop', 'Rock', 'Hip-hop', 'Jazz', 'Country', 'Electronic', 'Classical', 'Reggae', 'R&B'],
     ['Fiction', 'Non-fiction', 'Fantasy', 'Mystery', 'Romance', 'Science fiction', 'Thriller', 'Biography', 'Historical fiction']
   ];
-
-
+  
   // Object to store points for each group
   let groupPoints = {
     T1: [],
@@ -37,11 +36,11 @@ const questions = [
     T8: [],
     T9: []
   };
-
+  
   // Current question index
   let currentQuestionIndex = 0;
   let timerInterval;
-
+  
   // Function to display next question and alternatives
   function displayQuestion() {
     document.getElementById('question').textContent = questions[currentQuestionIndex];
@@ -52,7 +51,7 @@ const questions = [
     document.getElementById('options').innerHTML = buttonsHTML;
     startTimer();
   }
-
+  
   // Function to start the countdown timer
   function startTimer() {
     let seconds = 60;
@@ -66,7 +65,7 @@ const questions = [
       }
     }, 1000);
   }
-
+  
   // Function to select an alternative and update points
   function selectAlternative(group) {
     clearInterval(timerInterval);
@@ -80,22 +79,29 @@ const questions = [
       showMostSelected();
     }
   }
-
+  
+  // Function to display the appropriate text based on the most selected and second most selected groups
+  function showMostSelected() {
+    let mostSelected = findMostSelected();
+    let resultText = '';
+  
+    if (mostSelected.length > 0) {
+      resultText += `Text for ${mostSelected[0]}: This is the most selected group.`;
+    }
+  
+    if (mostSelected.length > 1) {
+      resultText += ` Text for ${mostSelected[1]}: This is the second most selected group.`;
+    }
+  
+    document.getElementById('result').textContent = resultText;
+  }
+  
   // Function to find the two most selected groups
   function findMostSelected() {
     let sortedGroups = Object.keys(groupPoints).sort((a, b) => groupPoints[b].length - groupPoints[a].length);
     return sortedGroups.slice(0, 2);
   }
-
-  // Function to display the two most selected groups
-  function showMostSelected() {
-    let mostSelected = findMostSelected();
-    let resultText = "Two most selected groups: ";
-    mostSelected.forEach(group => {
-      resultText += `${group} (${groupPoints[group].join(', ')}) `;
-    });
-    document.getElementById('result').textContent = resultText;
-  }
-
+  
   // Start displaying the first question
   displayQuestion();
+  
