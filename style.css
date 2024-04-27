@@ -6,39 +6,54 @@ body {
 }
 
 .container {
-width: 500px;
-margin: 100px auto;
-padding: 20px;
-background-color: #FFF;
-border-radius: 10px;
-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 80%; /* Definir largura máxima para manter o conteúdo dentro de uma largura razoável */
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .title {
-font-size: 24px;
-font-weight: bold;
-margin-bottom: 20px;
+    font-size: 3vw; /* Usando unidade de viewport width para tamanho de fonte responsivo */
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .options {
-display: flex;
-flex-direction: column; /* Alterado para 'column' para empilhar botões */
-align-items: center; /* Centralizar botões na horizontal */
+    display: flex;
+    flex-direction: column; /* Alterado para 'column' para empilhar botões */
+    align-items: center; /* Centralizar botões na horizontal */
 }
 
 .button {
-width: 100px;
-height: 40px;
-margin-bottom: 10px; /* Espaçamento entre botões */
-padding: 10px;
-border: none;
-border-radius: 5px;
-background-color: #4CAF50;
-color: #FFF;
-cursor: pointer;
-transition: background-color 0.3s ease;
+    width: 40%; /* Definir a largura como uma porcentagem da largura do contêiner */
+    max-width: 150px; /* Limitar a largura máxima do botão */
+    height: 6vh; /* Usando unidade de viewport height para altura responsiva */
+    margin-bottom: 5px; /* Espaçamento entre botões */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #FFF;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .button:hover {
-background-color: #45a049;
+    background-color: #45a049;
+}
+
+@media screen and (max-width: 600px) {
+    /* Ajustes para telas menores */
+    .container {
+        padding: 10px;
+    }
+    .title {
+        font-size: 20px;
+    }
+    .button {
+        width: 80%;
+        max-width: none;
+    }
 }
