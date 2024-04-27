@@ -15,27 +15,26 @@ body {
 }
 
 .title {
-    font-size: 3vw; /* Usando unidade de viewport width para tamanho de fonte responsivo */
+    margin-top: 20px;
+    font-size: 30px;
     font-weight: bold;
     margin-bottom: 20px;
+    text-align: center; /* Centralizar o texto */
 }
-
 .options {
-    display: flex;
-    flex-direction: column; /* Alterado para 'column' para empilhar botões */
-    align-items: center; /* Centralizar botões na horizontal */
+    /*display: flex;*/
+    flex-direction:column; /* Alterado para 'column' para empilhar os botões */
+    align-items: center; /* Centralizar os botões horizontalmente */
 }
-
 .button {
-    width: 40%; /* Definir a largura como uma porcentagem da largura do contêiner */
-    max-width: 150px; /* Limitar a largura máxima do botão */
-    height: 6vh; /* Usando unidade de viewport height para altura responsiva */
-    margin-bottom: 5px; /* Espaçamento entre botões */
+    width: 100%; /* Faz cada botão ocupar toda a largura do contêiner */
+    max-width: 150px;
+    height: 6vh;
     padding: 10px;
-    border: none;
+    border: 1px solid black;
     border-radius: 5px;
-    background-color: #4CAF50;
-    color: #FFF;
+    background-color: white;
+    color: black;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
