@@ -15,20 +15,21 @@ body {
     padding: 20px 40px;
     border-radius: 10px; 
     text-align: center;
+    
   }
   
   .title {
     font-size: 30px;
     font-weight: bold;
     margin: 20px 0;
-    color: #FFF;
+    color: #000000;
   }
   
   .options {
     display: flex;
     flex-direction: column;
     justify-content: flex-start; /* Alinha os itens à esquerda */
-    color: #FFF;
+    color: #0b0b0b;
   }
   
   .button {

@@ -2,10 +2,12 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Arial', sans-serif;
-  background-color: #FFF;
+  background-image: url("./bgg.png");
+  background-repeat: no-repeat; /* Para evitar repetição */
+
 }
 
-.login-box {
+.container {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -15,79 +17,65 @@ body {
   padding: 20px 40px;
   border-radius: 10px; 
   text-align: center;
+  /* From https://css.glass */
+background: rgba(193, 193, 193, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(151, 151, 151, 0.3);
 }
 
-.login-box h2 {
-  margin: 0 0 30px;
-  padding: 0;
+.container img{
+  width: 200px;
+  height: 230px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px 0;
   color: #000000;
-  text-align: center;
 }
 
-.login-box h3 {
-  margin: 0 0 30px;
-  padding: 0;
-  color: #000000;
-  text-align: center;
-}
-
-.login-box p {
-  margin: 0 0 30px;
-  padding: 0;
-  color: #000000;
-  text-align: center;
-}
-
-.login-box .user-box {
-  position: relative;
-}
-
-.login-box .user-box input {
-  width: 100%;
-  padding: 10px 0;
-  font-size: 16px;
-  color: #000000;
-  margin-bottom: 30px;
-  border: none;
-  border-bottom: 1px solid #030303;
-  outline: none;
-  background: transparent;
-}
-
-.login-box form a {
-  position: relative;
-  display: inline-block;
-  padding: 20px 20px;
-  color: #fbfcfc;
-  font-size: 16px;
-  text-decoration: none;
-  text-transform: uppercase;
-  overflow: hidden;
-  transition: 0.5s;
-  margin-top: 40px;
-  background-color: #000000;
-  letter-spacing: 4px;
+.options {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  border-radius: 15px;
+  justify-content: flex-start; /* Alinha os itens à esquerda */
+  color: #0b0b0b;
 }
 
-.login-box a span {
-  position: absolute;
-  display: block;
+.button {
+  width: 100%;
+  max-width: 150px;
+  font-weight: bold;
+  height: 6vh;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-top: 8px;
+  margin-left: 0; /* Remova a margem esquerda */
+  margin-right: 0; /* Remova a margem direita */
+}
+
+
+.button:hover {
+  background-color: black;
+  color: #FFF;
 }
 
 @media screen and (max-width: 600px) {
-  .login-box {
+  .container {
     padding: 10px;
-    width: 100%; /* Adicionado para ocupar toda a largura da tela */
-    max-width: none; /* Removido para que a largura seja responsiva */
   }
-  .login-box h2 {
+  .title {
     font-size: 20px;
   }
-  .login-box form a {
+  .button {
     width: 80%;
     max-width: none;
   }

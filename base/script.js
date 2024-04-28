@@ -107,7 +107,7 @@ function checkScoreThreshold() {
 }
 
 // Function to display the appropriate text based on the user's score
-/*function displayResult() {
+function displayResult() {
   if (checkScoreThreshold() && currentQuestionIndex >= QUESTIONS_THRESHOLD) {
     // Redirect the user to another page
     window.location.href = 'redirectPage.html';
@@ -115,7 +115,7 @@ function checkScoreThreshold() {
     // Display the result based on the most selected groups
     showMostSelected();
   }
-}*/
+}
 
 // Function to display the appropriate text based on the most selected and second most selected groups
 function showMostSelected() {
