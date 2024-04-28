@@ -1,9 +1,11 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Arial', sans-serif;
-    background-color: #FFF;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-image: url("../src/bgg.png");
+  background-repeat: no-repeat; /* Para evitar repetição */
+
+}
   
   .container {
     position: absolute;
@@ -45,10 +47,13 @@ body {
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
     margin-top: 8px;
-    margin-left: 0; /* Remova a margem esquerda */
-    margin-right: 0; /* Remova a margem direita */
+    margin-left: 5px; /* Remova a margem esquerda */
+    margin-right: 5px; /* Remova a margem direita */
   }
   
+  .hidden {
+    display: none;
+  }
   
   .button:hover {
     background-color: black;

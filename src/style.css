@@ -53,8 +53,8 @@ border: 1px solid rgba(151, 151, 151, 0.3);
   padding: 10px;
   border: 1px solid black;
   border-radius: 5px;
-  background-color: white;
-  color: black;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 253, 253);
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
   margin-top: 8px;
@@ -62,10 +62,20 @@ border: 1px solid rgba(151, 151, 151, 0.3);
   margin-right: 0; /* Remova a margem direita */
 }
 
+a {
+  text-decoration: none;
+  color: inherit; /* Mantendo a cor do texto padrão */
+}
+
+/* Mudando o cursor para mão quando passar por cima */
+a:hover {
+  cursor: pointer;
+}
+
 
 .button:hover {
-  background-color: black;
-  color: #FFF;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
 }
 
 @media screen and (max-width: 600px) {

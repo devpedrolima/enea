@@ -93,7 +93,12 @@ function selectAlternative(group) {
   if (currentQuestionIndex < questions.length) {
     displayQuestion();
   } else {
-    displayResult(); // Check the score threshold after answering all questions
+    // Hide the questionnaire and display the result
+    document.getElementById('question').classList.add('hidden');
+    document.getElementById('options').classList.add('hidden');
+    document.getElementById('timer').classList.add('hidden');
+    document.getElementById('result-container').classList.remove('hidden');
+    showMostSelected();
   }
 }
 
@@ -104,17 +109,6 @@ function checkScoreThreshold() {
     totalScore += groupPoints[group].length;
   }
   return totalScore <= SCORE_THRESHOLD;
-}
-
-// Function to display the appropriate text based on the user's score
-function displayResult() {
-  if (checkScoreThreshold() && currentQuestionIndex >= QUESTIONS_THRESHOLD) {
-    // Redirect the user to another page
-    window.location.href = 'redirectPage.html';
-  } else {
-    // Display the result based on the most selected groups
-    showMostSelected();
-  }
 }
 
 // Function to display the appropriate text based on the most selected and second most selected groups
