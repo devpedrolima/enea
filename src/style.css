@@ -28,7 +28,6 @@ body {
   margin: 0 0 30px;
   padding: 0;
   color: #000000;
-  
   text-align: center;
 }
 
@@ -72,8 +71,6 @@ body {
   flex-direction: column;
   align-items: center;
   border-radius: 15px;
-  
-  
 }
 
 .login-box a span {
@@ -84,6 +81,8 @@ body {
 @media screen and (max-width: 600px) {
   .login-box {
     padding: 10px;
+    width: 100%; /* Adicionado para ocupar toda a largura da tela */
+    max-width: none; /* Removido para que a largura seja responsiva */
   }
   .login-box h2 {
     font-size: 20px;
@@ -93,5 +92,3 @@ body {
     max-width: none;
   }
 }
-
-
