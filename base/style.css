@@ -64,7 +64,8 @@ body {
 
 @media screen and (max-width: 600px) {
   .container {
-    padding: 30px; /* Adjusted padding for even smaller screens */
+    padding: 30px;
+    padding-right: 10px; /* Adjusted padding for even smaller screens */
   }
   .title {
     font-size: 14px;
