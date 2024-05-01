@@ -28,7 +28,7 @@ body {
 }
 
 .question {
-  font-size: large;
+  font-size: 10px;
 }
 
 .options {
@@ -42,7 +42,7 @@ body {
   width: 100%;
   max-width: 400px;
   font-weight: bold;
-  height: 60px; /* Reduced height for better fit on smaller screens */
+  height: 70px; /* Reduced height for better fit on smaller screens */
   padding-left: 5px;
   padding-right: 5px;
   border: 1px solid black;
@@ -68,7 +68,7 @@ body {
     padding: 60px;
   }
   .question {
-    font-size: 14px;
+    font-size: 10px;
   }
   .button {
     height: 50px; /* Further reduced height for smaller screens */
