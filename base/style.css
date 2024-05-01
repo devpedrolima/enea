@@ -9,12 +9,12 @@ body {
   
   .container {
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 80%;
-    max-width: 400px;
-    padding: 20px 40px;
+    width: 100%;
+    max-width: 600px; /* Aumentado para 600px */
+    padding: 100px 200px;
     border-radius: 10px; 
     text-align: center;
     
@@ -34,22 +34,20 @@ body {
     color: #0b0b0b;
   }
   
-  .button {
-    width: 100%;
-    max-width: 150px;
+ .button {
+    width: 100%; /* Ajustado para ocupar 100% do container */
+    max-width: 400px; /* Aumentado o tamanho máximo */
     font-weight: bold;
-    height: 6vh;
-    padding: 10px;
+    height: 70px; /* Ajustado a altura */
+    padding: 15px; /* Ajustado o padding para dar mais espaço */
     border: 1px solid black;
     border-radius: 5px;
     background-color: white;
     color: black;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
-    margin-top: 8px;
-    margin-left: 5px; /* Remova a margem esquerda */
-    margin-right: 5px; /* Remova a margem direita */
-  }
+    margin-top: 20px; /* Ajustado o espaçamento superior */
+}
   
   .hidden {
     display: none;
