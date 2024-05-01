@@ -7,6 +7,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
+  background-color: #eeeeee;
 }
 
 .container {
@@ -64,8 +65,7 @@ body {
 
 @media screen and (max-width: 600px) {
   .container {
-    margin: 0 auto;
-  width: 90%;
+    padding: 60px;
   }
   .question {
     font-size: 14px;
