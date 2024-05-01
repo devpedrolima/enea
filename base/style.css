@@ -63,7 +63,7 @@ body {
   color: #FFF;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 450px) {
   .container {
     padding: 60px;
   }
