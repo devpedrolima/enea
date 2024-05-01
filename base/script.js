@@ -1,5 +1,5 @@
 const questions = [
-  "What's your favorite color?",
+  "O que me faz feliz é:",
   "Which animal do you prefer?",
   "What's your favorite food?",
   "What's your favorite hobby?",
@@ -12,7 +12,7 @@ const questions = [
 ];
 
 const alternatives = [
-  ['Red', 'Blue', 'Green', 'Yellow', 'Orange', 'Purple', 'Pink', 'Black', 'White'],
+  ['Ter tudo organizado e em ordem antes de me divertir para que não haja preocupações', 'Ver as pessoas que eu gosto felizes, principalmente se eu estiver participando.', 'Green', 'Yellow', 'Orange', 'Purple', 'Pink', 'Black', 'White'],
   ['Dog', 'Cat', 'Bird', 'Fish', 'Rabbit', 'Horse', 'Lion', 'Tiger', 'Elephant'],
   ['Pizza', 'Burger', 'Sushi', 'Pasta', 'Salad', 'Steak', 'Soup', 'Sandwich', 'Tacos'],
   ['Reading', 'Cooking', 'Gardening', 'Painting', 'Playing an instrument', 'Sports', 'Watching movies', 'Traveling', 'Photography'],
