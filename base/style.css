@@ -62,7 +62,7 @@ body {
   color: #FFF;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
   .container {
     padding: 50px; /* Aumentando a margem */
   }
