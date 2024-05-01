@@ -177,12 +177,12 @@ function startTimer() {
   let seconds = 60;
   document.getElementById(
     "timer"
-  ).textContent = `Time left: ${seconds} seconds`;
+  ).textContent = `Tempo Restante: ${seconds} seconds`;
   timerInterval = setInterval(() => {
     seconds--;
     document.getElementById(
       "timer"
-    ).textContent = `Time left: ${seconds} seconds`;
+    ).textContent = `Tempo Restante: ${seconds} seconds`;
     if (seconds <= 0) {
       clearInterval(timerInterval);
       selectAlternative("");
@@ -226,14 +226,66 @@ function showMostSelected() {
   let resultText = "";
 
   if (mostSelected.length > 0) {
-    resultText += `Text for ${mostSelected[0]}: This is the most selected group.`;
+    resultText += `Seu perfil deve ser ${getGroupName(mostSelected[0])}<br>`;
+    resultText += `<br>  <br>`;
+    resultText += getGroupCharacteristics(mostSelected[0]);
   }
 
   if (mostSelected.length > 1) {
-    resultText += ` Text for ${mostSelected[1]}: This is the second most selected group.`;
+    resultText += `<br>Seu perfil também pode ser ${getGroupName(
+      mostSelected[1]
+    )}<br>`;
+    resultText += `<br>  <br>`;
+
+    resultText += getGroupCharacteristics(mostSelected[1]);
   }
 
-  document.getElementById("result").textContent = resultText;
+  document.getElementById("result").innerHTML = resultText;
+}
+
+function getGroupCharacteristics(group) {
+  switch (group) {
+    case "T1":
+    case "T8":
+    case "T9":
+      return "<strong>Instintivo</strong> <br>Instintivos basicamente usam a ação como mentor de suas vidas. São pessoas determinadas, protetoras, não se deixam controlar facilmente e tendem mais a mandar do que a obedecer.<br>";
+    case "T2":
+    case "T3":
+    case "T4":
+      return "<strong>Emocional</strong><br>Emocionais basicamente têm as emoções como mentor de suas vidas. São pessoas sociáveis, comunicativas que criam relações com facilidade com o fim de serem notados, apreciados, admirados e queridos por todos que eles se relacionam.<br>";
+    case "T5":
+    case "T6":
+    case "T7":
+      return "<br><strong>Mental</strong><br><br>Mentais basicamente usam a razão como mentor de suas vidas. São pessoas planejadoras, dedicam mais tempo em conhecer e calcular consequências no campo teórico do que a executá-las.<br>";
+    default:
+      return "Características do grupo desconhecido.<br>";
+  }
+}
+
+// Função para obter o nome do grupo
+function getGroupName(group) {
+  switch (group) {
+    case "T1":
+      return "T1 - O ORGANIZADOR";
+    case "T2":
+      return "T2 - O SERVIDOR";
+    case "T3":
+      return "T3 - O REALIZADOR";
+    case "T4":
+      return "T4 - O ROMÂNTICO";
+    case "T5":
+      return "T5 - O OBSERVADOR";
+    case "T6":
+      return "T6 - O QUESTIONADOR";
+    case "T7":
+      return "T7 - O SONHADOR";
+    case "T8":
+      return "T8 - O CONFRONTADOR";
+    case "T9":
+      return "T9 - O INTERMEDIADOR";
+    default:
+      return "Grupo Desconhecido";
+  }
 }
 
 // Function to find the two most selected groups
