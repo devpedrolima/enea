@@ -3,71 +3,75 @@ body {
   padding: 0;
   font-family: 'Arial', sans-serif;
   background-image: url("../src/bgg.png");
-  background-repeat: no-repeat; /* Para evitar repetição */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; /* Adicionado para cobrir todo o fundo */
+  background-position: center; /* Adicionado para centralizar a imagem de fundo */
+}
 
+.container {
+  position: relative;
+  margin: 0 auto; /* Centralizar o conteúdo */
+  width: 100%;
+  max-width: 600px;
+  padding: 100px 200px;
+  border-radius: 10px;
+  text-align: center;
 }
-  
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #000000;
+}
+
+.question{
+  font-size: large;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: #0b0b0b;
+}
+
+.button {
+  width: 100%;
+  max-width: 400px;
+  font-weight: bold;
+  height: 75px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.button:hover {
+  background-color: black;
+  color: #FFF;
+}
+
+@media screen and (max-width: 600px) {
   .container {
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    max-width: 600px; /* Aumentado para 600px */
-    padding: 100px 200px;
-    border-radius: 10px; 
-    text-align: center;
-    
+    padding: 10px;
   }
-  
   .title {
-    font-size: 30px;
-    font-weight: bold;
-    margin: 20px 0;
-    color: #000000;
+    font-size: 20px;
   }
-  
-  .options {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start; /* Alinha os itens à esquerda */
-    color: #0b0b0b;
+  .button {
+    width: 80%;
+    max-width: none;
   }
-  
- .button {
-    width: 100%; /* Ajustado para ocupar 100% do container */
-    max-width: 400px; /* Aumentado o tamanho máximo */
-    font-weight: bold;
-    height: 70px; /* Ajustado a altura */
-    padding: 15px; /* Ajustado o padding para dar mais espaço */
-    border: 1px solid black;
-    border-radius: 5px;
-    background-color: white;
-    color: black;
-    cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    margin-top: 20px; /* Ajustado o espaçamento superior */
 }
-  
-  .hidden {
-    display: none;
-  }
-  
-  .button:hover {
-    background-color: black;
-    color: #FFF;
-  }
-  
-  @media screen and (max-width: 600px) {
-    .container {
-      padding: 10px;
-    }
-    .title {
-      font-size: 20px;
-    }
-    .button {
-      width: 80%;
-      max-width: none;
-    }
-  }
-  
+
