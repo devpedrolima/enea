@@ -64,10 +64,10 @@ body {
 
 @media screen and (max-width: 600px) {
   .container {
-    padding: 30px;
-    padding-right: 10px; /* Adjusted padding for even smaller screens */
+    margin: 0 auto;
+  width: 90%;
   }
-  .title {
+  .question {
     font-size: 14px;
   }
   .button {
