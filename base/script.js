@@ -23,6 +23,7 @@ const alternatives = [
     /*T8*/ "Estar no comando das coisas.",
     /*T9*/ "Estar em paz comigo mesmo e com os outros.",
   ],
+
   /*Q2*/ [
     /*T1*/ "Ser justo, bom e equilibrado com todos a minha volta.",
     /*T2*/ "Ajudar as pessoas e sendo reconhecido por isso.",
@@ -34,6 +35,7 @@ const alternatives = [
     /*T8*/ "Proteger os mais fracos que estão sob minha responsabilidade.",
     /*T9*/ "Manter a as coisas pacificas e sem problemas.",
   ],
+
   /*Q3*/ [
     /*T1*/ "Fizer o que é certo.",
     /*T2*/ "For amado pelos outros e estiver perto deles.",
@@ -45,6 +47,7 @@ const alternatives = [
     /*T8*/ "For forte e conseguir dominar as situações.",
     /*T9*/ "As pessoas que me rodeiam também estiverem.",
   ],
+
   /*Q4*/ [
     /*T1*/ "Uma pessoa justa, íntegra e incorruptível.",
     /*T2*/ "Um facilitador para chegar nas coisas que quer realizar.",
@@ -56,6 +59,7 @@ const alternatives = [
     /*T8*/ "A pessoa mais forte.",
     /*T9*/ "Uma pessoa de boa.",
   ],
+
   /*Q5*/ [
     /*T1*/ "Fico com uma imensa raiva interna me cobrando onde foi que falhei.",
     /*T2*/ "Me irrito pela ingratidão e me excluo até melhorar meu humor.",
@@ -67,6 +71,7 @@ const alternatives = [
     /*T8*/ "Me recuo para um local protegido para que eu possa sofrer em silêncio e possa retornar mais forte do que antes.",
     /*T9*/ "Me pergunto porque isso aconteceu e se não tem como revertermos isso.",
   ],
+
   /*Q6*/ [
     /*T1*/ "Sigo todas as regras e resolvo pelo caminho correto, sem jeitinhos, por mais difícil que seja.",
     /*T2*/ "Dou meu jeito evitando pedir ajuda mesmo que eu não saiba como realizar a tarefa.",
@@ -76,8 +81,9 @@ const alternatives = [
     /*T6*/ "Crio planos e compartilho com as pessoas que se relacionam comigo. Se for algo que eu precise decidir sozinho, faço vários planos de reserva.",
     /*T7*/ "São oportunidades de pensar em soluções novas para atender a demanda ou atingir a meta.",
     /*T8*/ "Derroto cada obstáculo como uma fração da meta. Desafios e obstáculos só me deixam mais forte.",
-    "Obstáculos grandes demais podem me desanimar, mas com paciência tudo se resolve.",
+    /*T9*/ "Obstáculos grandes demais podem me desanimar, mas com paciência tudo se resolve.",
   ],
+
   /*Q7*/ [
     /*T1*/ "De ser juiz ou arbitrar as fases da venda, sempre trazendo os benefícios e vantagens para o cliente comprar o produto certo.",
     /*T2*/ "De ser a pessoa que ajudou o cliente chegar na conclusão que ele precisa.",
@@ -89,6 +95,7 @@ const alternatives = [
     /*T8*/ "De comandar todas as etapas da venda até o fechamento.",
     /*T9*/ "Gosto de atender as necessidades do cliente, sem mais nem menos.",
   ],
+
   /*Q8*/ [
     /*T1*/ "Que outras pessoas fiquem interrompendo meus métodos ou se metendo na minha negociação, a não seja que eu tenha solicitado a presença do gerente ou gestor para essa finalidade.",
     /*T2*/ "Que o cliente saia da negociação insatisfeito comigo ou com a empresa.",
@@ -100,6 +107,7 @@ const alternatives = [
     /*T8*/ "De demora. As coisas tem que fluir rapidamente.",
     /*T9*/ "De que as pessoas fiquem me apressando.",
   ],
+
   /*Q9*/ [
     /*T1*/ "Crio processos e regras para cada pessoa ter certa autonomia de forma geral e saber dos seus limites para não invadir o departamento ou atividade dos demais colegas.",
     /*T2*/ "Procuro estar sempre disponível para ajudar qualquer membro da equipe além das minhas responsabilidades.",
@@ -111,6 +119,7 @@ const alternatives = [
     /*T8*/ "Mostro que eu quem estou no comando das situações relacionadas a mim.",
     /*T9*/ "Estou disponível para ouvir a todos e fazer o que tem que ser feito sem estresse.",
   ],
+
   /*Q10*/ [
     /*T1*/ "Me sinto normal, afinal, é preciso mesmo usar ferramentas para medir resultados e poder tomar atitudes.",
     /*T2*/ "Não me leve a mal, mas eu prefiro lidar com pessoas e não com números e dados.",
@@ -226,16 +235,17 @@ function showMostSelected() {
   let resultText = "";
 
   if (mostSelected.length > 0) {
-    resultText += `Seu perfil deve ser ${getGroupName(mostSelected[0])}<br>`;
     resultText += `<br>  <br>`;
+    resultText += `Seu perfil deve ser ${getGroupName(mostSelected[0])}<br>`;
     resultText += getGroupCharacteristics(mostSelected[0]);
   }
 
   if (mostSelected.length > 1) {
+    resultText += `<br>  <br>`;
     resultText += `<br>Seu perfil também pode ser ${getGroupName(
       mostSelected[1]
     )}<br>`;
-    resultText += `<br>  <br>`;
+    
 
     resultText += getGroupCharacteristics(mostSelected[1]);
   }

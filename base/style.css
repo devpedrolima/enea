@@ -64,14 +64,13 @@ body {
 
 @media screen and (max-width: 600px) {
   .container {
-    padding: 10px;
+    padding: 50px; /* Aumentando a margem */
   }
   .title {
-    font-size: 20px;
+    font-size: 24px; /* Diminuindo o tamanho do h1 */
   }
   .button {
     width: 80%;
     max-width: none;
   }
 }
-
