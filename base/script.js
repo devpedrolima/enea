@@ -182,8 +182,14 @@ function displayQuestion() {
 }
 
 // Function to start the countdown timer
+// Function to start the countdown timer
 function startTimer() {
-  let seconds = 60;
+  let seconds;
+  if (currentQuestionIndex === 4 || currentQuestionIndex === 5 || currentQuestionIndex === 6 || currentQuestionIndex === 7) {
+    seconds = 120; // 120 seconds for questions 5, 6, 7, and 8
+  } else {
+    seconds = 60; // 60 seconds for the rest
+  }
   document.getElementById(
     "timer"
   ).textContent = `Tempo Restante: ${seconds} seconds`;
@@ -245,28 +251,26 @@ function showMostSelected() {
     resultText += `<br>Seu perfil também pode ser ${getGroupName(
       mostSelected[1]
     )}<br>`;
-    
 
     resultText += getGroupCharacteristics(mostSelected[1]);
   }
 
   document.getElementById("result").innerHTML = resultText;
 }
-
 function getGroupCharacteristics(group) {
   switch (group) {
     case "T1":
     case "T8":
     case "T9":
-      return "<strong>Instintivo</strong> <br>Instintivos basicamente usam a ação como mentor de suas vidas. São pessoas determinadas, protetoras, não se deixam controlar facilmente e tendem mais a mandar do que a obedecer.<br>";
+      return "<h2 id='titulo_instintivo'>Instintivo</h2><p id='texto_instintivo'>Instintivos basicamente usam a ação como mentor de suas vidas. São pessoas determinadas, protetoras, não se deixam controlar facilmente e tendem mais a mandar do que a obedecer.</p><p>Clique aqui no botão para saber mais sobre o seu centro</p><button class='buttonfim' onclick=\"window.location.href='https://wa.me/5564992563627?text=Ol%C3%A1+Igor%21+estou+com+d%C3%BAvidas+no+teste+do+EneaBusiness'\">Saber mais</button>";
     case "T2":
     case "T3":
     case "T4":
-      return "<strong>Emocional</strong><br>Emocionais basicamente têm as emoções como mentor de suas vidas. São pessoas sociáveis, comunicativas que criam relações com facilidade com o fim de serem notados, apreciados, admirados e queridos por todos que eles se relacionam.<br>";
+      return "<h2>Emocional</h2><p>Emocionais basicamente têm as emoções como mentor de suas vidas. São pessoas sociáveis, comunicativas que criam relações com facilidade com o fim de serem notados, apreciados, admirados e queridos por todos que eles se relacionam.</p><p>Clique aqui no botão para saber mais sobre o seu centro</p><button class='buttonfim' onclick=\"window.location.href='https://wa.me/5564992563627?text=Ol%C3%A1+Igor%21+estou+com+d%C3%BAvidas+no+teste+do+EneaBusiness'\">Saber mais</button>";
     case "T5":
     case "T6":
     case "T7":
-      return "<br><strong>Mental</strong><br><br>Mentais basicamente usam a razão como mentor de suas vidas. São pessoas planejadoras, dedicam mais tempo em conhecer e calcular consequências no campo teórico do que a executá-las.<br>";
+      return "<h2></h2>Mental</h2><p></p>Mentais basicamente usam a razão como mentor de suas vidas. São pessoas planejadoras, dedicam mais tempo em conhecer e calcular consequências no campo teórico do que a executá-las.</p><br><p>Clique aqui no botão para saber mais sobre o seu centro</p><button class='buttonfim' onclick=\"window.location.href='https://wa.me/5564992563627?text=Ol%C3%A1+Igor%21+estou+com+d%C3%BAvidas+no+teste+do+EneaBusiness'\">Saber mais</button>";
     default:
       return "Características do grupo desconhecido.<br>";
   }

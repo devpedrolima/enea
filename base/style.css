@@ -8,6 +8,7 @@ body {
   background-size: cover;
   background-position: center;
   background-color: #eeeeee;
+  touch-action: manipulation; /* Added to prevent zooming on mobile devices */
 }
 
 .container {
@@ -21,14 +22,14 @@ body {
 }
 
 .title {
-  font-size: 30px;
+  font-size: 4vw; /* Adjusted to be responsive to viewport width */
   font-weight: bold;
   margin: 20px 0;
   color: #000000;
 }
 
 .question {
-  font-size: 10px;
+  font-size: 1.5vw; /* Adjusted to be responsive to viewport width */
 }
 
 .options {
@@ -54,6 +55,27 @@ body {
   margin-top: 20px;
 }
 
+.buttonfim {
+  width: 100%;
+  max-width: 90px;
+  font-weight: bold;
+  height: 40px; /* Reduced height for better fit on smaller screens */
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-top: 20px;
+}
+
+.texto{
+  margin-top: 10px;
+
+}
+
 .hidden {
   display: none;
 }
@@ -64,13 +86,13 @@ body {
 }
 
 @media screen and (max-width: 450px) {
-  .container {
+ .container {
     padding: 60px;
   }
-  .question {
-    font-size: 10px;
+ .question {
+    font-size: 2vw; /* Further adjusted to be responsive to viewport width */
   }
-  .button {
+ .button {
     height: 70px; /* Further reduced height for smaller screens */
   }
 }
