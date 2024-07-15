@@ -373,8 +373,7 @@ const alternatives = [
     /*T9*/ "Sem as regras não haveria paz, porque “cada um” ia tentar remar pro lado que mais lhe interessa.",
   ],
 ];
-
-// Object to store points for each group
+/// Object to store points for each group
 let groupPoints = {
   T1: [],
   T2: [],
@@ -414,14 +413,12 @@ function displayQuestion() {
 
   let buttonsHTML = "";
   for (let i = 0; i < shuffledAlternatives.length; i++) {
-    buttonsHTML += `<button class="button" onclick="selectAlternative('T${i + 1
-      }')">${shuffledAlternatives[i]}</button>`;
+    buttonsHTML += `<button class="button" onclick="selectAlternative('T${i + 1}')">${shuffledAlternatives[i]}</button>`;
   }
   document.getElementById("options").innerHTML = buttonsHTML;
   startTimer();
 }
 
-// Function to start the countdown timer
 // Function to start the countdown timer
 function startTimer() {
   let seconds;
@@ -463,6 +460,7 @@ function selectAlternative(group) {
     document.getElementById("timer").classList.add("hidden");
     document.getElementById("result-container").classList.remove("hidden");
     showMostSelected();
+    displayPieChart();
   }
 }
 
@@ -488,10 +486,7 @@ function showMostSelected() {
 
   if (mostSelected.length > 1) {
     resultText += `<br>  <br>`;
-    resultText += `<br>Seu perfil também pode ser ${getGroupName(
-      mostSelected[1]
-    )}<br>`;
-
+    resultText += `<br>Seu perfil também pode ser ${getGroupName(mostSelected[1])}<br>`;
     resultText += getGroupCharacteristics(mostSelected[1]);
   }
 
@@ -499,32 +494,19 @@ function showMostSelected() {
 }
 
 function getGroupCharacteristics(group) {
-  // Obter informações do grupo com base em 'group'
-  const groupInfo = getGroupInfo(group); // Função hipotética para buscar informações do grupo
-
-  return `
-    <div class='group-info'>
-      <h1>${groupInfo.name}</h1>
-      <p>${groupInfo.description}</p>
-    </div>
-    <button class='buttonfim' onclick='downloadPDF(\"${groupInfo.pdfFilename}\")'>Baixar PDF</button>
-  `;
-}
-
-function getGroupCharacteristics(group) {
   switch (group) {
     case "T1":
       return "<div class='ins'><h1>INSTINTIVO</h1></div><p>Instintivos basicamente usam a ação como mentor de suas vidas. São pessoas determinadas, protetoras, não se deixam controlar facilmente e tendem mais a mandar do que a obedecer.</p><p>Clique aqui no botão para saber mais sobre o seu centro</p><button class='buttonfim' onclick='downloadPDF(\"INSTINTIVO.pdf\")'>Baixar PDF</button>";
     case "T2":
-      return "<div class='emo'><h1>EMOCIONAL</h1></div><p>Emocionais basicamente têm as emoções como mentor de suas vidas. São pessoas sociáveis, comunicativas que criam relações com facilidade com o fim de serem notados, apreciados, admirados e queridos por todos que eles se relacionam.  </p><br><p>Clique aqui no botão para saber mais sobre o seu centro</p><br><button class='buttonfim' onclick='downloadPDF(\"./emocional.pdf\")'>Baixar PDF</button>";
+      return "<div class='emo'><h1>EMOCIONAL</h1></div><p>Emocionais basicamente têm as emoções como mentor de suas vidas. São pessoas sociáveis, comunicativas que criam relações com facilidade com o fim de serem notados, apreciados, admirados e queridos por todos que eles se relacionam.  </p><br><p>Clique aqui no botão para saber mais sobre o seu centro</p><br><button class='buttonfim' onclick='downloadPDF(\"emocional.pdf\")'>Baixar PDF</button>";
     case "T3":
-      return "<div class='emo'><h1>EMOCIONAL</h1></div><p>Emocionais basicamente têm as emoções como mentor de suas vidas. São pessoas sociáveis, comunicativas que criam relações com facilidade com o fim de serem notados, apreciados, admirados e queridos por todos que eles se relacionam.  </p><br><p>Clique aqui no botão para saber mais sobre o seu centro</p><br><button class='buttonfim' onclick='downloadPDF(\"./emocional.pdf\")'>Baixar PDF</button>";
+      return "<div class='emo'><h1>EMOCIONAL</h1></div><p>Emocionais basicamente têm as emoções como mentor de suas vidas. São pessoas sociáveis, comunicativas que criam relações com facilidade com o fim de serem notados, apreciados, admirados e queridos por todos que eles se relacionam.  </p><br><p>Clique aqui no botão para saber mais sobre o seu centro</p><br><button class='buttonfim' onclick='downloadPDF(\"emocional.pdf\")'>Baixar PDF</button>";
     case "T4":
-      return "<div class='emo'><h1>EMOCIONAL</h1></div><p>Emocionais basicamente têm as emoções como mentor de suas vidas. São pessoas sociáveis, comunicativas que criam relações com facilidade com o fim de serem notados, apreciados, admirados e queridos por todos que eles se relacionam.  </p><br><p>Clique aqui no botão para saber mais sobre o seu centro</p><br><button class='buttonfim' onclick='downloadPDF(\"./emocional.pdf\")'>Baixar PDF</button>";
-     case "T6":
-      return "<div class='men'><h1>MENTAL</h1></div><p></p>Mentais basicamente usam a razão como mentor de suas vidas. São pessoas planejadoras, dedicam mais tempo em conhecer e calcular consequências no campo teórico do que a executá-las.</p><br><p>Clique aqui no botão para saber mais sobre o seu centro</p><br><button class='buttonfim' onclick='downloadPDF(\"MENTAL.pdf\")'>Baixar PDF</button>";
+      return "<div class='emo'><h1>EMOCIONAL</h1></div><p>Emocionais basicamente têm as emoções como mentor de suas vidas. São pessoas sociáveis, comunicativas que criam relações com facilidade com o fim de serem notados, apreciados, admirados e queridos por todos que eles se relacionam.  </p><br><p>Clique aqui no botão para saber mais sobre o seu centro</p><br><button class='buttonfim' onclick='downloadPDF(\"emocional.pdf\")'>Baixar PDF</button>";
+    case "T6":
+      return "<div class='men'><h1>MENTAL</h1></div><p>Mentais basicamente usam a razão como mentor de suas vidas. São pessoas planejadoras, dedicam mais tempo em conhecer e calcular consequências no campo teórico do que a executá-las.</p><br><p>Clique aqui no botão para saber mais sobre o seu centro</p><br><button class='buttonfim' onclick='downloadPDF(\"MENTAL.pdf\")'>Baixar PDF</button>";
     case "T7":
-      return "<div class='men'><h1>MENTAL</h1></div><p></p>Mentais basicamente usam a razão como mentor de suas vidas. São pessoas planejadoras, dedicam mais tempo em conhecer e calcular consequências no campo teórico do que a executá-las.</p><br><p>Clique aqui no botão para saber mais sobre o seu centro</p><br><button class='buttonfim' onclick='downloadPDF(\"MENTAL.pdf\")'>Baixar PDF</button>";
+      return "<div class='men'><h1>MENTAL</h1></div><p>Mentais basicamente usam a razão como mentor de suas vidas. São pessoas planejadoras, dedicam mais tempo em conhecer e calcular consequências no campo teórico do que a executá-las.</p><br><p>Clique aqui no botão para saber mais sobre o seu centro</p><br><button class='buttonfim' onclick='downloadPDF(\"MENTAL.pdf\")'>Baixar PDF</button>";
     case "T8":
       return "<div class='ins'><h1>INSTINTIVO</h1></div><p>Instintivos basicamente usam a ação como mentor de suas vidas. São pessoas determinadas, protetoras, não se deixam controlar facilmente e tendem mais a mandar do que a obedecer.</p><p>Clique aqui no botão para saber mais sobre o seu centro</p><button class='buttonfim' onclick='downloadPDF(\"INSTINTIVO.pdf\")'>Baixar PDF</button>";
     case "T9":
@@ -568,10 +550,77 @@ function findMostSelected() {
   return sortedGroups.slice(0, 2);
 }
 
+// Function to download the PDF
+function downloadPDF(filename) {
+  const link = document.createElement("a");
+  link.href = filename;
+  link.download = "emocional.pdf";
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
+
+// Function to display the pie chart
+function displayPieChart() {
+  const ctx = document.getElementById('choicesChart').getContext('2d');
+  const data = {
+    labels: ['T1', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'T8', 'T9'],
+    datasets: [{
+      data: Object.values(groupPoints).map(group => group.length),
+      backgroundColor: [
+        'rgba(255, 99, 132, 0.2)',
+        'rgba(54, 162, 235, 0.2)',
+        'rgba(255, 206, 86, 0.2)',
+        'rgba(75, 192, 192, 0.2)',
+        'rgba(153, 102, 255, 0.2)',
+        'rgba(255, 159, 64, 0.2)',
+        'rgba(255, 99, 132, 0.2)',
+        'rgba(54, 162, 235, 0.2)',
+        'rgba(255, 206, 86, 0.2)'
+      ],
+      borderColor: [
+        'rgba(255, 99, 132, 1)',
+        'rgba(54, 162, 235, 1)',
+        'rgba(255, 206, 86, 1)',
+        'rgba(75, 192, 192, 1)',
+        'rgba(153, 102, 255, 1)',
+        'rgba(255, 159, 64, 1)',
+        'rgba(255, 99, 132, 1)',
+        'rgba(54, 162, 235, 1)',
+        'rgba(255, 206, 86, 1)'
+      ],
+      borderWidth: 1
+    }]
+  };
+
+  const options = {
+    responsive: true,
+    plugins: {
+      legend: {
+        position: 'top',
+      },
+      tooltip: {
+        callbacks: {
+          label: function(tooltipItem) {
+            const groupLabel = data.labels[tooltipItem.dataIndex];
+            const value = data.datasets[0].data[tooltipItem.dataIndex];
+            return `${groupLabel}: ${value} escolhas`;
+          }
+        }
+      }
+    }
+  };
+
+  new Chart(ctx, {
+    type: 'pie',
+    data: data,
+    options: options
+  });
+}
+
 // Start displaying the first question
 document.getElementById("start-test-button").addEventListener("click", function() {
   document.getElementById("pre-teste-container").classList.add("hidden");
   document.getElementById("test-container").classList.remove("hidden");
   displayQuestion(); // Exibir primeira pergunta após iniciar o teste
 });
-

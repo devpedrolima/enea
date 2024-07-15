@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <title>Menu de Seleção</title>
 </head>
 <body>
@@ -31,10 +32,10 @@
 </div>
 
 <div id="result-container" class="hidden">
-    <p id="result"> </p>
-</div>
-<div id="pie-chart-container" class="hidden"></div>
-
+    <div id="result"></div>
+    <canvas id="choicesChart" width="400" height="400"></canvas>
+  </div>
+  
 <script src="./script.js"></script>
 </body>
 </html>
