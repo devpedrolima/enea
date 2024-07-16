@@ -373,7 +373,7 @@ const alternatives = [
     /*T9*/ "Sem as regras não haveria paz, porque “cada um” ia tentar remar pro lado que mais lhe interessa.",
   ],
 ];
-/// Object to store points for each group
+// Object to store points for each group
 let groupPoints = {
   T1: [],
   T2: [],
@@ -405,8 +405,12 @@ function shuffleArray(array) {
 
 // Function to display next question and alternatives
 function displayQuestion() {
-  document.getElementById("question").textContent =
-    questions[currentQuestionIndex];
+  if (typeof questions === 'undefined' || typeof alternatives === 'undefined') {
+    console.error("Questions or alternatives are not defined.");
+    return;
+  }
+
+  document.getElementById("question").textContent = questions[currentQuestionIndex];
 
   // Randomize the order of alternatives
   const shuffledAlternatives = shuffleArray(alternatives[currentQuestionIndex]);
@@ -422,19 +426,15 @@ function displayQuestion() {
 // Function to start the countdown timer
 function startTimer() {
   let seconds;
-  if (currentQuestionIndex === 4 || currentQuestionIndex === 5 || currentQuestionIndex === 6 || currentQuestionIndex === 7) {
+  if (currentQuestionIndex >= 4 && currentQuestionIndex <= 7) {
     seconds = 120; // 120 seconds for questions 5, 6, 7, and 8
   } else {
     seconds = 60; // 60 seconds for the rest
   }
-  document.getElementById(
-    "timer"
-  ).textContent = `Tempo Restante: ${seconds} seconds`;
+  document.getElementById("timer").textContent = `Tempo Restante: ${seconds} seconds`;
   timerInterval = setInterval(() => {
     seconds--;
-    document.getElementById(
-      "timer"
-    ).textContent = `Tempo Restante: ${seconds} seconds`;
+    document.getElementById("timer").textContent = `Tempo Restante: ${seconds} seconds`;
     if (seconds <= 0) {
       clearInterval(timerInterval);
       selectAlternative("");
@@ -446,9 +446,7 @@ function startTimer() {
 function selectAlternative(group) {
   clearInterval(timerInterval);
   if (group !== "") {
-    groupPoints[group].push(
-      alternatives[currentQuestionIndex][parseInt(group.substring(1)) - 1]
-    );
+    groupPoints[group].push(alternatives[currentQuestionIndex][parseInt(group.substring(1)) - 1]);
   }
   currentQuestionIndex++;
   if (currentQuestionIndex < questions.length) {
@@ -479,30 +477,33 @@ function showMostSelected() {
   let resultText = "";
 
   if (mostSelected.length > 0) {
-    resultText += `<br>  <br>`;
+    resultText += `<br><br>`;
     resultText += `Seu perfil deve ser ${getGroupName(mostSelected[0])}<br>`;
     resultText += getGroupCharacteristics(mostSelected[0]);
   }
 
   if (mostSelected.length > 1) {
-    resultText += `<br>  <br>`;
-    resultText += `<br>Seu perfil também pode ser ${getGroupName(mostSelected[1])}<br>`;
+    resultText += `<br><br>`;
+    resultText += `Seu perfil também pode ser ${getGroupName(mostSelected[1])}<br>`;
     resultText += getGroupCharacteristics(mostSelected[1]);
   }
 
   document.getElementById("result").innerHTML = resultText;
 }
 
+// Function to get the characteristics of the group
 function getGroupCharacteristics(group) {
   switch (group) {
     case "T1":
       return "<div class='ins'><h1>INSTINTIVO</h1></div><p>Instintivos basicamente usam a ação como mentor de suas vidas. São pessoas determinadas, protetoras, não se deixam controlar facilmente e tendem mais a mandar do que a obedecer.</p><p>Clique aqui no botão para saber mais sobre o seu centro</p><button class='buttonfim' onclick='downloadPDF(\"INSTINTIVO.pdf\")'>Baixar PDF</button>";
     case "T2":
-      return "<div class='emo'><h1>EMOCIONAL</h1></div><p>Emocionais basicamente têm as emoções como mentor de suas vidas. São pessoas sociáveis, comunicativas que criam relações com facilidade com o fim de serem notados, apreciados, admirados e queridos por todos que eles se relacionam.  </p><br><p>Clique aqui no botão para saber mais sobre o seu centro</p><br><button class='buttonfim' onclick='downloadPDF(\"emocional.pdf\")'>Baixar PDF</button>";
+      return "<div class='emo'><h1>EMOCIONAL</h1></div><p>Emocionais basicamente têm as emoções como mentor de suas vidas. São pessoas sociáveis, comunicativas que criam relações com facilidade com o fim de serem notados, apreciados, admirados e queridos por todos que eles se relacionam.</p><br><p>Clique aqui no botão para saber mais sobre o seu centro</p><br><button class='buttonfim' onclick='downloadPDF(\"emocional.pdf\")'>Baixar PDF</button>";
     case "T3":
-      return "<div class='emo'><h1>EMOCIONAL</h1></div><p>Emocionais basicamente têm as emoções como mentor de suas vidas. São pessoas sociáveis, comunicativas que criam relações com facilidade com o fim de serem notados, apreciados, admirados e queridos por todos que eles se relacionam.  </p><br><p>Clique aqui no botão para saber mais sobre o seu centro</p><br><button class='buttonfim' onclick='downloadPDF(\"emocional.pdf\")'>Baixar PDF</button>";
+      return "<div class='emo'><h1>EMOCIONAL</h1></div><p>Emocionais basicamente têm as emoções como mentor de suas vidas. São pessoas sociáveis, comunicativas que criam relações com facilidade com o fim de serem notados, apreciados, admirados e queridos por todos que eles se relacionam.</p><br><p>Clique aqui no botão para saber mais sobre o seu centro</p><br><button class='buttonfim' onclick='downloadPDF(\"emocional.pdf\")'>Baixar PDF</button>";
     case "T4":
-      return "<div class='emo'><h1>EMOCIONAL</h1></div><p>Emocionais basicamente têm as emoções como mentor de suas vidas. São pessoas sociáveis, comunicativas que criam relações com facilidade com o fim de serem notados, apreciados, admirados e queridos por todos que eles se relacionam.  </p><br><p>Clique aqui no botão para saber mais sobre o seu centro</p><br><button class='buttonfim' onclick='downloadPDF(\"emocional.pdf\")'>Baixar PDF</button>";
+      return "<div class='emo'><h1>EMOCIONAL</h1></div><p>Emocionais basicamente têm as emoções como mentor de suas vidas. São pessoas sociáveis, comunicativas que criam relações com facilidade com o fim de serem notados, apreciados, admirados e queridos por todos que eles se relacionam.</p><br><p>Clique aqui no botão para saber mais sobre o seu centro</p><br><button class='buttonfim' onclick='downloadPDF(\"emocional.pdf\")'>Baixar PDF</button>";
+    case "T5":
+      return "<div class='men'><h1>MENTAL</h1></div><p>Mentais basicamente usam a razão como mentor de suas vidas. São pessoas planejadoras, dedicam mais tempo em conhecer e calcular consequências no campo teórico do que a executá-las.</p><br><p>Clique aqui no botão para saber mais sobre o seu centro</p><br><button class='buttonfim' onclick='downloadPDF(\"MENTAL.pdf\")'>Baixar PDF</button>";
     case "T6":
       return "<div class='men'><h1>MENTAL</h1></div><p>Mentais basicamente usam a razão como mentor de suas vidas. São pessoas planejadoras, dedicam mais tempo em conhecer e calcular consequências no campo teórico do que a executá-las.</p><br><p>Clique aqui no botão para saber mais sobre o seu centro</p><br><button class='buttonfim' onclick='downloadPDF(\"MENTAL.pdf\")'>Baixar PDF</button>";
     case "T7":
@@ -516,7 +517,7 @@ function getGroupCharacteristics(group) {
   }
 }
 
-// Função para obter o nome do grupo
+// Function to get the name of the group
 function getGroupName(group) {
   switch (group) {
     case "T1":
@@ -554,33 +555,10 @@ function findMostSelected() {
 function downloadPDF(filename) {
   const link = document.createElement("a");
   link.href = filename;
-  link.download = "emocional.pdf";
+  link.download = filename; // Set the correct file name
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
-}
-
-// Function to display the appropriate text based on the most selected and second most selected groups
-function showMostSelected() {
-  let mostSelected = findMostSelected();
-  let resultText = "";
-
-  if (mostSelected.length > 0) {
-    resultText += `<br><br>`;
-    resultText += `Seu perfil deve ser ${getGroupName(mostSelected[0])}<br>`;
-    resultText += getGroupCharacteristics(mostSelected[0]);
-  }
-
-  if (mostSelected.length > 1) {
-    resultText += `<br><br>`;
-    resultText += `<br>Seu perfil também pode ser ${getGroupName(
-      mostSelected[1]
-    )}<br>`;
-    resultText += getGroupCharacteristics(mostSelected[1]);
-  }
-
-  document.getElementById("result").innerHTML = resultText;
-  displayPieChart();
 }
 
 // Function to display the pie chart
@@ -641,14 +619,6 @@ function displayPieChart() {
     options: options
   });
 }
-
-// Start displaying the first question
-document.getElementById("start-test-button").addEventListener("click", function() {
-  document.getElementById("pre-teste-container").classList.add("hidden");
-  document.getElementById("test-container").classList.remove("hidden");
-  displayQuestion(); // Exibir primeira pergunta após iniciar o teste
-});
-
 
 // Start displaying the first question
 document.getElementById("start-test-button").addEventListener("click", function() {

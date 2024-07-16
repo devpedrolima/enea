@@ -2,7 +2,7 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="./style.css" />
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <title>Menu de Seleção</title>
@@ -12,36 +12,37 @@
       <div class="container">
         <img src="../src/logo1.png" alt="logo" />
         <h1>Teste Eneagrama</h1>
-        <p>
-          Explore suas habilidades com nosso teste de 30 questões. Cada pergunta
-          tem um limite de 60 segundos. Responda com atenção e confie em seu
-          instinto. Boa sorte!
-        </p>
+        <p>Explore suas habilidades com nosso teste de 30 questões. Cada pergunta tem um limite de 60 segundos. Responda com atenção e confie em seu instinto. Boa sorte!</p>
         <button id="start-test-button" class="buttoon">Começar</button>
-        <p>
-          <a
-            href="https://wa.me/5564992563627?text=Ol%C3%A1+Igor%21+estou+com+d%C3%BAvidas+no+teste+do+EneaBusiness"
-            >Falar com o instrutor</a
-          >
-        </p>
+        <p><a href="https://wa.me/5564992563627?text=Ol%C3%A1+Igor%21+estou+com+d%C3%BAvidas+no+teste+do+EneaBusiness">Falar com o instrutor</a></p>
       </div>
     </div>
-    <div id="result-container" class="hidden">
-      <div class="container">
-        <h1>Gráfico de pananam</h1>
-          <canvas id="choicesChart"></canvas>
-          <div id="result"></div>
-      </div>
-  </div>
+
     <div id="test-container" class="hidden">
       <div class="container">
         <h1 id="question"></h1>
         <p class="timer" id="timer"></p>
         <div id="options"></div>
-        <p id="result" style="font-weight: bold"></p>
       </div>
     </div>
-    
+
+    <div id="result-container" class="hidden">
+      <div class="container">
+        <h1>Gráfico de Pananam</h1>
+        <canvas id="choicesChart"></canvas>
+        <div id="result"></div>
+      </div>
+    </div>
+
+    <div id="overlay"></div>
+
+    <div id="reminder-popup">
+      <div class="popup-content">
+        <h2>Hey! Você ainda está aí?</h2>
+        <p>Não deixe seu teste ocioso! Faça com tempo e use o seu instinto! Clique aqui para recomeçar seu teste.</p>
+        <button onclick="reloadPage()">Recarregar Página</button>
+      </div>
+    </div>
 
     <script src="./script.js"></script>
   </body>
