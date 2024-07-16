@@ -560,6 +560,29 @@ function downloadPDF(filename) {
   document.body.removeChild(link);
 }
 
+// Function to display the appropriate text based on the most selected and second most selected groups
+function showMostSelected() {
+  let mostSelected = findMostSelected();
+  let resultText = "";
+
+  if (mostSelected.length > 0) {
+    resultText += `<br><br>`;
+    resultText += `Seu perfil deve ser ${getGroupName(mostSelected[0])}<br>`;
+    resultText += getGroupCharacteristics(mostSelected[0]);
+  }
+
+  if (mostSelected.length > 1) {
+    resultText += `<br><br>`;
+    resultText += `<br>Seu perfil também pode ser ${getGroupName(
+      mostSelected[1]
+    )}<br>`;
+    resultText += getGroupCharacteristics(mostSelected[1]);
+  }
+
+  document.getElementById("result").innerHTML = resultText;
+  displayPieChart();
+}
+
 // Function to display the pie chart
 function displayPieChart() {
   const ctx = document.getElementById('choicesChart').getContext('2d');
@@ -568,26 +591,26 @@ function displayPieChart() {
     datasets: [{
       data: Object.values(groupPoints).map(group => group.length),
       backgroundColor: [
-        'rgba(255, 99, 132, 0.2)',
-        'rgba(54, 162, 235, 0.2)',
-        'rgba(255, 206, 86, 0.2)',
-        'rgba(75, 192, 192, 0.2)',
-        'rgba(153, 102, 255, 0.2)',
-        'rgba(255, 159, 64, 0.2)',
-        'rgba(255, 99, 132, 0.2)',
-        'rgba(54, 162, 235, 0.2)',
-        'rgba(255, 206, 86, 0.2)'
+        'rgb(112, 48, 160)',
+        'rgb(228, 108, 10)',
+        'rgb(0, 112, 192)',
+        'rgb(255, 192, 0)',
+        'rgb(149, 55, 53)',
+        'rgb(148, 138, 84)',
+        'rgb(0, 176, 80)',
+        'rgb(192, 0, 0)',
+        'rgb(0, 0, 0)'
       ],
       borderColor: [
-        'rgba(255, 99, 132, 1)',
-        'rgba(54, 162, 235, 1)',
-        'rgba(255, 206, 86, 1)',
-        'rgba(75, 192, 192, 1)',
-        'rgba(153, 102, 255, 1)',
-        'rgba(255, 159, 64, 1)',
-        'rgba(255, 99, 132, 1)',
-        'rgba(54, 162, 235, 1)',
-        'rgba(255, 206, 86, 1)'
+        'rgb(112, 48, 160)',
+        'rgb(228, 108, 10)',
+        'rgb(0, 112, 192)',
+        'rgb(255, 192, 0)',
+        'rgb(149, 55, 53)',
+        'rgb(148, 138, 84)',
+        'rgb(0, 176, 80)',
+        'rgb(192, 0, 0)',
+        'rgb(0, 0, 0)'
       ],
       borderWidth: 1
     }]
@@ -595,6 +618,7 @@ function displayPieChart() {
 
   const options = {
     responsive: true,
+    maintainAspectRatio: false,
     plugins: {
       legend: {
         position: 'top',
@@ -617,6 +641,14 @@ function displayPieChart() {
     options: options
   });
 }
+
+// Start displaying the first question
+document.getElementById("start-test-button").addEventListener("click", function() {
+  document.getElementById("pre-teste-container").classList.add("hidden");
+  document.getElementById("test-container").classList.remove("hidden");
+  displayQuestion(); // Exibir primeira pergunta após iniciar o teste
+});
+
 
 // Start displaying the first question
 document.getElementById("start-test-button").addEventListener("click", function() {
