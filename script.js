@@ -391,6 +391,7 @@ const SCORE_THRESHOLD = 0; // Minimum score threshold
 
 // Current question index
 let currentQuestionIndex = 0;
+let unansweredQuestions = 0;
 let timerInterval;
 
 // Function to shuffle an array
@@ -447,6 +448,9 @@ function selectAlternative(group) {
   clearInterval(timerInterval);
   if (group !== "") {
     groupPoints[group].push(alternatives[currentQuestionIndex][parseInt(group.substring(1)) - 1]);
+  } else {
+    unansweredQuestions++;
+    checkUnansweredQuestions();
   }
   currentQuestionIndex++;
   if (currentQuestionIndex < questions.length) {
@@ -469,6 +473,14 @@ function checkScoreThreshold() {
     totalScore += groupPoints[group].length;
   }
   return totalScore <= SCORE_THRESHOLD;
+}
+
+// Function to check if the unanswered questions exceed the threshold
+function checkUnansweredQuestions() {
+  if (unansweredQuestions >= QUESTIONS_THRESHOLD) {
+    document.getElementById("overlay").style.display = "block";
+    document.getElementById("reminder-popup").style.display = "block";
+  }
 }
 
 // Function to display the appropriate text based on the most selected and second most selected groups
@@ -618,6 +630,11 @@ function displayPieChart() {
     data: data,
     options: options
   });
+}
+
+// Function to reload the page
+function reloadPage() {
+  location.reload();
 }
 
 // Start displaying the first question
