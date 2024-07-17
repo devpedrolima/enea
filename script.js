@@ -95,7 +95,7 @@ const alternatives = [
   /*Q6*/[
     /*T1*/ "Sigo todas as regras e resolvo pelo caminho correto, sem jeitinhos, por mais difícil que seja.",
     /*T2*/ "Dou meu jeito evitando pedir ajuda mesmo que eu não saiba como realizar a tarefa.",
-    /*T3*/ "Estudo profundamente cada obstáculo para poder descobrir as falhas dele e o superar.",
+    /*T3*/ "Estudo, pesquiso e faço minha parte para ultrapassar os obstáculos, eles fazem parte do caminho pra vitória.",
     /*T4*/ "Procuro ajuda para passar pela situação caso eu não tenha conseguido desenvolver nenhuma estratégia extraordinária para vencer o obstáculo.",
     /*T5*/ "Estudo profundamente cada obstáculo para poder descobrir as falhas dele e o superar.",
     /*T6*/ "Crio planos e compartilho com as pessoas que se relacionam comigo. Se for algo que eu precise decidir sozinho, faço vários planos de reserva.",
@@ -432,10 +432,10 @@ function startTimer() {
   } else {
     seconds = 60; // 60 seconds for the rest
   }
-  document.getElementById("timer").textContent = `Tempo Restante: ${seconds} seconds`;
+  document.getElementById("timer").textContent = `Tempo Restante: ${seconds} segundos`;
   timerInterval = setInterval(() => {
     seconds--;
-    document.getElementById("timer").textContent = `Tempo Restante: ${seconds} seconds`;
+    document.getElementById("timer").textContent = `Tempo Restante: ${seconds} segundos`;
     if (seconds <= 0) {
       clearInterval(timerInterval);
       selectAlternative("");
