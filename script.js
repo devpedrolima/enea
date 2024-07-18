@@ -152,7 +152,7 @@ const alternatives = [
     /*T9*/ "Interessante como podemos mensurar tantas coisas apenas com ocorrências do passado.",
   ],
 
-/*Q11*/[
+  /*Q11*/[
     /*T1*/ "Cumprir as regras e leis da organização acima das próprias vontades e impulsos.",
     /*T2*/ "Ser a maior referencia na equipe para que todos possam contar com ele.",
     /*T3*/ "Resultado, líder que não demonstra sucesso são líderes fracos",
@@ -163,7 +163,7 @@ const alternatives = [
     /*T8*/ "Usar o poder de forma adequada.",
     /*T9*/ "De entender o jeito de cada um.",
   ],
-/*Q12*/[
+  /*Q12*/[
     /*T1*/ "Faço o meu trabalho sem questionar as regras e fico indignado quando quem descumpre passa impune.",
     /*T2*/ "Me sinto acolhido pelos meus colegas que estou sempre disposto a ajudar.",
     /*T3*/ "Me sinto amarrado. Normalmente eu tendo a ter melhores resultados sozinho.",
@@ -174,7 +174,7 @@ const alternatives = [
     /*T8*/ "Protejo os meus aliados e me defendo dos demais. Coopero com o necessário para a liderança ou meus protegidos.",
     /*T9*/ "Me sinto amarrado. Normalmente eu tendo a ter melhores resultados sozinho.",
   ],
-/*Q13*/[
+  /*Q13*/[
     /*T1*/ "Fico grato, pois somente com a colaboração de todos é que o objetivo final é alcançado.",
     /*T2*/ "Fico orgulhoso dos meus colegas reconhecerem me ajudando ao colaborar comigo.",
     /*T3*/ "Não estou acostumado com a colaboração dos meus colegas, mas quando colaboram sinto uma boa parceria.",
@@ -185,7 +185,7 @@ const alternatives = [
     /*T8*/ "Se me ajudou é porque me respeita. Se me respeita tem o meu respeito.",
     /*T9*/ "Quando um colega me ajuda, sinto paz e alivio por não precisar passar por aquela situação sozinho.",
   ],
-/*Q14*/[
+  /*Q14*/[
     /*T1*/ "Ser organizado e saber organizar os processos.",
     /*T2*/ "Ser simpático e estar disposto a ajudar qualquer pessoa que procure por mim.",
     /*T3*/ "Ser dedicado a cumprir todas as minhas metas custe o que custar.",
@@ -196,7 +196,7 @@ const alternatives = [
     /*T8*/ "Ser focado a superar todas as adversidades vindas de alguma maneira estratégica.",
     /*T9*/ "Manter a tranquilidade no ambiente sem causar maiores estragos que o estresse natural já causa.",
   ],
-/*Q15*/[
+  /*Q15*/[
     /*T1*/ "Primeiro terminar todos os meus deveres e responsabilidades de casa, se sobrar tempo dou andamento nos meus hobbies.",
     /*T2*/ "Gosto de visitar meus amigos queridos ou receber meus amigos na minha casa para algum jantar ou outra forma de confraternização.",
     /*T3*/ "Gosto de planejar e estudar o que precisa ser feito para bater as minhas metas, costumo trabalhar mesmo nas folgas.",
@@ -207,7 +207,7 @@ const alternatives = [
     /*T8*/ "Gosto de descansar e fazer as coisas que ninguém pode me ver fazendo no dia a dia como ver TV, passear com pets e etc.",
     /*T9*/ "Gosto de ficar em paz, tranquilo fazendo minhas coisas sem a pressão da rotina.",
   ],
-/*Q16*/[
+  /*Q16*/[
     /*T1*/ "Consigo criar funis, fluxogramas e demais ferramentas de regras para desenhar um processo do início ao fim em qualquer área que eu adquira experiência prática.",
     /*T2*/ "Me comunico muito bem e conquisto as pessoas para pensar da forma que eu penso, sempre me colocando a disposição para ajudar cada um a chegar onde precisa.",
     /*T3*/ "Através da minha diplomacia e politicagem faço contatos com as pessoas mais influentes dos lugares.",
@@ -218,7 +218,7 @@ const alternatives = [
     /*T8*/ "Controlar as coisas de forma natural, apenas me impondo.",
     /*T9*/ "Consigo intermediar situações de conflitos com dialogo e entendendo as partes envolvidas sem tomar partido.",
   ],
-/*Q17*/[
+  /*Q17*/[
     /*T1*/ "Não estar fazendo a coisa certa.",
     /*T2*/ "Humilhação.",
     /*T3*/ "Ser um João Ninguém no futuro.",
@@ -229,7 +229,7 @@ const alternatives = [
     /*T8*/ "Ter que me submeter a vontade dos outros.",
     /*T9*/ "Não ter tranquilidade para nada. ",
   ],
-/*Q18*/[
+  /*Q18*/[
     /*T1*/ "Cumpridora de seus deveres, honesta e disciplinada",
     /*T2*/ "Com muita vontade e determinação.",
     /*T3*/ "Ambiciosa, diplomata, competente e determinada a fazer sucesso.",
@@ -240,7 +240,7 @@ const alternatives = [
     /*T8*/ "Bondosa, justa, realizadora, direta e objetiva.",
     /*T9*/ "Pacífica, compreensiva, mediadora e tranquila.",
   ],
-/*Q19*/[
+  /*Q19*/[
     /*T1*/ "Cada um assumir sua responsabilidade.",
     /*T2*/ "Haver uma boa integração entre as pessoas.",
     /*T3*/ "Foco nos resultados.",
@@ -251,7 +251,7 @@ const alternatives = [
     /*T8*/ "Uma liderança forte.",
     /*T9*/ "Não nos concentrarmos nos conflitos.",
   ],
-/*Q20*/[
+  /*Q20*/[
     /*T1*/ "Como negligente e irresponsável.",
     /*T2*/ "Sendo repreendido ou recriminado.",
     /*T3*/ "Falhando, pois primo pela imagem de competente.",
@@ -262,7 +262,7 @@ const alternatives = [
     /*T8*/ "Como fraco e sem importância.",
     /*T9*/ "Como bobo e ingênuo.",
   ],
-/*Q21*/[
+  /*Q21*/[
     /*T1*/ "Primeiro eu dou prioridade as minhas próprias atividades e em seguida o ajudo.",
     /*T2*/ "Interrompo o que estou fazendo e vou ajudar o colega, se ele me pediu ajuda é porque somente eu posso ajuda-lo.",
     /*T3*/ "Se for um colega aliado eu ajudo, se for um colega rival eu diplomaticamente vou levando a coisa com jeito para ele pedir ajuda pra outra pessoa.",
@@ -273,7 +273,7 @@ const alternatives = [
     /*T8*/ "Se for algum de meus aliados ou protegidos eu ajudo na hora. Se não for ajudo quando der",
     /*T9*/ "Quando ajudo um colega, é porque ele confiou em mim e nas minhas capacidades para que eu pudesse o ajuda-lo",
   ],
-/*Q22*/[
+  /*Q22*/[
     /*T1*/ "Acato sem questionar, a não ser que eu esteja fazendo algo que tenha prazo curto e explico para ele reaver sua decisão.",
     /*T2*/ "Imediatamente vou seguir sua instrução.",
     /*T3*/ "Se meu líder for um exemplo de resultado pra mim, eu sigo as ordens pois é um caminho para ganhar mais credibilidade com ele.",
@@ -284,7 +284,7 @@ const alternatives = [
     /*T8*/ "Se a liderança tiver me conquistado, realizo na hora. Senão até posso realizar, mas apenas respeitando a hierarquia.",
     /*T9*/ "Quando um líder me delega, é porque ele confiou em mim e nas minhas capacidades para que eu pudesse o ajuda-lo",
   ],
-/*Q23*/[
+  /*Q23*/[
     /*T1*/ "Gostaria de aproveitar mais a vida, pois meus deveres e responsabilidades consomem muito do meu tempo livre.",
     /*T2*/ "Visitar as pessoas que faz tempo que não visito.",
     /*T3*/ "Gostaria de ser eu mesmo sem máscaras sociais e fazer as coisas que gosto.",
@@ -295,7 +295,7 @@ const alternatives = [
     /*T8*/ "Ficar de bobeira, aproveitando as coisas que não tenho tempo de aproveitar na correria.",
     /*T9*/ "Gosto de atividades físicas como esportes e atividades mentais como jogos.",
   ],
-/*Q24*/[
+  /*Q24*/[
     /*T1*/ "Visitar todos os meus familiares e mentores que não moram mais próximo de mim e que me ensinaram muita coisa produtiva.",
     /*T2*/ "iajar para lugares com bastante pessoas para conhecer, como praias e demais locais turísticos em contato com a natureza.",
     /*T3*/ "Só tiro férias quando estou me considerando bem sucedido. Férias rotineiras é perda de tempo e acabo usando esse tempo para trabalhar em outro projeto para complementar renda.",
@@ -306,7 +306,7 @@ const alternatives = [
     /*T8*/ "Aproveitar o máximo possível o tempo disponível para descansar, afinal, sem descanso não da para ficar mais forte.",
     /*T9*/ "Gosto de me isolar da vida urbana, indo para fazendas, cidades menores conhecer as trilhas e outras atividades em contato com a natureza.",
   ],
-/*Q25*/[
+  /*Q25*/[
     /*T1*/ "Espero que ele seja exemplo de cumprimento das leis, missão, visão e valores da empresa.",
     /*T2*/ "Espero que ele possa contar com a minha ajuda sempre que precisar dos meus serviços.",
     /*T3*/ "Espero que ele leve a equipe para resultados positivos com base em números.",
@@ -317,7 +317,7 @@ const alternatives = [
     /*T8*/ "Que ele seja mais forte do que eu.",
     /*T9*/ "Espero que ele entenda as necessidades de cada um.",
   ],
-/*Q26*/[
+  /*Q26*/[
     /*T1*/ "O certo está certo e o errado deve cumprir a punição designada. Se for eu o gestor, analisarei a situação como um juiz.",
     /*T2*/ "Costumo tomar partido apoiando o lado de meus aliados.",
     /*T3*/ "Sou diplomático, se tiver conflito comigo tento resolver diplomaticamente, se for conflito entre dois colegas faço a parte de boa praça mas não me envolvo.",
@@ -328,7 +328,7 @@ const alternatives = [
     /*T8*/ "Gosto de conflitos. Geralmente as pessoas dizem que eu causo conflitos, mas eu não penso assim, só estou defendendo algum ponto de vista.",
     /*T9*/ "Sou excelente em resolver qualquer tipo de conflito. Embora eu não goste de conflitos, eles vivem batendo na minha porta para que eu possa resolver.",
   ],
-/*Q27*/[
+  /*Q27*/[
     /*T1*/ "Se não tiver nenhum aniversariante ou líder para dar a preferencia de escolha, dou minha opinião imediatamente.",
     /*T2*/ "Quero agradar a maioria do grupo caso não dê para agradar todos, então sugiro dividir a pizza em vários sabores por exemplo.",
     /*T3*/ "Quero sempre causar uma boa impressão, então presto atenção em quem compõe o grupo para me posicionar melhor na decisão do pedido.",
@@ -339,7 +339,7 @@ const alternatives = [
     /*T8*/ "Peço o que eu gosto e espero que os demais apreciem tanto quanto eu.",
     /*T9*/ "Deixo os mais interessados pedirem. Normalmente eu gosto da maioria das coisas então o que vier está bom.",
   ],
-/*Q28*/[
+  /*Q28*/[
     /*T1*/ "Festa de empresa pra mim é uma extensão do trabalho. Faço minha parte mantendo a postura, evito bebidas alcóolicas demais e procuro ir embora cedo.",
     /*T2*/ "Aproveito para me divertir com as pessoas que mais me fazem bem.",
     /*T3*/ "Só fico na festa enquanto meus gestores estão. Quando eles forem embora eu pego o caminho de casa também.",
@@ -350,7 +350,7 @@ const alternatives = [
     /*T8*/ "Não gosto de festejar junto da empresa, pois tento diferenciar o nível de relacionamento pessoal e profissional. Mas em festas com meus amigos me divirto.",
     /*T9*/ "Brinco e participo das coisas mais leves se for uma confraternização da empresa. Se for uma resenha de amigos, as pessoas costumam se surpreender com o tanto que eu sou ativo fisicamente nas festas.",
   ],
-/*Q29*/[
+  /*Q29*/[
     /*T1*/ "Destrincho minha meta fazendo planejamento de como posso chegar nela com metas menores.",
     /*T2*/ "Meta é desafiador, mas sem meta não tem como saber o quanto sou importante pra empresa.",
     /*T3*/ "Eu bato meta, respiro meta, vivo a meta. Sem meta a vida não tem resultado nenhum.",
@@ -361,7 +361,7 @@ const alternatives = [
     /*T8*/ "Eu vivo pelos desafios. Mato um leão por dia.",
     /*T9*/ "Meta é o objetivo que precisamos atingir. Embora eu me assuste com ela, com paciência e sabedoria nós vamos aprendendo a lidar com ela.",
   ],
-/*Q30*/[
+  /*Q30*/[
     /*T1*/ "As regras da empresa pra mim são leis que todos devem cumprir e pagar as consequências do descumprimento.",
     /*T2*/ "Procuro seguir as regras que meus gestores dão exemplo.",
     /*T3*/ "Sempre dou um jeito de usar as regras a meu favor.",
@@ -406,18 +406,21 @@ function shuffleArray(array) {
 
 // Function to display next question and alternatives
 function displayQuestion() {
-  if (typeof questions === 'undefined' || typeof alternatives === 'undefined') {
+  if (typeof questions === "undefined" || typeof alternatives === "undefined") {
     console.error("Questions or alternatives are not defined.");
     return;
   }
 
-  document.getElementById("question").textContent = questions[currentQuestionIndex];
+  document.getElementById("question").textContent =
+    questions[currentQuestionIndex];
 
   // Create an array of alternatives with their respective groups
-  const fixedAlternatives = alternatives[currentQuestionIndex].map((alt, index) => ({
-    text: alt,
-    group: `T${index + 1}`
-  }));
+  const fixedAlternatives = alternatives[currentQuestionIndex].map(
+    (alt, index) => ({
+      text: alt,
+      group: `T${index + 1}`,
+    })
+  );
 
   // Shuffle the array of alternatives
   const shuffledAlternatives = shuffleArray(fixedAlternatives);
@@ -439,10 +442,14 @@ function startTimer() {
   } else {
     seconds = 60; // 60 seconds for the rest
   }
-  document.getElementById("timer").textContent = `Tempo Restante: ${seconds} segundos`;
+  document.getElementById(
+    "timer"
+  ).textContent = `Tempo Restante: ${seconds} segundos`;
   timerInterval = setInterval(() => {
     seconds--;
-    document.getElementById("timer").textContent = `Tempo Restante: ${seconds} segundos`;
+    document.getElementById(
+      "timer"
+    ).textContent = `Tempo Restante: ${seconds} segundos`;
     if (seconds <= 0) {
       clearInterval(timerInterval);
       selectAlternative("");
@@ -454,7 +461,9 @@ function startTimer() {
 function selectAlternative(group) {
   clearInterval(timerInterval);
   if (group !== "") {
-    groupPoints[group].push(alternatives[currentQuestionIndex][parseInt(group.substring(1)) - 1]);
+    groupPoints[group].push(
+      alternatives[currentQuestionIndex][parseInt(group.substring(1)) - 1]
+    );
   } else {
     unansweredQuestions++;
     checkUnansweredQuestions();
@@ -497,15 +506,21 @@ function showMostSelected() {
 
   if (mostSelected.length > 0) {
     resultText += `<br><br>`;
-    resultText += `Seu perfil deve ser ${getGroupName(mostSelected[0])}<br>`;
+    resultText += `<h3>Seu perfil pode ser</h3>`;
+    resultText += `<h1>${getGroupName(mostSelected[0])} e ${getGroupName(
+      mostSelected[1])} </h1><br>`;
+    resultText += `<h2>Seus Centros do Enegrama</h2>`;
     resultText += getGroupCharacteristics(mostSelected[0]);
-  }
-
-  if (mostSelected.length > 1) {
-    resultText += `<br><br>`;
-    resultText += `Seu perfil também pode ser ${getGroupName(mostSelected[1])}<br>`;
+    resultText +=`<br>`;
     resultText += getGroupCharacteristics(mostSelected[1]);
+    resultText +=`<br>`;
   }
+  //comentei pq nao sei se vou usar ainda
+  // if (mostSelected.length > 1) {
+  //   resultText += `<br><br>`;
+  //  resultText += `Seu perfil também pode ser ${getGroupName(mostSelected[1])}<br>`;
+  //  resultText += getGroupCharacteristics(mostSelected[1]);
+  // }
 
   document.getElementById("result").innerHTML = resultText;
 }
@@ -513,24 +528,313 @@ function showMostSelected() {
 // Function to get the characteristics of the group
 function getGroupCharacteristics(group) {
   switch (group) {
+
     case "T1":
-      return "<div class='ins'><h1>INSTINTIVO</h1></div><p>Instintivos basicamente usam a ação como mentor de suas vidas. São pessoas determinadas, protetoras, não se deixam controlar facilmente e tendem mais a mandar do que a obedecer.</p><p>Clique aqui no botão para saber mais sobre o seu centro</p><button class='buttonfim' onclick='downloadPDF(\"INSTINTIVO.pdf\")'>Baixar PDF</button>";
+      return `
+<div class='ins'>
+  <h1>INSTINTIVO</h1>
+</div>
+<div class='justified-text'>
+  <p>Lembre-se que nós estamos com dois centros ativos dos três centros. Logo você pode ser uma pessoa predominantemente INSTINTIVO.</p>
+
+  <h2>Características Gerais</h2>
+  <p>Instintivos basicamente usam a ação como mentor de suas vidas. São pessoas determinadas, protetoras, não se deixam controlar facilmente e tendem mais a mandar do que a obedecer.</p>
+
+  <h2>Pontos positivos</h2>
+  <p>DINÂMICOS<br>DIRETOS<br>ATIVOS</p>
+
+  <h2>Pontos negativos</h2>
+  <p>INTOLERANTES<br>INCONSEQUENTES<br>AGRESSIVOS</p>
+
+  <h2>Motivação básica</h2>
+  <p>Os instintivos têm como motivação básica a AUTONOMIA. Portanto, eles buscam agir de forma rápida e independente para poder realizar rapidamente as demandas. Logo, eles detestam submissão e outras formas de controle que os deixem limitados.</p>
+
+  <h2>Habilidades naturais de comunicação</h2>
+  <p>Por agirem por instinto, os instintivos podem ter boas habilidades básicas de comunicação de formas mais diretas e objetivas, assim podendo manifestar as suas vontades ou relatar seus feitos.</p>
+
+  <h2>Habilidades naturais em liderança</h2>
+  <p>Os instintivos tendem a ser líderes natos uma vez que são excelentes motivadores, mesmo com sua natural falta de paciência conseguem extrair o melhor de cada um quando a ação é a chave. Podem sofrer um pouco inicialmente ao ingressarem no campo estratégico, mas de imediato são excelentes no tático e operacional.</p>
+
+  <h2>Habilidades naturais em gestão</h2>
+  <p>Como são rápidos e ativos, podem sofrer um pouco na gestão de pessoas, porém podem ser bons gestores de alguns tipos de recursos uma vez que costumam estar sempre com "a mão na massa", consumindo e gerenciando os recursos das ações.</p>
+
+  <p>Clique aqui no botão para saber mais sobre o seu centro</p>
+</div>
+`;
+
     case "T2":
-      return "<div class='emo'><h1>EMOCIONAL</h1></div><p>Emocionais basicamente têm as emoções como mentor de suas vidas. São pessoas sociáveis, comunicativas que criam relações com facilidade com o fim de serem notados, apreciados, admirados e queridos por todos que eles se relacionam.</p><br><p>Clique aqui no botão para saber mais sobre o seu centro</p><br><button class='buttonfim' onclick='downloadPDF(\"emocional.pdf\")'>Baixar PDF</button>";
+      return `
+<div class='emo'>
+  <h1>EMOCIONAL</h1>
+</div>
+<div class='justified-text'>
+  <p>Lembre-se que nós estamos com dois centros ativos dos três centros. Logo, você pode ser uma pessoa predominantemente EMOCIONAL.</p>
+
+  <h2>Características Gerais</h2>
+  <p>Emocionais basicamente têm as emoções como mentor de suas vidas. São pessoas sociáveis, comunicativas que criam relações com facilidade com o fim de serem notados, apreciados, admirados e queridos por todos com quem se relacionam.</p>
+
+  <h2>Pontos positivos</h2>
+  <p>AMIGÁVEIS<br>SOCIAIS<br>COMUNICATIVOS</p>
+
+  <h2>Pontos negativos</h2>
+  <p>MANIPULADORES<br>DRAMÁTICOS<br>RANCOROSOS</p>
+
+  <h2>Motivação básica</h2>
+  <p>Os emocionais têm como motivação básica a ATENÇÃO. Essa busca de atenção é voltada para eles mesmos de alguma maneira distinta de acordo com o perfil. Os emocionais tendem a buscar conexão com as pessoas para se sentirem confortáveis e avançar nos demais assuntos. Logo, os emocionais odeiam ser ignorados, esquecidos ou tratados com indiferença.</p>
+
+  <h2>Habilidades naturais de comunicação</h2>
+  <p>Os emocionais são comunicadores natos, porque sentem conexão com as pessoas e fazem rapport com naturalidade. Eles se preocupam se o ouvinte está prestando atenção e entendendo o que está sendo passado e buscam maneiras de serem bem compreendidos tanto em público quanto em interações um a um. Lembrando que a habilidade de falar em público às vezes pode ser desenvolvida com técnicas e ferramentas de acordo com a timidez de cada indivíduo.</p>
+
+  <h2>Habilidades naturais em vendas</h2>
+  <p>Os emocionais podem vender de acordo com a sua afinidade ou aceitação do produto ou serviço, porque transmitem para as pessoas o sentimento delas em utilizar tais produtos/serviços, e essa sinceridade na maioria das vezes será perceptível pelos clientes. Logo, os emocionais têm habilidade natural de transmitir a experiência para o cliente.</p>
+
+  <h2>Habilidades naturais em liderança</h2>
+  <p>Os emocionais tendem a ser líderes mais solícitos e amigáveis, buscando ajudar, agradar e recompensar seus liderados.</p>
+
+  <h2>Habilidades naturais em gestão</h2>
+  <p>Os emocionais podem ser negligentes com algumas formas de organização, o que pode prejudicar alguns mecanismos de gestão de recursos. Por outro lado, são impressionantes em gestão de pessoas.</p>
+
+  <p>Clique aqui no botão para saber mais sobre o seu centro</p>
+</div>
+`;
+
     case "T3":
-      return "<div class='emo'><h1>EMOCIONAL</h1></div><p>Emocionais basicamente têm as emoções como mentor de suas vidas. São pessoas sociáveis, comunicativas que criam relações com facilidade com o fim de serem notados, apreciados, admirados e queridos por todos que eles se relacionam.</p><br><p>Clique aqui no botão para saber mais sobre o seu centro</p><br><button class='buttonfim' onclick='downloadPDF(\"emocional.pdf\")'>Baixar PDF</button>";
+      return `
+      <div class='emo'>
+        <h1>EMOCIONAL</h1>
+      </div>
+      <div class='justified-text'>
+        <p>Lembre-se que nós estamos com dois centros ativos dos três centros. Logo, você pode ser uma pessoa predominantemente EMOCIONAL.</p>
+      
+        <h2>Características Gerais</h2>
+        <p>Emocionais basicamente têm as emoções como mentor de suas vidas. São pessoas sociáveis, comunicativas que criam relações com facilidade com o fim de serem notados, apreciados, admirados e queridos por todos com quem se relacionam.</p>
+      
+        <h2>Pontos positivos</h2>
+        <p>AMIGÁVEIS<br>SOCIAIS<br>COMUNICATIVOS</p>
+      
+        <h2>Pontos negativos</h2>
+        <p>MANIPULADORES<br>DRAMÁTICOS<br>RANCOROSOS</p>
+      
+        <h2>Motivação básica</h2>
+        <p>Os emocionais têm como motivação básica a ATENÇÃO. Essa busca de atenção é voltada para eles mesmos de alguma maneira distinta de acordo com o perfil. Os emocionais tendem a buscar conexão com as pessoas para se sentirem confortáveis e avançar nos demais assuntos. Logo, os emocionais odeiam ser ignorados, esquecidos ou tratados com indiferença.</p>
+      
+        <h2>Habilidades naturais de comunicação</h2>
+        <p>Os emocionais são comunicadores natos, porque sentem conexão com as pessoas e fazem rapport com naturalidade. Eles se preocupam se o ouvinte está prestando atenção e entendendo o que está sendo passado e buscam maneiras de serem bem compreendidos tanto em público quanto em interações um a um. Lembrando que a habilidade de falar em público às vezes pode ser desenvolvida com técnicas e ferramentas de acordo com a timidez de cada indivíduo.</p>
+      
+        <h2>Habilidades naturais em vendas</h2>
+        <p>Os emocionais podem vender de acordo com a sua afinidade ou aceitação do produto ou serviço, porque transmitem para as pessoas o sentimento delas em utilizar tais produtos/serviços, e essa sinceridade na maioria das vezes será perceptível pelos clientes. Logo, os emocionais têm habilidade natural de transmitir a experiência para o cliente.</p>
+      
+        <h2>Habilidades naturais em liderança</h2>
+        <p>Os emocionais tendem a ser líderes mais solícitos e amigáveis, buscando ajudar, agradar e recompensar seus liderados.</p>
+      
+        <h2>Habilidades naturais em gestão</h2>
+        <p>Os emocionais podem ser negligentes com algumas formas de organização, o que pode prejudicar alguns mecanismos de gestão de recursos. Por outro lado, são impressionantes em gestão de pessoas.</p>
+      
+        <p>Clique aqui no botão para saber mais sobre o seu centro</p>
+      </div>
+      `;
+
     case "T4":
-      return "<div class='emo'><h1>EMOCIONAL</h1></div><p>Emocionais basicamente têm as emoções como mentor de suas vidas. São pessoas sociáveis, comunicativas que criam relações com facilidade com o fim de serem notados, apreciados, admirados e queridos por todos que eles se relacionam.</p><br><p>Clique aqui no botão para saber mais sobre o seu centro</p><br><button class='buttonfim' onclick='downloadPDF(\"emocional.pdf\")'>Baixar PDF</button>";
+      return `
+      <div class='emo'>
+        <h1>EMOCIONAL</h1>
+      </div>
+      <div class='justified-text'>
+        <p>Lembre-se que nós estamos com dois centros ativos dos três centros. Logo, você pode ser uma pessoa predominantemente EMOCIONAL.</p>
+      
+        <h2>Características Gerais</h2>
+        <p>Emocionais basicamente têm as emoções como mentor de suas vidas. São pessoas sociáveis, comunicativas que criam relações com facilidade com o fim de serem notados, apreciados, admirados e queridos por todos com quem se relacionam.</p>
+      
+        <h2>Pontos positivos</h2>
+        <p>AMIGÁVEIS<br>SOCIAIS<br>COMUNICATIVOS</p>
+      
+        <h2>Pontos negativos</h2>
+        <p>MANIPULADORES<br>DRAMÁTICOS<br>RANCOROSOS</p>
+      
+        <h2>Motivação básica</h2>
+        <p>Os emocionais têm como motivação básica a ATENÇÃO. Essa busca de atenção é voltada para eles mesmos de alguma maneira distinta de acordo com o perfil. Os emocionais tendem a buscar conexão com as pessoas para se sentirem confortáveis e avançar nos demais assuntos. Logo, os emocionais odeiam ser ignorados, esquecidos ou tratados com indiferença.</p>
+      
+        <h2>Habilidades naturais de comunicação</h2>
+        <p>Os emocionais são comunicadores natos, porque sentem conexão com as pessoas e fazem rapport com naturalidade. Eles se preocupam se o ouvinte está prestando atenção e entendendo o que está sendo passado e buscam maneiras de serem bem compreendidos tanto em público quanto em interações um a um. Lembrando que a habilidade de falar em público às vezes pode ser desenvolvida com técnicas e ferramentas de acordo com a timidez de cada indivíduo.</p>
+      
+        <h2>Habilidades naturais em vendas</h2>
+        <p>Os emocionais podem vender de acordo com a sua afinidade ou aceitação do produto ou serviço, porque transmitem para as pessoas o sentimento delas em utilizar tais produtos/serviços, e essa sinceridade na maioria das vezes será perceptível pelos clientes. Logo, os emocionais têm habilidade natural de transmitir a experiência para o cliente.</p>
+      
+        <h2>Habilidades naturais em liderança</h2>
+        <p>Os emocionais tendem a ser líderes mais solícitos e amigáveis, buscando ajudar, agradar e recompensar seus liderados.</p>
+      
+        <h2>Habilidades naturais em gestão</h2>
+        <p>Os emocionais podem ser negligentes com algumas formas de organização, o que pode prejudicar alguns mecanismos de gestão de recursos. Por outro lado, são impressionantes em gestão de pessoas.</p>
+      
+        <p>Clique aqui no botão para saber mais sobre o seu centro</p>
+      </div>
+      `;
+
     case "T5":
-      return "<div class='men'><h1>MENTAL</h1></div><p>Mentais basicamente usam a razão como mentor de suas vidas. São pessoas planejadoras, dedicam mais tempo em conhecer e calcular consequências no campo teórico do que a executá-las.</p><br><p>Clique aqui no botão para saber mais sobre o seu centro</p><br><button class='buttonfim' onclick='downloadPDF(\"MENTAL.pdf\")'>Baixar PDF</button>";
+      return `
+<div class='men'>
+  <h1>MENTAL</h1>
+</div>
+<div class='justified-text'>
+  <p>Lembre-se que nós estamos com dois centros ativos dos três centros. Logo, você pode ser uma pessoa predominantemente MENTAL.</p>
+
+  <h2>Características Gerais</h2>
+  <p>Mentais basicamente usam a razão como mentor de suas vidas. São pessoas planejadoras, dedicam mais tempo em conhecer e calcular consequências no campo teórico do que a executá-las.</p>
+
+  <h2>Pontos positivos</h2>
+  <p>ANALISTAS<br>ESTRATEGISTAS<br>PENSATIVOS</p>
+
+  <h2>Pontos negativos</h2>
+  <p>FRIOS<br>DISTANTES<br>CALCULISTAS</p>
+
+  <h2>Motivação básica</h2>
+  <p>Os mentais têm como motivação básica a SEGURANÇA. Logo, estão sempre buscando mais dados, informações e estatísticas sobre as coisas. Por isso, os mentais podem detestar alguma mudança sem planejamento e ficam constantemente ansiosos para realizar seus planos.</p>
+
+  <h2>Habilidades naturais de comunicação</h2>
+  <p>Por natureza, o centro mental armazena bastante informação e tem dificuldade em transmitir seu aprendizado, já que com seu raciocínio rápido conseguem pensar e interpretar as coisas com facilidade. Portanto, podem ser pouco comunicativos e adeptos de uma comunicação mais técnica.</p>
+
+  <h2>Habilidades naturais em liderança</h2>
+  <p>Os mentais possuem uma capacidade natural de estratégia, o que lhes pode fornecer certa vantagem em cargos mais elevados em organizações, já que conseguem discriminar fatos e prever cenários. Por sua vez, podem sofrer um pouco na liderança operacional e tática, por envolverem bastante a gestão de pessoas, o que lhes aponta dificuldade na conexão com as pessoas.</p>
+
+  <h2>Habilidades naturais em gestão</h2>
+  <p>Os mentais têm certa facilidade com gestão de recursos e de tempo, uma vez que para eles retrabalho e desperdício são praticamente inadmissíveis. Vão usar sua capacidade analítica para mensurar e ponderar medidas e ações, porém podem ter dificuldade com a gestão de pessoas.</p>
+
+  <p>Clique aqui no botão para saber mais sobre o seu centro</p>
+</div>
+`;
+
     case "T6":
-      return "<div class='men'><h1>MENTAL</h1></div><p>Mentais basicamente usam a razão como mentor de suas vidas. São pessoas planejadoras, dedicam mais tempo em conhecer e calcular consequências no campo teórico do que a executá-las.</p><br><p>Clique aqui no botão para saber mais sobre o seu centro</p><br><button class='buttonfim' onclick='downloadPDF(\"MENTAL.pdf\")'>Baixar PDF</button>";
+      return `
+      <div class='men'>
+        <h1>MENTAL</h1>
+      </div>
+      <div class='justified-text'>
+        <p>Lembre-se que nós estamos com dois centros ativos dos três centros. Logo, você pode ser uma pessoa predominantemente MENTAL.</p>
+      
+        <h2>Características Gerais</h2>
+        <p>Mentais basicamente usam a razão como mentor de suas vidas. São pessoas planejadoras, dedicam mais tempo em conhecer e calcular consequências no campo teórico do que a executá-las.</p>
+      
+        <h2>Pontos positivos</h2>
+        <p>ANALISTAS<br>ESTRATEGISTAS<br>PENSATIVOS</p>
+      
+        <h2>Pontos negativos</h2>
+        <p>FRIOS<br>DISTANTES<br>CALCULISTAS</p>
+      
+        <h2>Motivação básica</h2>
+        <p>Os mentais têm como motivação básica a SEGURANÇA. Logo, estão sempre buscando mais dados, informações e estatísticas sobre as coisas. Por isso, os mentais podem detestar alguma mudança sem planejamento e ficam constantemente ansiosos para realizar seus planos.</p>
+      
+        <h2>Habilidades naturais de comunicação</h2>
+        <p>Por natureza, o centro mental armazena bastante informação e tem dificuldade em transmitir seu aprendizado, já que com seu raciocínio rápido conseguem pensar e interpretar as coisas com facilidade. Portanto, podem ser pouco comunicativos e adeptos de uma comunicação mais técnica.</p>
+      
+        <h2>Habilidades naturais em liderança</h2>
+        <p>Os mentais possuem uma capacidade natural de estratégia, o que lhes pode fornecer certa vantagem em cargos mais elevados em organizações, já que conseguem discriminar fatos e prever cenários. Por sua vez, podem sofrer um pouco na liderança operacional e tática, por envolverem bastante a gestão de pessoas, o que lhes aponta dificuldade na conexão com as pessoas.</p>
+      
+        <h2>Habilidades naturais em gestão</h2>
+        <p>Os mentais têm certa facilidade com gestão de recursos e de tempo, uma vez que para eles retrabalho e desperdício são praticamente inadmissíveis. Vão usar sua capacidade analítica para mensurar e ponderar medidas e ações, porém podem ter dificuldade com a gestão de pessoas.</p>
+      
+        <p>Clique aqui no botão para saber mais sobre o seu centro</p>
+      </div>
+      `;
+
     case "T7":
-      return "<div class='men'><h1>MENTAL</h1></div><p>Mentais basicamente usam a razão como mentor de suas vidas. São pessoas planejadoras, dedicam mais tempo em conhecer e calcular consequências no campo teórico do que a executá-las.</p><br><p>Clique aqui no botão para saber mais sobre o seu centro</p><br><button class='buttonfim' onclick='downloadPDF(\"MENTAL.pdf\")'>Baixar PDF</button>";
+      return `
+      <div class='men'>
+        <h1>MENTAL</h1>
+      </div>
+      <div class='justified-text'>
+        <p>Lembre-se que nós estamos com dois centros ativos dos três centros. Logo, você pode ser uma pessoa predominantemente MENTAL.</p>
+      
+        <h2>Características Gerais</h2>
+        <p>Mentais basicamente usam a razão como mentor de suas vidas. São pessoas planejadoras, dedicam mais tempo em conhecer e calcular consequências no campo teórico do que a executá-las.</p>
+      
+        <h2>Pontos positivos</h2>
+        <p>ANALISTAS<br>ESTRATEGISTAS<br>PENSATIVOS</p>
+      
+        <h2>Pontos negativos</h2>
+        <p>FRIOS<br>DISTANTES<br>CALCULISTAS</p>
+      
+        <h2>Motivação básica</h2>
+        <p>Os mentais têm como motivação básica a SEGURANÇA. Logo, estão sempre buscando mais dados, informações e estatísticas sobre as coisas. Por isso, os mentais podem detestar alguma mudança sem planejamento e ficam constantemente ansiosos para realizar seus planos.</p>
+      
+        <h2>Habilidades naturais de comunicação</h2>
+        <p>Por natureza, o centro mental armazena bastante informação e tem dificuldade em transmitir seu aprendizado, já que com seu raciocínio rápido conseguem pensar e interpretar as coisas com facilidade. Portanto, podem ser pouco comunicativos e adeptos de uma comunicação mais técnica.</p>
+      
+        <h2>Habilidades naturais em liderança</h2>
+        <p>Os mentais possuem uma capacidade natural de estratégia, o que lhes pode fornecer certa vantagem em cargos mais elevados em organizações, já que conseguem discriminar fatos e prever cenários. Por sua vez, podem sofrer um pouco na liderança operacional e tática, por envolverem bastante a gestão de pessoas, o que lhes aponta dificuldade na conexão com as pessoas.</p>
+      
+        <h2>Habilidades naturais em gestão</h2>
+        <p>Os mentais têm certa facilidade com gestão de recursos e de tempo, uma vez que para eles retrabalho e desperdício são praticamente inadmissíveis. Vão usar sua capacidade analítica para mensurar e ponderar medidas e ações, porém podem ter dificuldade com a gestão de pessoas.</p>
+      
+        <p>Clique aqui no botão para saber mais sobre o seu centro</p>
+      </div>
+      `;
+
     case "T8":
-      return "<div class='ins'><h1>INSTINTIVO</h1></div><p>Instintivos basicamente usam a ação como mentor de suas vidas. São pessoas determinadas, protetoras, não se deixam controlar facilmente e tendem mais a mandar do que a obedecer.</p><p>Clique aqui no botão para saber mais sobre o seu centro</p><button class='buttonfim' onclick='downloadPDF(\"INSTINTIVO.pdf\")'>Baixar PDF</button>";
+      return `
+<div class='ins'>
+  <h1>INSTINTIVO</h1>
+</div>
+<div class='justified-text'>
+  <p>Lembre-se que nós estamos com dois centros ativos dos três centros. Logo você pode ser uma pessoa predominantemente INSTINTIVO.</p>
+
+  <h2>Características Gerais</h2>
+  <p>Instintivos basicamente usam a ação como mentor de suas vidas. São pessoas determinadas, protetoras, não se deixam controlar facilmente e tendem mais a mandar do que a obedecer.</p>
+
+  <h2>Pontos positivos</h2>
+  <p>DINÂMICOS<br>DIRETOS<br>ATIVOS</p>
+
+  <h2>Pontos negativos</h2>
+  <p>INTOLERANTES<br>INCONSEQUENTES<br>AGRESSIVOS</p>
+
+  <h2>Motivação básica</h2>
+  <p>Os instintivos têm como motivação básica a AUTONOMIA. Portanto, eles buscam agir de forma rápida e independente para poder realizar rapidamente as demandas. Logo, eles detestam submissão e outras formas de controle que os deixem limitados.</p>
+
+  <h2>Habilidades naturais de comunicação</h2>
+  <p>Por agirem por instinto, os instintivos podem ter boas habilidades básicas de comunicação de formas mais diretas e objetivas, assim podendo manifestar as suas vontades ou relatar seus feitos.</p>
+
+  <h2>Habilidades naturais em liderança</h2>
+  <p>Os instintivos tendem a ser líderes natos uma vez que são excelentes motivadores, mesmo com sua natural falta de paciência conseguem extrair o melhor de cada um quando a ação é a chave. Podem sofrer um pouco inicialmente ao ingressarem no campo estratégico, mas de imediato são excelentes no tático e operacional.</p>
+
+  <h2>Habilidades naturais em gestão</h2>
+  <p>Como são rápidos e ativos, podem sofrer um pouco na gestão de pessoas, porém podem ser bons gestores de alguns tipos de recursos uma vez que costumam estar sempre com "a mão na massa", consumindo e gerenciando os recursos das ações.</p>
+
+  <p>Clique aqui no botão para saber mais sobre o seu centro</p>
+</div>
+`;
+
     case "T9":
-      return "<div class='ins'><h1>INSTINTIVO</h1></div><p>Instintivos basicamente usam a ação como mentor de suas vidas. São pessoas determinadas, protetoras, não se deixam controlar facilmente e tendem mais a mandar do que a obedecer.</p><p>Clique aqui no botão para saber mais sobre o seu centro</p><button class='buttonfim' onclick='downloadPDF(\"INSTINTIVO.pdf\")'>Baixar PDF</button>";
+      return `
+<div class='ins'>
+  <h1>INSTINTIVO</h1>
+</div>
+<div class='justified-text'>
+  <p>Lembre-se que nós estamos com dois centros ativos dos três centros. Logo você pode ser uma pessoa predominantemente INSTINTIVO.</p>
+
+  <h2>Características Gerais</h2>
+  <p>Instintivos basicamente usam a ação como mentor de suas vidas. São pessoas determinadas, protetoras, não se deixam controlar facilmente e tendem mais a mandar do que a obedecer.</p>
+
+  <h2>Pontos positivos</h2>
+  <p>DINÂMICOS<br>DIRETOS<br>ATIVOS</p>
+
+  <h2>Pontos negativos</h2>
+  <p>INTOLERANTES<br>INCONSEQUENTES<br>AGRESSIVOS</p>
+
+  <h2>Motivação básica</h2>
+  <p>Os instintivos têm como motivação básica a AUTONOMIA. Portanto, eles buscam agir de forma rápida e independente para poder realizar rapidamente as demandas. Logo, eles detestam submissão e outras formas de controle que os deixem limitados.</p>
+
+  <h2>Habilidades naturais de comunicação</h2>
+  <p>Por agirem por instinto, os instintivos podem ter boas habilidades básicas de comunicação de formas mais diretas e objetivas, assim podendo manifestar as suas vontades ou relatar seus feitos.</p>
+
+  <h2>Habilidades naturais em liderança</h2>
+  <p>Os instintivos tendem a ser líderes natos uma vez que são excelentes motivadores, mesmo com sua natural falta de paciência conseguem extrair o melhor de cada um quando a ação é a chave. Podem sofrer um pouco inicialmente ao ingressarem no campo estratégico, mas de imediato são excelentes no tático e operacional.</p>
+
+  <h2>Habilidades naturais em gestão</h2>
+  <p>Como são rápidos e ativos, podem sofrer um pouco na gestão de pessoas, porém podem ser bons gestores de alguns tipos de recursos uma vez que costumam estar sempre com "a mão na massa", consumindo e gerenciando os recursos das ações.</p>
+
+  <p>Clique aqui no botão para saber mais sobre o seu centro</p>
+</div>
+`;
+
     default:
       return "Características do grupo desconhecido.<br>";
   }
@@ -582,35 +886,37 @@ function downloadPDF(filename) {
 
 // Function to display the pie chart
 function displayPieChart() {
-  const ctx = document.getElementById('choicesChart').getContext('2d');
+  const ctx = document.getElementById("choicesChart").getContext("2d");
   const data = {
-    labels: ['T1', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'T8', 'T9'],
-    datasets: [{
-      data: Object.values(groupPoints).map(group => group.length),
-      backgroundColor: [
-        'rgb(112, 48, 160)',
-        'rgb(228, 108, 10)',
-        'rgb(0, 112, 192)',
-        'rgb(255, 192, 0)',
-        'rgb(149, 55, 53)',
-        'rgb(148, 138, 84)',
-        'rgb(0, 176, 80)',
-        'rgb(192, 0, 0)',
-        'rgb(0, 0, 0)'
-      ],
-      borderColor: [
-        'rgb(112, 48, 160)',
-        'rgb(228, 108, 10)',
-        'rgb(0, 112, 192)',
-        'rgb(255, 192, 0)',
-        'rgb(149, 55, 53)',
-        'rgb(148, 138, 84)',
-        'rgb(0, 176, 80)',
-        'rgb(192, 0, 0)',
-        'rgb(0, 0, 0)'
-      ],
-      borderWidth: 1
-    }]
+    labels: ["T1", "T2", "T3", "T4", "T5", "T6", "T7", "T8", "T9"],
+    datasets: [
+      {
+        data: Object.values(groupPoints).map((group) => group.length),
+        backgroundColor: [
+          "rgb(112, 48, 160)",
+          "rgb(228, 108, 10)",
+          "rgb(0, 112, 192)",
+          "rgb(255, 192, 0)",
+          "rgb(149, 55, 53)",
+          "rgb(148, 138, 84)",
+          "rgb(0, 176, 80)",
+          "rgb(192, 0, 0)",
+          "rgb(0, 0, 0)",
+        ],
+        borderColor: [
+          "rgb(112, 48, 160)",
+          "rgb(228, 108, 10)",
+          "rgb(0, 112, 192)",
+          "rgb(255, 192, 0)",
+          "rgb(149, 55, 53)",
+          "rgb(148, 138, 84)",
+          "rgb(0, 176, 80)",
+          "rgb(192, 0, 0)",
+          "rgb(0, 0, 0)",
+        ],
+        borderWidth: 1,
+      },
+    ],
   };
 
   const options = {
@@ -618,24 +924,24 @@ function displayPieChart() {
     maintainAspectRatio: false,
     plugins: {
       legend: {
-        position: 'top',
+        position: "top",
       },
       tooltip: {
         callbacks: {
-          label: function(tooltipItem) {
+          label: function (tooltipItem) {
             const groupLabel = data.labels[tooltipItem.dataIndex];
             const value = data.datasets[0].data[tooltipItem.dataIndex];
             return `${groupLabel}: ${value} escolhas`;
-          }
-        }
-      }
-    }
+          },
+        },
+      },
+    },
   };
 
   new Chart(ctx, {
-    type: 'pie',
+    type: "pie",
     data: data,
-    options: options
+    options: options,
   });
 }
 
@@ -645,8 +951,10 @@ function reloadPage() {
 }
 
 // Start displaying the first question
-document.getElementById("start-test-button").addEventListener("click", function() {
-  document.getElementById("pre-teste-container").classList.add("hidden");
-  document.getElementById("test-container").classList.remove("hidden");
-  displayQuestion(); // Exibir primeira pergunta após iniciar o teste
-});
+document
+  .getElementById("start-test-button")
+  .addEventListener("click", function () {
+    document.getElementById("pre-teste-container").classList.add("hidden");
+    document.getElementById("test-container").classList.remove("hidden");
+    displayQuestion(); // Exibir primeira pergunta após iniciar o teste
+  });
