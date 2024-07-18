@@ -373,6 +373,7 @@ const alternatives = [
     /*T9*/ "Sem as regras não haveria paz, porque “cada um” ia tentar remar pro lado que mais lhe interessa.",
   ],
 ];
+
 // Object to store points for each group
 let groupPoints = {
   T1: [],
@@ -394,14 +395,13 @@ let currentQuestionIndex = 0;
 let unansweredQuestions = 0;
 let timerInterval;
 
-// Function to shuffle an array
+// Function to shuffle an array using Fisher-Yates algorithm
 function shuffleArray(array) {
-  const shuffledArray = array.slice(); // Create a copy of the original array
-  for (let i = shuffledArray.length - 1; i > 0; i--) {
+  for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]]; // Swap elements
+    [array[i], array[j]] = [array[j], array[i]];
   }
-  return shuffledArray;
+  return array;
 }
 
 // Function to display next question and alternatives
@@ -413,12 +413,19 @@ function displayQuestion() {
 
   document.getElementById("question").textContent = questions[currentQuestionIndex];
 
-  // Randomize the order of alternatives
-  const shuffledAlternatives = shuffleArray(alternatives[currentQuestionIndex]);
+  // Create an array of alternatives with their respective groups
+  const fixedAlternatives = alternatives[currentQuestionIndex].map((alt, index) => ({
+    text: alt,
+    group: `T${index + 1}`
+  }));
 
+  // Shuffle the array of alternatives
+  const shuffledAlternatives = shuffleArray(fixedAlternatives);
+
+  // Generate the HTML for the shuffled buttons
   let buttonsHTML = "";
   for (let i = 0; i < shuffledAlternatives.length; i++) {
-    buttonsHTML += `<button class="button" onclick="selectAlternative('T${i + 1}')">${shuffledAlternatives[i]}</button>`;
+    buttonsHTML += `<button class="button" onclick="selectAlternative('${shuffledAlternatives[i].group}')">${shuffledAlternatives[i].text}</button>`;
   }
   document.getElementById("options").innerHTML = buttonsHTML;
   startTimer();
