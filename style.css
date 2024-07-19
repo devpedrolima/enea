@@ -245,14 +245,14 @@ color: #C00000;
   }
 
   h1 {
-    font-size: 15px; 
-  }
-
-  h2 {
     font-size: 11px; 
   }
 
+  h2 {
+    font-size: 7px; 
+  }
+
   h3 {
-    font-size: 12px;  
+    font-size: 8px;  
   }
 }
