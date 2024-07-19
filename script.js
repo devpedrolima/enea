@@ -1,3 +1,5 @@
+
+// Questions the quiz
 const questions = [
   "O que me faz feliz é:",
   "Essa é a minha essência e onde me sinto melhor:",
@@ -31,6 +33,7 @@ const questions = [
   "Como você lida com as regras da empresa?",
 ];
 
+// Alternatives the Questions
 const alternatives = [
   /*Q1*/[
     /*T1*/ "Ter tudo organizado e em ordem antes de me divertir para que não haja preocupações",
@@ -529,6 +532,7 @@ function showMostSelected() {
   document.getElementById("result").innerHTML = resultText;
 }
 
+//Function to get the characteristics of the Profile 
 function getGroupCharacteristicsprofile(group){
   switch (group) {
 
@@ -1280,16 +1284,30 @@ function findMostSelected() {
   );
   return sortedGroups.slice(0, 2);
 }
-
-// Function to download the PDF
-function downloadPDF(filename) {
-  const link = document.createElement("a");
-  link.href = filename;
-  link.download = filename; // Set the correct file name
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-}
+// Fuction to download HTML convert to PDF
+document.addEventListener('DOMContentLoaded', function () {
+  const downloadButton = document.getElementById('download-button');
+  
+  if (downloadButton) {
+      downloadButton.addEventListener('click', function () {
+          const element = document.getElementById('result-container');
+          if (element) {
+              const opt = {
+                  margin: 1,
+                  filename: 'resultado_eneagrama.pdf',
+                  image: { type: 'jpeg', quality: 0.98 },
+                  html2canvas: { scale: 2 },
+                  jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
+              };
+              html2pdf().set(opt).from(element).save();
+          } else {
+              console.error('Elemento result-container não encontrado.');
+          }
+      });
+  } else {
+      console.error('Botão download-button não encontrado.');
+  }
+});
 
 // Function to display the pie chart
 function displayPieChart() {

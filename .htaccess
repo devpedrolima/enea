@@ -4,5 +4,5 @@
 </IfModule>
 
 <IfModule mod_headers.c>
-  Header set Cache-Control "max-age=86400, public"
+  Header set Cache-Control "max-age=6400, public"
 </IfModule>

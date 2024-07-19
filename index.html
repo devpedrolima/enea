@@ -8,6 +8,7 @@
     />
     <link rel="stylesheet" href="./style.css" />
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
     <title>Menu de Seleção</title>
   </head>
   <body>
@@ -40,8 +41,9 @@
 
     <div id="result-container" class="hidden">
       <div class="container">
+        <button id="download-button" class="buttoon">Faça o download do seu resultado</button>
         <h2>Seu perfil deve ser</h2>
-        <h1 id="result-names" style="color: blue"></h1>
+        <h1 id="result-names"></h1>
         <canvas id="choicesChart"></canvas>
         <div id="result"></div>
       </div>
@@ -77,5 +79,7 @@
     <link rel="stylesheet" href="styles.css?v=1.1" />
     <script src="script.js?v=1.1"></script>
     <script src="./script.js"></script>
+    <script>
+    </script>
   </body>
 </html>
