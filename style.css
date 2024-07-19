@@ -191,9 +191,47 @@ a:hover {
 .justified-text {
   text-align: justify;
   line-height: 1.5;
-  margin: 20px;
+  margin: 0px;
 }
 
+
+
+
+.org{
+  color: #7030A0;
+}
+
+.srv{
+color: #E46C0A;
+}
+
+.real{
+  color: #0070C0;
+}
+
+.roma{
+color: #FFC000;
+}
+
+.observador{
+  color: #953735;
+}
+
+.questionador{
+ color: #948A54;
+}
+
+.sonhador{
+color: #00B050;
+}
+
+.confrontador{
+color: #C00000;
+}
+
+.intermediador{
+  color: #000000;
+}
 
 @media screen and (max-width: 320px) {
   .container {
