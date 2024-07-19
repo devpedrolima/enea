@@ -507,14 +507,14 @@ function showMostSelected() {
   if (mostSelected.length > 0) {
     resultText += `<br><br>`;
     resultText += `<h3>Seu perfil pode ser</h3>`;
-    resultText += `<h1>${getGroupName(mostSelected[0])} e ${getGroupName(mostSelected[1])} </h1><br>`;
+    resultText += `<h1>${getGroupName(mostSelected[0])}<br> e ${getGroupName(mostSelected[1])} </h1><br>`;
     resultText += `<h2>Seus Centros do Enegrama</h2>`;
     resultText += getGroupCharacteristics(mostSelected[0]);
     resultText +=`<br>`;
     resultText += getGroupCharacteristics(mostSelected[1]);
     resultText +=`<br>`;
     resultText += `<h2>Descrições do seu perfil</h2>`;
-  resultText += `<h1>${getGroupName(mostSelected[0])} e ${getGroupName(mostSelected[1])} </h1><br>`;
+  resultText += `<h1>${getGroupName(mostSelected[0])} <br> e <br>${getGroupName(mostSelected[1])} </h1><br>`;
   resultText += `${getGroupCharacteristicsprofile(mostSelected[0])}<br>${getGroupCharacteristicsprofile(mostSelected[1])}`;
     resultText +=`<br>`;
    
@@ -541,13 +541,13 @@ function getGroupCharacteristicsprofile(group){
   <p>Baseado na estatística, o seu perfil PODE SER O TIPO 1 - ORGANIZADOR. Esse resultado pode ser comprovado com o uso das ferramentas e uma autoanálise mais profunda, que pode ser conseguida ao participar do eneaHARD, aqui no Instituto Fernando Antonio. Presumindo que você seja TIPO 1, seguem algumas informações lembrando que todos os perfis podem desenvolver habilidades humanas em qualquer área, o que vai mudar é a quantidade de energia usada.</p>
 
   <h2>Características Gerais</h2>
-  <p>– O organizador.<br>– O reformista.<br>– O mestre.<br>– O moralista.<br>– O cruzado.<br>– O perfeccionista.</p>
+  <p>• O organizador.<br>• O reformista.<br>• O mestre.<br>• O moralista.<br>• O cruzado.<br>• O perfeccionista.</p>
 
   <h2>Pontos Positivos</h2>
-  <p>– Responsabilidade<br>– Praticidade<br>– Organização</p>
+  <p>• Responsabilidade<br>• Praticidade<br>• Organização</p>
 
   <h2>Pontos Negativos</h2>
-  <p>– Teimosia<br>– Irritabilidade<br>– Crítica</p>
+  <p>• Teimosia<br>• Irritabilidade<br>• Crítica</p>
 
   <h2>Desejo Fundamental</h2>
   <p>Ser bom/equilibrado: Para o TIPO 1, é fundamental ser exemplo de tudo o que faz, por isso não mede esforços para fazer o que precisa ser feito.</p>
@@ -585,13 +585,13 @@ function getGroupCharacteristicsprofile(group){
           <p>Baseado na estatística, o seu perfil PODE SER O TIPO 2 - SERVIDOR. Esse resultado pode ser comprovado com o uso das ferramentas e uma autoanálise mais profunda, que pode ser conseguida ao participar do eneaHARD, aqui no Instituto Fernando Antonio. Presumindo que você seja TIPO 2, seguem algumas informações lembrando que todos os perfis podem desenvolver habilidades humanas em qualquer área, o que vai mudar é a quantidade de energia usada.</p>
         
           <h2>Características Gerais</h2>
-          <p>– O facilitador.<br>– O amante.<br>– O ajudante.<br>– O servidor.<br>– O anfitrião.<br>– O amigo especial.</p>
+          <p>• O facilitador.<br>• O amante.<br>• O ajudante.<br>• O servidor.<br>• O anfitrião.<br>• O amigo especial.</p>
         
           <h2>Pontos Positivos</h2>
-          <p>– Carisma<br>– Disposição para ajudar<br>– Envolvente</p>
+          <p>• Carisma<br>• Disposição para ajudar<br>• Envolvente</p>
         
           <h2>Pontos Negativos</h2>
-          <p>– Apego exagerado<br>– Incriminação<br>– Prepotência</p>
+          <p>• Apego exagerado<br>• Incriminação<br>• Prepotência</p>
         
           <h2>Desejo Fundamental</h2>
           <p>Sentir-se amado(a): Para o TIPO 2, é necessário que ele se sinta parte, se sinta especial e importante em qualquer equipe ou ambiente que esteja, por isso se doa para servir as pessoas.</p>
@@ -629,13 +629,13 @@ function getGroupCharacteristicsprofile(group){
           <p>Baseado na estatística, o seu perfil PODE SER O TIPO 3 - REALIZADOR. Esse resultado pode ser comprovado com o uso das ferramentas e uma autoanálise mais profunda, que pode ser conseguida ao participar do eneaHARD, aqui no Instituto Fernando Antonio. Presumindo que você seja TIPO 3, seguem algumas informações lembrando que todos os perfis podem desenvolver habilidades humanas em qualquer área, o que vai mudar é a quantidade de energia usada.</p>
         
           <h2>Características Gerais</h2>
-          <p>– O realizador.<br>– O motivador.<br>– O modelo.<br>– O paradigma.<br>– O comunicador.<br>– O “melhor”.</p>
+          <p>• O realizador.<br>• O motivador.<br>• O modelo.<br>• O paradigma.<br>• O comunicador.<br>• O “melhor”.</p>
         
           <h2>Pontos Positivos</h2>
-          <p>– Motivação<br>– Foco<br>– Busca constante pelo sucesso</p>
+          <p>• Motivação<br>• Foco<br>• Busca constante pelo sucesso</p>
         
           <h2>Pontos Negativos</h2>
-          <p>– Manipulação<br>– Frenesi<br>– Muito focado em si e pouco nos outros</p>
+          <p>• Manipulação<br>• Frenesi<br>• Muito focado em si e pouco nos outros</p>
         
           <h2>Desejo Fundamental</h2>
           <p>Sentir-se valorizado(a): Para o TIPO 3, é obrigatório que ele se sinta vitorioso, tornando-se assim extremamente competitivo e workaholic. Afinal, para eles, a principal maneira de ser valorizado é apresentando os melhores resultados.</p>
@@ -672,13 +672,13 @@ function getGroupCharacteristicsprofile(group){
         <p>Baseado na estatística, o seu perfil PODE SER O TIPO 4 - ROMÂNTICO. Esse resultado pode ser comprovado com o uso das ferramentas e uma autoanálise mais profunda, que pode ser conseguida ao participar do eneaHARD, aqui no Instituto Fernando Antonio. Presumindo que você seja TIPO 4, seguem algumas informações lembrando que todos os perfis podem desenvolver habilidades humanas em qualquer área, o que vai mudar é a quantidade de energia usada.</p>
       
         <h2>Características Gerais</h2>
-        <p>– O artista.<br>– O melancólico.<br>– O esteta.<br>– O individualista.<br>– O especial.<br>– A pobre vítima.</p>
+        <p>• O artista.<br>• O melancólico.<br>• O esteta.<br>• O individualista.<br>• O especial.<br>• A pobre vítima.</p>
       
         <h2>Pontos Positivos</h2>
-        <p>– Criatividade<br>– Detalhismo singular<br>– Autenticidade</p>
+        <p>• Criatividade<br>• Detalhismo singular<br>• Autenticidade</p>
       
         <h2>Pontos Negativos</h2>
-        <p>– Posição depressiva<br>– Crítica extrema<br>– Sensibilidade alta</p>
+        <p>• Posição depressiva<br>• Crítica extrema<br>• Sensibilidade alta</p>
       
         <h2>Desejo Fundamental</h2>
         <p>Ser único(a): Para o TIPO 4, a maior importância é resolver algo que ninguém está conseguindo, ou ser a única referência de algo extraordinário. Logo, é um perfil que deseja que suas obras sejam mais reconhecidas do que ele mesmo, tornando-se um dos perfis mais criativos do eneagrama.</p>
@@ -716,13 +716,13 @@ function getGroupCharacteristicsprofile(group){
           <p>Baseado na estatística, o seu perfil PODE SER O TIPO 5 - OBSERVADOR. Esse resultado pode ser comprovado com o uso das ferramentas e uma autoanálise mais profunda, que pode ser conseguida ao participar do eneaHARD, aqui no Instituto Fernando Antonio. Presumindo que você seja TIPO 5, seguem algumas informações lembrando que todos os perfis podem desenvolver habilidades humanas em qualquer área, o que vai mudar é a quantidade de energia usada.</p>
         
           <h2>Características Gerais</h2>
-          <p>– O observador.<br>– O pensador.<br>– O investigador.<br>– O inovador.<br>– O experto.<br>– O especialista.</p>
+          <p>• O observador.<br>• O pensador.<br>• O investigador.<br>• O inovador.<br>• O experto.<br>• O especialista.</p>
         
           <h2>Pontos Positivos</h2>
-          <p>– Ponderação<br>– Racionalidade<br>– Analítico ao extremo</p>
+          <p>• Ponderação<br>• Racionalidade<br>• Analítico ao extremo</p>
         
           <h2>Pontos Negativos</h2>
-          <p>– Frieza<br>– Distância<br>– Calculistas</p>
+          <p>• Frieza<br>• Distância<br>• Calculistas</p>
         
           <h2>Desejo Fundamental</h2>
           <p>Ser capaz e competente: Para o TIPO 5, resolver o problema pela raiz com o menor número de pessoas é o ideal. Por isso, ele se dedica na maioria das vezes de forma autodidata para que o resultado final aconteça da maneira mais analítica possível.</p>
@@ -759,13 +759,13 @@ function getGroupCharacteristicsprofile(group){
           <p>Baseado na estatística, o seu perfil PODE SER O TIPO 6 - QUESTIONADOR. Esse resultado pode ser comprovado com o uso das ferramentas e uma autoanálise mais profunda, que pode ser conseguida ao participar do eneaHARD, aqui no Instituto Fernando Antonio. Presumindo que você seja TIPO 6, seguem algumas informações lembrando que todos os perfis podem desenvolver habilidades humanas em qualquer área, o que vai mudar é a quantidade de energia usada.</p>
         
           <h2>Características Gerais</h2>
-          <p>– O questionador.<br>– O guardião.<br>– O cético.<br>– O tradicionalista.<br>– O apoiador.<br>– O partidário.</p>
+          <p>• O questionador.<br>• O guardião.<br>• O cético.<br>• O tradicionalista.<br>• O apoiador.<br>• O partidário.</p>
         
           <h2>Pontos Positivos</h2>
-          <p>– Gregários<br>– Lealdade<br>– Planejamento</p>
+          <p>• Gregários<br>• Lealdade<br>• Planejamento</p>
         
           <h2>Pontos Negativos</h2>
-          <p>– Apego<br>– Rigidez<br>– Insegurança extrema</p>
+          <p>• Apego<br>• Rigidez<br>• Insegurança extrema</p>
         
           <h2>Desejo Fundamental</h2>
           <p>Encontrar apoio e segurança: Para o TIPO 6, ter apenas um plano nunca é a opção. Esse perfil depende de ter várias alternativas para cada situação de adversidade que aparecer em sua frente e também nos cenários mentais que sua imaginação trouxer. Assim, processos e pessoas ajudam nessa busca de satisfazer a necessidade fundamental de estar seguro.</p>
@@ -802,13 +802,13 @@ function getGroupCharacteristicsprofile(group){
           <p>Baseado na estatística, o seu perfil PODE SER O TIPO 7 - SONHADOR. Esse resultado pode ser comprovado com o uso das ferramentas e uma autoanálise mais profunda, que pode ser conseguida ao participar do eneaHARD, aqui no Instituto Fernando Antonio. Presumindo que você seja TIPO 7, seguem algumas informações lembrando que todos os perfis podem desenvolver habilidades humanas em qualquer área, o que vai mudar é a quantidade de energia usada.</p>
         
           <h2>Características Gerais</h2>
-          <p>– O sonhador.<br>– O entusiasta.<br>– O generalista.<br>– O versátil.<br>– O dinâmico.<br>– A criança prodígio.</p>
+          <p>• O sonhador.<br>• O entusiasta.<br>• O generalista.<br>• O versátil.<br>• O dinâmico.<br>• A criança prodígio.</p>
         
           <h2>Pontos Positivos</h2>
-          <p>– Positividade<br>– Humor<br>– Solucionadores de problemas</p>
+          <p>• Positividade<br>• Humor<br>• Solucionadores de problemas</p>
         
           <h2>Pontos Negativos</h2>
-          <p>– Inconsequência<br>– Impulsividade<br>– Fantasia demasiada</p>
+          <p>• Inconsequência<br>• Impulsividade<br>• Fantasia demasiada</p>
         
           <h2>Desejo Fundamental</h2>
           <p>Satisfazer-se/realizar-se: Para o TIPO 7, ter as suas ansiedades mentais resolvidas rapidamente é fundamental. Por isso se concentra em executar rapidamente suas ideias brilhantes e inovadoras para obter a satisfação instantânea.</p>
@@ -847,13 +847,13 @@ function getGroupCharacteristicsprofile(group){
           <p>Baseado na estatística, o seu perfil PODE SER O TIPO 8 - CONFRONTADOR. Esse resultado pode ser comprovado com o uso das ferramentas e uma autoanálise mais profunda, que pode ser conseguida ao participar do eneaHARD, aqui no Instituto Fernando Antonio. Presumindo que você seja TIPO 8, seguem algumas informações lembrando que todos os perfis podem desenvolver habilidades humanas em qualquer área, o que vai mudar é a quantidade de energia usada.</p>
         
           <h2>Características Gerais</h2>
-          <p>– O confrontador.<br>– O desafiador.<br>– O líder.<br>– O provedor.<br>– O empreendedor.<br>– O rochedo.</p>
+          <p>• O confrontador.<br>• O desafiador.<br>• O líder.<br>• O provedor.<br>• O empreendedor.<br>• O rochedo.</p>
         
           <h2>Pontos Positivos</h2>
-          <p>– Assertividade<br>– Objetividade<br>– Poder de realização</p>
+          <p>• Assertividade<br>• Objetividade<br>• Poder de realização</p>
         
           <h2>Pontos Negativos</h2>
-          <p>– Agressividade<br>– Insensibilidade<br>– Intolerância</p>
+          <p>• Agressividade<br>• Insensibilidade<br>• Intolerância</p>
         
           <h2>Desejo Fundamental</h2>
           <p>Proteger-se: Para o TIPO 8, o mundo é dividido entre gente forte e gente fraca, entre pessoas do bem que querem ajudar e pessoas do mal que precisamos evitar. Por isso, existe essa conexão com a proteção de seus territórios e das pessoas que nele habitam para não sofrerem tanto as pancadas do mundo.</p>
@@ -891,13 +891,13 @@ function getGroupCharacteristicsprofile(group){
           <p>Baseado na estatística, o seu perfil PODE SER O TIPO 9 - INTERMEDIADOR. Esse resultado pode ser comprovado com o uso das ferramentas e uma autoanálise mais profunda, que pode ser conseguida ao participar do eneaHARD, aqui no Instituto Fernando Antonio. Presumindo que você seja TIPO 9, seguem algumas informações lembrando que todos os perfis podem desenvolver habilidades humanas em qualquer área, o que vai mudar é a quantidade de energia usada.</p>
         
           <h2>Características Gerais</h2>
-          <p>– O intermediador.<br>– O pacifista.<br>– O otimista.<br>– O confortador.<br>– O mediador.<br>– O utopista.</p>
+          <p>• O intermediador.<br>• O pacifista.<br>• O otimista.<br>• O confortador.<br>• O mediador.<br>• O utopista.</p>
         
           <h2>Pontos Positivos</h2>
-          <p>– Calma<br>– Flexibilidade<br>– Mediação</p>
+          <p>• Calma<br>• Flexibilidade<br>• Mediação</p>
         
           <h2>Pontos Negativos</h2>
-          <p>– Apatia<br>– Insegurança<br>– Lentidão</p>
+          <p>• Apatia<br>• Insegurança<br>• Lentidão</p>
         
           <h2>Desejo Fundamental</h2>
           <p>Manter o equilíbrio interior: Para o TIPO 9, as pressões e cobranças do mundo tornam tudo intenso sem necessidade de tantos conflitos. Portanto, ele se concentra em sobreviver no meio, resolvendo conflitos que o impactam de alguma maneira e literalmente fugindo de conflitos que ele puder evitar, mantendo um equilíbrio entre razões e emoções interiores.</p>
@@ -948,10 +948,10 @@ function getGroupCharacteristics(group) {
   <p>Instintivos basicamente usam a ação como mentor de suas vidas. São pessoas determinadas, protetoras, não se deixam controlar facilmente e tendem mais a mandar do que a obedecer.</p>
 
   <h2>Pontos positivos</h2>
-  <p>DINÂMICOS<br>DIRETOS<br>ATIVOS</p>
+  <p>• DINÂMICOS<br>• DIRETOS<br>• ATIVOS</p>
 
   <h2>Pontos negativos</h2>
-  <p>INTOLERANTES<br>INCONSEQUENTES<br>AGRESSIVOS</p>
+  <p>• INTOLERANTES<br>• INCONSEQUENTES<br>• AGRESSIVOS</p>
 
   <h2>Motivação básica</h2>
   <p>Os instintivos têm como motivação básica a AUTONOMIA. Portanto, eles buscam agir de forma rápida e independente para poder realizar rapidamente as demandas. Logo, eles detestam submissão e outras formas de controle que os deixem limitados.</p>
@@ -981,10 +981,10 @@ function getGroupCharacteristics(group) {
   <p>Emocionais basicamente têm as emoções como mentor de suas vidas. São pessoas sociáveis, comunicativas que criam relações com facilidade com o fim de serem notados, apreciados, admirados e queridos por todos com quem se relacionam.</p>
 
   <h2>Pontos positivos</h2>
-  <p>AMIGÁVEIS<br>SOCIAIS<br>COMUNICATIVOS</p>
+  <p>• AMIGÁVEIS<br>• SOCIAIS<br>• COMUNICATIVOS</p>
 
   <h2>Pontos negativos</h2>
-  <p>MANIPULADORES<br>DRAMÁTICOS<br>RANCOROSOS</p>
+  <p>• MANIPULADORES<br>• DRAMÁTICOS<br>• RANCOROSOS</p>
 
   <h2>Motivação básica</h2>
   <p>Os emocionais têm como motivação básica a ATENÇÃO. Essa busca de atenção é voltada para eles mesmos de alguma maneira distinta de acordo com o perfil. Os emocionais tendem a buscar conexão com as pessoas para se sentirem confortáveis e avançar nos demais assuntos. Logo, os emocionais odeiam ser ignorados, esquecidos ou tratados com indiferença.</p>
@@ -1017,10 +1017,10 @@ function getGroupCharacteristics(group) {
         <p>Emocionais basicamente têm as emoções como mentor de suas vidas. São pessoas sociáveis, comunicativas que criam relações com facilidade com o fim de serem notados, apreciados, admirados e queridos por todos com quem se relacionam.</p>
       
         <h2>Pontos positivos</h2>
-        <p>AMIGÁVEIS<br>SOCIAIS<br>COMUNICATIVOS</p>
+        <p>• AMIGÁVEIS<br>• SOCIAIS<br>• COMUNICATIVOS</p>
       
         <h2>Pontos negativos</h2>
-        <p>MANIPULADORES<br>DRAMÁTICOS<br>RANCOROSOS</p>
+        <p>• MANIPULADORES<br>• DRAMÁTICOS<br>• RANCOROSOS</p>
       
         <h2>Motivação básica</h2>
         <p>Os emocionais têm como motivação básica a ATENÇÃO. Essa busca de atenção é voltada para eles mesmos de alguma maneira distinta de acordo com o perfil. Os emocionais tendem a buscar conexão com as pessoas para se sentirem confortáveis e avançar nos demais assuntos. Logo, os emocionais odeiam ser ignorados, esquecidos ou tratados com indiferença.</p>
@@ -1053,10 +1053,10 @@ function getGroupCharacteristics(group) {
         <p>Emocionais basicamente têm as emoções como mentor de suas vidas. São pessoas sociáveis, comunicativas que criam relações com facilidade com o fim de serem notados, apreciados, admirados e queridos por todos com quem se relacionam.</p>
       
         <h2>Pontos positivos</h2>
-        <p>AMIGÁVEIS<br>SOCIAIS<br>COMUNICATIVOS</p>
+        <p>• AMIGÁVEIS<br>• SOCIAIS<br>• COMUNICATIVOS</p>
       
         <h2>Pontos negativos</h2>
-        <p>MANIPULADORES<br>DRAMÁTICOS<br>RANCOROSOS</p>
+        <p>• MANIPULADORES<br>• DRAMÁTICOS<br>• RANCOROSOS</p>
       
         <h2>Motivação básica</h2>
         <p>Os emocionais têm como motivação básica a ATENÇÃO. Essa busca de atenção é voltada para eles mesmos de alguma maneira distinta de acordo com o perfil. Os emocionais tendem a buscar conexão com as pessoas para se sentirem confortáveis e avançar nos demais assuntos. Logo, os emocionais odeiam ser ignorados, esquecidos ou tratados com indiferença.</p>
@@ -1089,10 +1089,10 @@ function getGroupCharacteristics(group) {
   <p>Mentais basicamente usam a razão como mentor de suas vidas. São pessoas planejadoras, dedicam mais tempo em conhecer e calcular consequências no campo teórico do que a executá-las.</p>
 
   <h2>Pontos positivos</h2>
-  <p>ANALISTAS<br>ESTRATEGISTAS<br>PENSATIVOS</p>
+  <p>• ANALISTAS<br>• ESTRATEGISTAS<br>• PENSATIVOS</p>
 
   <h2>Pontos negativos</h2>
-  <p>FRIOS<br>DISTANTES<br>CALCULISTAS</p>
+  <p>• FRIOS<br>• DISTANTES<br>• CALCULISTAS</p>
 
   <h2>Motivação básica</h2>
   <p>Os mentais têm como motivação básica a SEGURANÇA. Logo, estão sempre buscando mais dados, informações e estatísticas sobre as coisas. Por isso, os mentais podem detestar alguma mudança sem planejamento e ficam constantemente ansiosos para realizar seus planos.</p>
@@ -1122,10 +1122,10 @@ function getGroupCharacteristics(group) {
         <p>Mentais basicamente usam a razão como mentor de suas vidas. São pessoas planejadoras, dedicam mais tempo em conhecer e calcular consequências no campo teórico do que a executá-las.</p>
       
         <h2>Pontos positivos</h2>
-        <p>ANALISTAS<br>ESTRATEGISTAS<br>PENSATIVOS</p>
+        <p>• ANALISTAS<br>• ESTRATEGISTAS<br>• PENSATIVOS</p>
       
         <h2>Pontos negativos</h2>
-        <p>FRIOS<br>DISTANTES<br>CALCULISTAS</p>
+        <p>• FRIOS<br>• DISTANTES<br>• CALCULISTAS</p>
       
         <h2>Motivação básica</h2>
         <p>Os mentais têm como motivação básica a SEGURANÇA. Logo, estão sempre buscando mais dados, informações e estatísticas sobre as coisas. Por isso, os mentais podem detestar alguma mudança sem planejamento e ficam constantemente ansiosos para realizar seus planos.</p>
@@ -1155,10 +1155,10 @@ function getGroupCharacteristics(group) {
         <p>Mentais basicamente usam a razão como mentor de suas vidas. São pessoas planejadoras, dedicam mais tempo em conhecer e calcular consequências no campo teórico do que a executá-las.</p>
       
         <h2>Pontos positivos</h2>
-        <p>ANALISTAS<br>ESTRATEGISTAS<br>PENSATIVOS</p>
+        <p>• ANALISTAS<br>• ESTRATEGISTAS<br>• PENSATIVOS</p>
       
         <h2>Pontos negativos</h2>
-        <p>FRIOS<br>DISTANTES<br>CALCULISTAS</p>
+        <p>• FRIOS<br>• DISTANTES<br>• CALCULISTAS</p>
       
         <h2>Motivação básica</h2>
         <p>Os mentais têm como motivação básica a SEGURANÇA. Logo, estão sempre buscando mais dados, informações e estatísticas sobre as coisas. Por isso, os mentais podem detestar alguma mudança sem planejamento e ficam constantemente ansiosos para realizar seus planos.</p>
@@ -1188,10 +1188,10 @@ function getGroupCharacteristics(group) {
   <p>Instintivos basicamente usam a ação como mentor de suas vidas. São pessoas determinadas, protetoras, não se deixam controlar facilmente e tendem mais a mandar do que a obedecer.</p>
 
   <h2>Pontos positivos</h2>
-  <p>DINÂMICOS<br>DIRETOS<br>ATIVOS</p>
+  <p>• DINÂMICOS<br>• DIRETOS<br>• ATIVOS</p>
 
   <h2>Pontos negativos</h2>
-  <p>INTOLERANTES<br>INCONSEQUENTES<br>AGRESSIVOS</p>
+  <p>• INTOLERANTES<br>• INCONSEQUENTES<br>• AGRESSIVOS</p>
 
   <h2>Motivação básica</h2>
   <p>Os instintivos têm como motivação básica a AUTONOMIA. Portanto, eles buscam agir de forma rápida e independente para poder realizar rapidamente as demandas. Logo, eles detestam submissão e outras formas de controle que os deixem limitados.</p>
@@ -1221,10 +1221,10 @@ function getGroupCharacteristics(group) {
   <p>Instintivos basicamente usam a ação como mentor de suas vidas. São pessoas determinadas, protetoras, não se deixam controlar facilmente e tendem mais a mandar do que a obedecer.</p>
 
   <h2>Pontos positivos</h2>
-  <p>DINÂMICOS<br>DIRETOS<br>ATIVOS</p>
+  <p>• DINÂMICOS<br>• DIRETOS<br>• ATIVOS</p>
 
   <h2>Pontos negativos</h2>
-  <p>INTOLERANTES<br>INCONSEQUENTES<br>AGRESSIVOS</p>
+  <p>• INTOLERANTES<br>• INCONSEQUENTES<br>• AGRESSIVOS</p>
 
   <h2>Motivação básica</h2>
   <p>Os instintivos têm como motivação básica a AUTONOMIA. Portanto, eles buscam agir de forma rápida e independente para poder realizar rapidamente as demandas. Logo, eles detestam submissão e outras formas de controle que os deixem limitados.</p>
