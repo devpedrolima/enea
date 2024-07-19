@@ -233,7 +233,7 @@ color: #C00000;
   color: #000000;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
   .container {
     padding: 40px;
   }
