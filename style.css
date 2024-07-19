@@ -245,14 +245,14 @@ color: #C00000;
   }
 
   h1 {
-    font-size: 11px; 
+    font-size: 20px; /* Ajuste para dispositivos móveis */
   }
 
   h2 {
-    font-size: 7px; 
+    font-size: 18px; /* Ajuste para dispositivos móveis */
   }
 
   h3 {
-    font-size: 8px;  
+    font-size: 16px; /* Ajuste para dispositivos móveis */
   }
 }
