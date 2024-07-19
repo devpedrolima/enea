@@ -243,4 +243,16 @@ color: #C00000;
   .button {
     height: 60px;
   }
+
+  h1 {
+    font-size: 15px; 
+  }
+
+  h2 {
+    font-size: 11px; 
+  }
+
+  h3 {
+    font-size: 12px;  
+  }
 }
