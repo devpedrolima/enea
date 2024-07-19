@@ -245,18 +245,19 @@ color: #C00000;
   }
 
   h1 {
-    font-size: 23px; /* Ajuste para dispositivos móveis */
+    font-size: 2px; 
   }
 
   h2 {
-    font-size: 20px; /* Ajuste para dispositivos móveis */
+    font-size: 20px; 
   }
 
   h3 {
-    font-size: 16px; /* Ajuste para dispositivos móveis */
-  }
+    font-size: 16px; 
 
   p{
-    font-size: 14px; /* Ajuste para dispositivos móveis */
+    font-size: 14px; 
   }
+}
+
 }
