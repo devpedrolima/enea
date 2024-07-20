@@ -1293,10 +1293,10 @@ document.addEventListener('DOMContentLoaded', function () {
           const element = document.getElementById('result-container');
           if (element) {
               const opt = {
-                  margin: 1,
+                  margin: 0.7,
                   filename: 'resultado_eneagrama.pdf',
-                  image: { type: 'jpeg', quality: 0.98 },
-                  html2canvas: { scale: 2 },
+                  image: { type: 'docx', quality: 0.98 },
+                  html2canvas: { scale: 1 },
                   jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
               };
               html2pdf().set(opt).from(element).save();
