@@ -175,7 +175,7 @@ const alternatives = [
     /*T6*/ "Tenho muita dificuldade em confiar nas pessoas, então me esforço para que elas confiem em mim e a partir disso posso ir desenvolvendo confiança com quem confia em mim.",
     /*T7*/ "A equipe é minha parceira! Me sinto tranquilo por ter pessoas próximas para me ajudar ou para mim ajudar porque ninguém faz as coisas sozinho.",
     /*T8*/ "Protejo os meus aliados e me defendo dos demais. Coopero com o necessário para a liderança ou meus protegidos.",
-    /*T9*/ "Me sinto amarrado. Normalmente eu tendo a ter melhores resultados sozinho.",
+    /*T9*/ "Me sinto em paz quando meus colegas me respeitam e entendem meu lado. Dessa forma fica mais fácil de eu entender o lado de cada um deles",
   ],
   /*Q13*/[
     /*T1*/ "Fico grato, pois somente com a colaboração de todos é que o objetivo final é alcançado.",
@@ -376,6 +376,8 @@ const alternatives = [
     /*T9*/ "Sem as regras não haveria paz, porque “cada um” ia tentar remar pro lado que mais lhe interessa.",
   ],
 ];
+
+
 
 // Object to store points for each group
 let groupPoints = {
@@ -1295,7 +1297,7 @@ document.addEventListener('DOMContentLoaded', function () {
               const opt = {
                   margin: 0.7,
                   filename: 'resultado_eneagrama.pdf',
-                  image: { type: 'docx', quality: 0.98 },
+                  image: { type: 'jpeg', quality: 0.99 },
                   html2canvas: { scale: 1 },
                   jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
               };
