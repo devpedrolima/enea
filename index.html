@@ -41,7 +41,9 @@
 
     <div id="result-container" class="hidden">
       <div class="container">
-        <button id="download-button" class="buttoon">Faça o download do seu resultado</button>
+        <button id="download-button" class="buttoon">
+          Faça o download do seu resultado
+        </button>
         <h2>Seu perfil deve ser</h2>
         <h1 id="result-names"></h1>
         <canvas id="choicesChart"></canvas>
@@ -76,10 +78,10 @@
         <button onclick="reloadPage()">Recarregar Página</button>
       </div>
     </div>
-    <link rel="stylesheet" href="styles.css?v=1.1" />
-    <script src="script.js?v=1.1"></script>
-    <script src="./script.js"></script>
-    <script>
+    <script type="module" src="./script.js"></script>
+    <script type="module">
+      import { selectAlternative } from "./script.js";
+      window.selectAlternative = selectAlternative;
     </script>
   </body>
 </html>
