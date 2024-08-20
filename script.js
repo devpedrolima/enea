@@ -160,6 +160,7 @@ function showMostSelected() {
     )}<br>${getGroupCharacteristicsprofile(mostSelected[1])}
     <br>`;
   }
+  
   //comentei pq nao sei se vou usar ainda
   // if (mostSelected.length > 1) {
   //   resultText += `<br><br>`;
@@ -436,10 +437,10 @@ function displayPieChart() {
   });
 }
 
-// Function to reload the page
 function reloadPage() {
-  location.reload();
+  location.reload(true);
 }
+
 
 // Start displaying the first question
 document

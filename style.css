@@ -1,16 +1,25 @@
+/* Estilo global */
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Arial', sans-serif;
-  background-image: url("./src/back.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background: url("./src/back.png") no-repeat center center fixed;
   background-size: cover;
-  background-position: center;
   touch-action: manipulation;
 }
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(249, 249, 249, 0.384);
+  z-index: -1;
+}
 
+/* Container principal */
 .container {
   position: relative;
   margin: 0 auto;
@@ -21,22 +30,27 @@ body {
   text-align: center;
 }
 
+
+/* Gráfico de escolhas */
 #choicesChart {
   max-width: 300px;
   max-height: 300px;
   margin: 0 auto;
 }
 
+/* Resultado */
 #result {
   margin-top: 20px;
   font-size: 1.2em;
 }
 
+/* Imagens no container */
 .container img {
   width: 200px;
   height: 230px;
 }
 
+/* Títulos */
 .title {
   font-size: 4vw;
   font-weight: bold;
@@ -44,10 +58,12 @@ body {
   color: #000000;
 }
 
+/* Perguntas */
 .question {
   font-size: 1.5vw;
 }
 
+/* Opções */
 .options {
   display: flex;
   flex-direction: column;
@@ -55,64 +71,65 @@ body {
   color: #000000;
 }
 
-.button {
+/* Botões gerais */
+.button,
+.buttonfim,
+.buttoon,
+.popup-content button {
   width: 100%;
-  max-width: 400px;
-  font-weight:550;
-  height: 80px;
-  padding: 5px;
-  border: 1.2px solid black;
+  font-weight:400;
+  border: 1px solid black;
   border-radius: 8px;
-  background-color: white;
-  color: rgb(0, 0, 0);
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button {
+  max-width: 400px;
+  height: 80px;
+  padding: 5px;
+  background-color: white;
+  color: #2D2E2F;
   margin: 2px;
 }
 
+.button:hover {
+  background-color: #2D2E2F;
+  color: #FFF;
+}
+
 .buttonfim {
-  width: 100%;
   max-width: 90px;
-  font-weight: bold;
   height: 40px;
-  padding: 5px;
-  border: 1px solid black;
-  border-radius: 8px;
   background-color: white;
-  color: black;
-  cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  color: #2D2E2F;
 }
 
 .buttoon {
-  width: 100%;
   max-width: 150px;
-  font-weight: bold;
   height: 6vh;
-  padding: 10px;
-  border: 1px solid black;
+  background-color: #2D2E2F;
+  color: white;
   border-radius: 5px;
-  background-color: rgb(0, 0, 0);
-  color: rgb(255, 253, 253);
-  cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease;
   margin: 5px;
 }
 
+.popup-content button {
+  max-width: 400px;
+  height: 50px;
+  background-color: #2D2E2F;
+  color: white;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.popup-content button:hover {
+  background-color: #333;
+}
+
+/* Texto */
 .texto {
   margin-top: 10px;
-}
-
-.emo h1 {
-  color: #FF0000;
-}
-
-.men h1 {
-  color: #0070C0;
-}
-
-.ins h1 {
-  color: #00B050;
 }
 
 a {
@@ -124,15 +141,12 @@ a:hover {
   cursor: pointer;
 }
 
+/* Estilos auxiliares */
 .hidden {
   display: none;
 }
 
-.button:hover {
-  background-color: black;
-  color: #FFF;
-}
-
+/* Sobreposição */
 #overlay {
   position: fixed;
   top: 0;
@@ -144,6 +158,7 @@ a:hover {
   display: none;
 }
 
+/* Pop-up de lembrete */
 #reminder-popup {
   position: fixed;
   top: 50%;
@@ -158,6 +173,7 @@ a:hover {
   display: none;
 }
 
+/* Conteúdo do pop-up */
 .popup-content {
   text-align: center;
 }
@@ -167,99 +183,68 @@ a:hover {
   font-size: 1.2em;
 }
 
-.popup-content button {
-  width: 100%;
-  max-width: 400px;
-  font-weight: bold;
-  height: 50px;
-  padding: 5px;
-  border: 1px solid black;
-  border-radius: 5px;
-  background-color: black;
-  color: white;
-  cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease;
-  margin: 5px;
-}
-
-.popup-content button:hover {
-  background-color: #333;
-}
-
+/* Texto justificado */
 .justified-text {
   text-align: justify;
   line-height: 1.5;
-  margin: 0px;
+  margin: 0;
 }
 
+/* Cores por categoria */
+.emo h1 { color: #FF0000; }
+.men h1 { color: #0070C0; }
+.ins h1 { color: #00B050; }
+.org { color: #7030A0; }
+.srv { color: #E46C0A; }
+.real { color: #0070C0; }
+.roma { color: #FFC000; }
+.observador { color: #953735; }
+.questionador { color: #948A54; }
+.sonhador { color: #00B050; }
+.confrontador { color: #C00000; }
+.intermediador { color: #000000; }
 
-
-
-.org{
-  color: #7030A0;
+#pre-teste-container .container {
+  text-align: center;
 }
 
-.srv{
-color: #E46C0A;
+#email-form {
+  margin-bottom: 20px;
 }
 
-.real{
-  color: #0070C0;
+#email-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.122); /* Sombra sutil */
 }
 
-.roma{
-color: #FFC000;
-}
-
-.observador{
-  color: #953735;
-}
-
-.questionador{
- color: #948A54;
-}
-
-.sonhador{
-color: #00B050;
-}
-
-.confrontador{
-color: #C00000;
-}
-
-.intermediador{
-  color: #000000;
-}
-
-@media screen and (max-width: 450px) {
+/* Responsividade */
+@media screen and (max-width: 600px) {
   .container {
-    padding: 40px;
+    padding: 10px;
   }
+
   .question {
     font-size: 3vw;
-  }
-  .button {
-    height: 60px;
+    margin-bottom: 305px;
   }
 
   .button {
-    font-size: 14px; /* Ajuste o tamanho da fonte para caber em telas menores */
-    padding: 10px; /* Reduza o padding em telas menores */}
-
-  h1 {
-    font-size: 22px; 
+    height: auto; /* Ajusta a altura automaticamente de acordo com o conteúdo */
+    font-size: 13px;
+    padding: 20px 20px; /* Uniformiza o padding para cima e para baixo */
+    margin-top: 10px;
+    text-align: center;
+    word-wrap: break-word; /* Quebra o texto se for necessário */
+    white-space: normal; /
   }
 
-  h2 {
-    font-size: 20px; 
-  }
-
-  h3 {
-    font-size: 16px; 
-  }
-  
-  p{
-    font-size: 14px; 
-  }
-
+  h1 { font-size: 22px; }
+  h2 { font-size: 20px; }
+  h3 { font-size: 16px; }
+  p { font-size: 14px; }
 }
