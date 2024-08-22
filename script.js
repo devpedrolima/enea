@@ -209,7 +209,7 @@ function getGroupCharacteristicsprofile(group) {
 
   // return the html
       return `<div class='justified-text'>
-<div class='org'>
+<div class=${groupProfiles.cssClass}>
   <h1>${groupProfiles.title}</h1>
 </div>
 
@@ -286,7 +286,7 @@ function getGroupCharacteristics(group) {
   })
 
       return `
-<div class='ins'>
+<div class=${groupCharacteristics.cssClass}>
   <h1>${groupCharacteristics.title}</h1>
 </div>
 <div class='justified-text'>
