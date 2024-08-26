@@ -1234,6 +1234,7 @@
   "profiles": {
     "T1": {
       "title": "TIPO 1 - ORGANIZADOR",
+      "cssClass": "org",
       "type": "TIPO 1",
       "generalCharacteristics": [
         "O organizador",
@@ -1258,6 +1259,7 @@
     },
     "T2": {
       "title": "TIPO 2 - SERVIDOR",
+      "cssClass": "srv",
       "type": "TIPO 2",
       "generalCharacteristics": [
         "O facilitador",
@@ -1282,6 +1284,7 @@
     },
     "T3": {
       "title": "TIPO 3 - REALIZADOR",
+      "cssClass": "real",
       "type": "TIPO 3",
       "generalCharacteristics": [
         "O realizador",
@@ -1306,6 +1309,7 @@
     },
     "T4": {
       "title": "TIPO 4 - ROMÂNTICO",
+      "cssClass": "roma",
       "type": "TIPO 4",
       "generalCharacteristics": [
         "O artista",
@@ -1330,6 +1334,7 @@
     },
     "T5": {
       "title": "TIPO 5 - OBSERVADOR",
+      "cssClass": "observador",
       "type": "TIPO 5",
       "generalCharacteristics": [
         "O observador",
@@ -1354,6 +1359,7 @@
     },
     "T6": {
       "title": "TIPO 6 - QUESTIONADOR",
+      "cssClass": "questionador",
       "type": "TIPO 1",
       "generalCharacteristics": [
         "O questionador",
@@ -1378,6 +1384,7 @@
     },
     "T7": {
       "title": "TIPO 7 - SONHADOR",
+      "cssClass": "sonhador",
       "type": "TIPO 7",
       "generalCharacteristics": [
         "O sonhador",
@@ -1402,6 +1409,7 @@
     },
     "T8": {
       "title": "TIPO 8 - CONFRONTADOR",
+      "cssClass": "confrontador",
       "type": "TIPO 8",
       "generalCharacteristics": [
         "O confrontador",
@@ -1426,6 +1434,7 @@
     },
     "T9": {
       "title": "TIPO 9 - INTERMEDIADOR",
+      "cssClass": "intermediador",
       "type": "TIPO 9",
       "generalCharacteristics": [
         "O intermediador",
@@ -1452,6 +1461,7 @@
   "groupCharacteristcs": {
     "institive": {
       "title": "INSTINTIVO",
+      "cssClass": "ins",
       "generalCharacteristics": "Instintivos basicamente usam a ação como mentor de suas vidas. São pessoas determinadas, protetoras, não se deixam controlar facilmente e tendem mais a mandar do que a obedecer.",
       "positivePoints": [
         "DINÂMICOS",
@@ -1473,6 +1483,7 @@
     },
     "emotional": {
       "title": "EMOCIONAL",
+      "cssClass": "emo",
       "generalCharacteristics": "Emocionais basicamente têm as emoções como mentor de suas vidas. São pessoas sociáveis, comunicativas que criam relações com facilidade com o fim de serem notados, apreciados, admirados e queridos por todos com quem se relacionam.",
       "positivePoints": [
         "AMIGÁVEIS",
@@ -1494,6 +1505,7 @@
     },
     "mental": {
       "title": "MENTAL",
+      "cssClass": "men",
       "generalCharacteristics": "Mentais basicamente usam a razão como mentor de suas vidas. São pessoas planejadoras, dedicam mais tempo em conhecer e calcular consequências no campo teórico do que a executá-las.",
       "positivePoints": [
         "ANALISTAS",
