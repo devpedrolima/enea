@@ -213,12 +213,12 @@ function getGroupCharacteristicsprofile(group) {
   <h1>${groupProfiles.title}</h1>
 </div>
 
-  <p>Baseado na estatística, o seu perfil PODE SER O ${groupProfiles.title}. Esse resultado pode ser comprovado com o uso das ferramentas e uma autoanálise mais profunda, que pode ser conseguida ao participar do eneaHARD, aqui no Instituto Fernando Antonio. Presumindo que você seja ${groupProfiles.type}, seguem algumas informações lembrando que todos os perfis podem desenvolver habilidades humanas em qualquer área, o que vai mudar é a quantidade de energia usada.</p>
+  <p>Baseado na estatística, o seu perfil PODE SER O ${groupProfiles.title}. Esse resultado pode ser comprovado com o uso das ferramentas e uma autoanalise mais profunda, que pode ser conseguida ao participar do eneaHARD, aqui no Instituto Fernando Antonio. Presumindo que você seja ${groupProfiles.title}, seguem algumas informações lembrando que, todos os perfis podem desenvolver habilidades humanas em qualquer área, o que vai mudar é a quantidade de energia usada.</p>
 
   <h2>Características Gerais</h2>
-  <ul>
-  ${generalCharacteristicsList}
-  </ul>
+  
+  <p>${generalCharacteristicsList}</p>
+  
 
   <h2>Pontos Positivos</h2>
   <ul>
@@ -376,7 +376,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-// Function to display the pie chart
+// Function to display the doughnut chart
 function displayPieChart() {
   const ctx = document.getElementById("choicesChart").getContext("2d");
   const data = {
@@ -414,6 +414,7 @@ function displayPieChart() {
   const options = {
     responsive: true,
     maintainAspectRatio: false,
+    cutout: "80%", // Define the size of the center hole as 50% of the chart's radius
     plugins: {
       legend: {
         position: "top",
@@ -431,11 +432,12 @@ function displayPieChart() {
   };
 
   new Chart(ctx, {
-    type: "pie",
+    type: "doughnut", // Changed from "pie" to "doughnut"
     data: data,
     options: options,
   });
 }
+
 
 function reloadPage() {
   location.reload(true);

@@ -1237,49 +1237,53 @@
       "cssClass": "org",
       "type": "TIPO 1",
       "generalCharacteristics": [
-        "O organizador",
-        "O reformista",
-        "O mestre",
-        "O moralista",
-        "O Cruzado",
-        "O perfeccionista"
+        "O Tipo 1, também conhecido como o Organizador, é frequentemente chamado de Reformista, Mestre, Moralista, Cruzado ou Perfeccionista. Essas pessoas são movidas por um forte senso de responsabilidade e uma necessidade interna de melhorar o mundo ao seu redor. Elas têm uma visão clara do que é certo e errado e trabalham incansavelmente para garantir que suas ações estejam sempre em alinhamento com seus valores e princípios."
       ],
-      "positivePoints": ["Responsabilidade", "Praticidade", "Organização"],
-      "negativePoints": ["Teimosia", "Irritabilidade", "Crítica"],
-      "fundamentalDesire": "Ser bom/equilibrado: Para o TIPO 1, é fundamental ser exemplo de tudo o que faz, por isso não mede esforços para fazer o que precisa ser feito.",
-      "centersImbalance": "O TIPO 1 é predominantemente INSTINTIVO, tem o MENTAL reprimido e, portanto, tem o EMOCIONAL como secundário.",
+      "positivePoints": [
+        "Responsabilidade: O Tipo 1 assume suas responsabilidades com seriedade e busca sempre cumprir suas obrigações com excelência.",
+        "Praticidade: Focado em resultados, ele prefere soluções eficientes e diretas, evitando complicações desnecessárias.",
+        "Organização: Mantém tudo em ordem, desde suas tarefas diárias até projetos complexos, garantindo que cada detalhe seja cuidadosamente planejado e executado."
+      ],
+      "negativePoints": [
+        "Teimosia: Pode ser inflexível em suas opiniões e abordagens, especialmente quando acredita estar certo.",
+        "Irritabilidade: A busca incessante pela perfeição pode gerar frustração e irritação, especialmente quando as coisas não saem conforme o planejado.",
+        "Crítica: Tem uma tendência a criticar, tanto a si mesmo quanto aos outros, quando os padrões elevados que estabelece não são alcançados."
+      ],
+      "fundamentalDesire": "O desejo central do Tipo 1 é ser bom e equilibrado. Ele busca ser um exemplo em tudo o que faz, esforçando-se para cumprir suas responsabilidades e agir de acordo com seus valores. Essa necessidade de ser justo e correto impulsiona suas ações e decisões.",
+      "centersImbalance": "O Tipo 1 é predominantemente Instintivo, com o Mental reprimido e o Emocional como secundário. Isso significa que sua abordagem à vida é fortemente guiada por instintos e ações práticas, com uma tendência a suprimir pensamentos excessivos e a utilizar as emoções de maneira controlada.",
       "naturalSkills": {
-        "communication": "O TIPO 1, como instintivo e emocional, pode ter uma comunicação direta e eficaz buscando o objetivo diretamente. Logo, pode parecer ignorante ou arrogante para os mais sensíveis. Os representantes desse perfil tendem a falar pouco quando não têm a palavra e por respeitarem as regras locais, entretanto, podem falar pelos cotovelos quando a posição máxima de hierarquia é deles.",
-        "selling": "O TIPO 1, por ser objetivo, vai buscar traçar planos de ação simples e eficazes para bater suas metas. Graças ao seu desejo fundamental de ser bom/equilibrado, esse perfil busca ser exemplo em tudo o que faz e nas vendas não é diferente. É um perfil que vai gastar muita energia em ação buscando vendas em clientes novos e desconhecidos em vez de depender apenas das vendas recorrentes de uma carteira de clientes formada. Obviamente, é um perfil que vai ser equilibrado em novas vendas e manutenção da carteira de clientes.",
-        "leadership": "O TIPO 1, por ser predominantemente INSTINTIVO, carrega na sua essência uma habilidade natural de liderança. Trata-se de uma liderança focada em hierarquia e regras, com os rigores da lei, tanto para as coisas ruins quanto para as coisas boas, e ele, como líder, sempre vai buscar ser o exemplo de tudo o que for cobrado ou exigido.",
-        "management": "O TIPO 1 é um perfil que, na maioria das vezes, vai focar sua gestão no controle de recursos financeiros, porque o financeiro vai ajudar nos investimentos e contas a pagar dos compromissos realizados."
+        "communication": "Como uma pessoa de perfil instintivo e emocional, o Tipo 1 tende a ser direto e eficaz em sua comunicação, focando no objetivo principal. Essa abordagem pode ser percebida como rude ou arrogante por indivíduos mais sensíveis. Embora respeite as regras e fale pouco quando não tem a palavra, pode se expressar extensivamente quando ocupa uma posição de autoridade.",
+        "selling": "O Tipo 1, com sua objetividade, traça planos de ação simples e eficazes para atingir metas. Movido pelo desejo de ser bom e equilibrado, ele busca ser exemplar em suas atividades de venda, dedicando energia para conquistar novos clientes em vez de depender apenas de uma base já estabelecida. Sua abordagem equilibrada entre novas vendas e a manutenção da carteira de clientes é uma de suas forças.",
+        "leadership": "Com sua predominância instintiva, o Tipo 1 possui uma habilidade natural para liderança. Ele valoriza a hierarquia e as regras, aplicando-as de forma rigorosa e justa. Como líder, ele busca ser o exemplo em tudo o que exige de sua equipe, promovendo um ambiente de trabalho estruturado e disciplinado.",
+        "management": "O Tipo 1 tende a focar sua gestão no controle de recursos financeiros, considerando o financeiro como a base para investimentos e o cumprimento de compromissos. Sua organização e responsabilidade garantem uma gestão cuidadosa e eficiente, embora possa precisar equilibrar isso com a gestão de pessoas."
       },
-      "hiddenTalent": "O TIPO 1 porta o talento oculto da organização. Alguém tem que ser o juiz, alguém tem que criar as leis, regras, direitos e deveres, e essa pessoa costuma ser o TIPO 1, que quando não for o progenitor de tudo isso, vai batalhar para ser exemplo nas regras e leis do lugar em que estiver.",
-      "improvementPoints": "Para se tornar uma pessoa ainda mais dedicada e exemplar, o TIPO 1 precisa aprender a relaxar mais e aproveitar os pequenos momentos da vida. Principalmente no trabalho, onde o TIPO 1 pode ser rígido demais com a disciplina, deixando de aproveitar momentos descontraídos e divertidos que podem ser protagonizados pelos outros perfis."
+      "hiddenTalent": "O Tipo 1 carrega o talento oculto da organização. Ele tem uma habilidade natural para criar leis, regras, direitos e deveres, funcionando muitas vezes como o juiz ou regulador em diversas situações. Mesmo quando não é o criador das normas, o Tipo 1 se esforça para ser o exemplo em seguir e aplicar as regras e leis existentes.",
+      "improvementPoints": "Para se tornar uma pessoa ainda mais equilibrada e dedicada, o Tipo 1 deve aprender a relaxar e aproveitar os pequenos momentos da vida. No ambiente de trabalho, isso significa permitir-se momentos de descontração e diversão, valorizando a importância do equilíbrio entre disciplina e bem-estar."
     },
     "T2": {
       "title": "TIPO 2 - SERVIDOR",
       "cssClass": "srv",
       "type": "TIPO 2",
       "generalCharacteristics": [
-        "O facilitador",
-        "O amante",
-        "O ajudante",
-        "O servidor",
-        "O anfitrião",
-        "O amigo especial"
+        "O Tipo 2, conhecido como o Servidor, é frequentemente chamado de Facilitador, Amante, Ajudante, Anfitrião ou Amigo Especial. Essas pessoas são movidas por um profundo desejo de ajudar e se conectar com os outros. São naturalmente calorosas e generosas, buscando sempre ser úteis e fazer com que aqueles ao seu redor se sintam amados e valorizados.l"
       ],
-      "positivePoints": ["Carisma", "Disposição para ajudar", "Envolvente"],
-      "negativePoints": ["Apego exagerado", "Incriminação", "Prepotência"],
+      "positivePoints": [
+        "Carisma: O Tipo 2 possui uma energia cativante que atrai as pessoas e cria conexões genuínas.",
+        "Disposição para Ajudar: Sempre pronto para servir, ele é uma presença confiável e solidária, disponível para auxiliar os outros em suas necessidades.",
+        "Envolvente: Sua natureza envolvente faz com que ele seja capaz de criar laços profundos e duradouros, tornando-se uma figura central em qualquer grupo ou comunidade."
+      ],
+      "negativePoints": [
+        "O desejo central do Tipo 2 é sentir-se amado(a). Ele precisa se sentir parte importante de qualquer equipe ou ambiente, e para isso, se doa totalmente para servir as pessoas ao seu redor. Essa necessidade de ser amado e necessário impulsiona suas ações e comportamentos, levando-o a buscar reconhecimento e apreciação através de seus atos de generosidade."
+      ],
       "fundamentalDesire": "Sentir-se amado(a): Para o TIPO 2, é necessário que ele se sinta parte, se sinta especial e importante em qualquer equipe ou ambiente que esteja, por isso se doa para servir as pessoas.",
-      "centersImbalance": "O TIPO 2 é predominantemente EMOCIONAL, tem o MENTAL reprimido e, portanto, tem o INSTINTIVO como secundário.",
+      "centersImbalance": "O Tipo 2 é predominantemente Emocional, com o Mental reprimido e o Instintivo como secundário. Isso significa que suas decisões e ações são fortemente guiadas por suas emoções, com um foco secundário em respostas instintivas, enquanto a reflexão lógica e analítica é frequentemente suprimida.",
       "naturalSkills": {
-        "communication": "O TIPO 2, como emocional e instintivo, geralmente tem uma comunicação envolvente e alegre. Costumam ser sorridentes e abertos a aproximações com bastante entusiasmo e empatia, o que lhes torna pessoas consideradas amigáveis.",
-        "selling": "O TIPO 2, por ser um comunicador natural, é um dos perfis que 'nasceram para vender', porque possui a capacidade de gerar desejo e resolver problemas dos clientes de maneira particular e personalizada. Entretanto, nas vendas, esse perfil enfrenta o problema de às vezes falar demais e derrubar as próprias vendas. Suas estratégias de sucesso consistem em uma conexão interpessoal com cada pessoa que atende, buscando, com seu talento da empatia, ser o responsável por garantir a satisfação com o produto ou serviço.",
-        "leadership": "O TIPO 2 pode ser um bom líder devido à sua capacidade natural de gerar conexão entre as pessoas. No entanto, ao exercer um cargo de liderança, pode sofrer com as pessoas de perfis mais 'frios' que não demandam tanta ajuda dele e com as pessoas que façam alguma crítica. Ao se libertar disso, o TIPO 2 pode ser um líder progenitor de um ambiente amigável e 'família'.",
-        "management": "O TIPO 2 é um excelente profissional naturalmente na gestão de pessoas, porém pode sofrer bastante na gestão de outros recursos devido à sua falta de paciência em analisar mais profundamente as coisas. É um perfil que age e aprende mais na prática em todos os setores; logo, a longo prazo, o TIPO 2 pode se tornar um bom gestor de outros recursos desde que se dedique a vencer os processos de aprendizado mais analíticos."
+        "communication": "Como um perfil emocional e instintivo, o Tipo 2 tende a ser envolvente e alegre em sua comunicação. Sua abordagem calorosa e empática faz com que ele seja percebido como amigável e acessível. O entusiasmo e a abertura que demonstra nas interações facilitam a construção de relações positivas e duradouras.",
+        "selling": " Tipo 2 pode ser um bom líder devido à sua habilidade natural de criar conexões entre as pessoas. Contudo, pode enfrentar dificuldades ao lidar com perfis mais 'frios' que não demandam tanta ajuda ou ao receber críticas. Ao superar esses desafios, o Tipo 2 tem o potencial de criar um ambiente de trabalho amigável e acolhedor, onde todos se sintam parte de uma 'família'.",
+        "leadership": "O Tipo 2, com sua capacidade natural de comunicação, é um dos perfis que 'nasceram para vender'. Sua habilidade de gerar desejo e resolver problemas de maneira personalizada o torna eficaz em vendas. No entanto, pode enfrentar desafios ao falar demais e, eventualmente, prejudicar suas próprias vendas. Suas estratégias de sucesso estão enraizadas na conexão interpessoal, utilizando seu talento para a empatia para garantir a satisfação do cliente com o produto ou serviço.",
+        "management": " O Tipo 2 é excepcional na gestão de pessoas, devido à sua empatia e capacidade de entender as necessidades dos outros. No entanto, pode ter dificuldades na gestão de outros recursos, como finanças ou logística, devido à sua impaciência com análises mais profundas. Com o tempo e dedicação, o Tipo 2 pode se tornar um bom gestor em outras áreas, desde que esteja disposto a aprender e superar os desafios dos processos mais analíticos."
       },
-      "hiddenTalent": "O TIPO 2 porta o talento oculto da empatia. Alguém tinha que ter o talento de sentir as pessoas, de entender as necessidades internas dos outros, de cuidar das pessoas sem ser diretamente instruída a fazer isso. Essa pessoa é o TIPO 2, a pessoa que cuida de todos os demais perfis.",
+      "hiddenTalent": "O Tipo 2 possui o talento oculto da empatia. Ele tem a habilidade única de sentir e entender as necessidades dos outros, cuidando deles de maneira intuitiva e sem instruções explícitas. Esse talento faz do Tipo 2 a pessoa que cuida de todos os demais perfis, sendo a figura que oferece apoio e compreensão onde for necessário.",
       "improvementPoints": "Para se tornar uma pessoa ainda mais querida, o TIPO 2 precisa aprender a cuidar mais de si mesmo assim como cuida dos demais e entender que nem todos vão precisar da sua ajuda personalizada tão de perto, porque alguns perfis preferem ser mais soltos e ainda assim vão amá-lo do jeito deles."
     },
     "T3": {
@@ -1287,40 +1291,46 @@
       "cssClass": "real",
       "type": "TIPO 3",
       "generalCharacteristics": [
-        "O realizador",
-        "O motivador",
-        "O modelo",
-        "O paradigma",
-        "O comunicador",
-        "O “melhor”"
+        " O Tipo 3, também conhecido como Realizador, é frequentemente denominado como Motivador, Modelo, Paradigma, Comunicador ou até 'O Melhor'. Esse perfil é marcado por uma forte orientação para o sucesso e a eficiência. Pessoas do Tipo 3 estão sempre em busca de alcançar metas, destacando-se por sua capacidade de motivar e inspirar os outros por meio de seus próprios feitos e realizações."
       ],
-      "positivePoints": ["Motivação", "Foco", "Busca constante pelo sucesso"],
-      "negativePoints": ["Manipulação", "Frenesi", "Muito focado em si e pouco nos outros"],
-      "fundamentalDesire": "Sentir-se valorizado(a): Para o TIPO 3, é obrigatório que ele se sinta vitorioso, tornando-se assim extremamente competitivo e workaholic. Afinal, para eles, a principal maneira de ser valorizado é apresentando os melhores resultados.",
-      "centersImbalance": "O TIPO 3 é o EMOCIONAL que reprimiu o EMOCIONAL. Assim sendo, um perfil que vive oscilando entre MENTAL e INSTINTIVO como dois centros ativos.",
+      "positivePoints": [
+        "Motivação: O Tipo 3 é movido por uma energia contagiante que impulsiona tanto a si mesmo quanto aos outros a atingir altos níveis de desempenho.",
+        "Foco: Extremamente concentrado em seus objetivos, ele mantém a disciplina e a determinação necessárias para alcançar o sucesso",
+        "Busca Constante pelo Sucesso: O Tipo 3 é incansável em sua busca por resultados, sempre visando o topo em qualquer empreitada."
+      ],
+      "negativePoints": [
+        "Manipulação: Em sua busca pelo sucesso, o Tipo 3 pode, às vezes, manipular situações ou pessoas para garantir que os resultados sejam alcançados.",
+        "Frenesi: A busca incessante por conquistas pode levar a um comportamento frenético, onde ele se sobrecarrega para atingir suas metas.",
+        "Foco Excessivo em Si Mesmo: O desejo de ser o melhor pode resultar em uma visão centrada em si, onde as necessidades dos outros são secundárias."
+      ],
+      "fundamentalDesire": " O desejo central do Tipo 3 é sentir-se valorizado(a). Para ele, é essencial ser reconhecido como vitorioso, o que o torna extremamente competitivo e inclinado ao trabalho árduo. A principal maneira de se sentir valorizado é através da apresentação de resultados excepcionais, o que leva o Tipo 3 a buscar constantemente o sucesso e a aprovação externa. ",
+      "centersImbalance": "O Tipo 3 é um perfil Emocional que reprimiu suas próprias emoções, oscilando entre o Mental e o Instintivo como centros ativos. Essa dinâmica faz com que ele busque continuamente equilibrar a lógica e a ação, muitas vezes ignorando suas necessidades emocionais mais profundas.",
       "naturalSkills": {
-        "communication": "O TIPO 3, como mental e instintivo, geralmente tem uma comunicação polida e orquestrada. Costumam ser diplomáticos e sabem falar exatamente o que o ouvinte precisa ouvir para sentir firmeza e segurança nas informações passadas.",
-        "selling": "O TIPO 3, por ser um comunicador de credibilidade, acaba se tornando um perfil com facilidade de vender ideias e convencer os clientes a aderir às suas propostas. Como é um perfil que visa resultados, é o perfil mais dedicado do eneagrama em entregar metas batidas, porque a meta é a linha de chegada, e para esse perfil o único lugar do pódio que traz algum valor é o primeiro. Por isso também é um perfil extremamente competitivo em um time de vendas, o que pode deixar os colegas apreensivos com a sua maneira de trabalho agressiva.",
-        "leadership": "O TIPO 3 é um dos perfis mais individualistas do eneagrama, o que torna sua liderança mais fria e focada em números. Para ele, as pessoas devem se sacrificar e buscar informação para realizar suas metas por conta própria da maneira que ele faz. Isso vai oscilar bastante na imagem que ele vende, entre ser um líder inspirador e realizado e a indiferença perante quem não traz resultados.",
-        "management": "O TIPO 3, como um perfil metódico, tem excelentes habilidades naturais de gestão de recursos. Até mesmo a gestão de recursos humanos pode ser bem distribuída com sua sabedoria (o resultado dos indivíduos vai oscilar de acordo com o relacionamento). Para o TIPO 3, é até fácil formatar e aplicar métodos de acompanhamento e andamento de metas, distribuindo valores e demais rotinas em prol do resultado final."
+        "communication": "Com uma combinação de aspectos mentais e instintivos, o Tipo 3 possui uma comunicação polida e orquestrada. Ele sabe exatamente o que dizer para causar uma impressão de confiança e competência, adaptando sua mensagem para atender às expectativas do público. Sua habilidade em transmitir segurança e clareza nas informações o torna um comunicador eficaz e persuasivo.",
+        "selling": "Como um comunicador credível, o Tipo 3 tem facilidade em vender ideias e convencer clientes a aderir às suas propostas. Seu foco em resultados faz dele um dos perfis mais dedicados a atingir metas. Para o Tipo 3, a única posição no pódio que importa é a de primeiro lugar, o que o torna extremamente competitivo em equipes de vendas. Essa competitividade, no entanto, pode gerar tensão entre os colegas, especialmente se sua abordagem agressiva não for equilibrada.",
+        "leadership": "O Tipo 3 é um dos perfis mais individualistas do eneagrama, o que pode resultar em uma liderança mais fria e focada em números. Ele acredita que as pessoas devem buscar suas próprias metas com a mesma determinação que ele demonstra. Isso pode criar uma imagem de um líder inspirador e bem-sucedido, mas que, ao mesmo tempo, pode ser percebido como indiferente àqueles que não atingem os resultados esperados.",
+        "management": "Metódico por natureza, o Tipo 3 possui excelentes habilidades em gestão de recursos, incluindo recursos humanos. Ele é capaz de estruturar e implementar métodos de acompanhamento de metas com eficácia, distribuindo tarefas e responsabilidades de maneira que favoreçam o resultado final. Contudo, o relacionamento interpessoal pode oscilar conforme o desempenho individual dos membros da equipe."
       },
-      "hiddenTalent": "O TIPO 3 porta o talento oculto da realização. Alguém tinha que ter o talento de sacrificar-se pela vitória, de treinar e desenvolver métodos para chegar em resultados sem talentos naturais na atividade, apenas com a força de vontade e o desejo de conseguir.",
-      "improvementPoints": "Para se tornar uma pessoa ainda mais bem-sucedida, o TIPO 3 precisa aprender a cuidar mais das outras pessoas verdadeiramente, independente se através desses cuidados vão obter vantagens e realizações. Quando o TIPO 3 aprende o verdadeiro valor de edificar as outras pessoas se colocando 'abaixo', ele vai passar a sentir a verdadeira realização pessoal como jamais sonhou e o destaque interno nos corações de quem foi beneficiado com a sua verdadeira capacidade."
+      "hiddenTalent": "O Tipo 3 possui o talento oculto da realização. Ele tem a capacidade única de sacrificar-se pela vitória, desenvolvendo métodos para alcançar resultados, mesmo sem possuir talentos naturais na atividade em questão. Sua força de vontade e desejo de sucesso são motores poderosos que o impulsionam a superar desafios e atingir seus objetivos.",
+      "improvementPoints": "Para se tornar ainda mais bem-sucedido, o Tipo 3 precisa aprender a cuidar mais das outras pessoas verdadeiramente, sem visar apenas vantagens ou realizações pessoais. Quando ele compreende o verdadeiro valor de edificar os outros, colocando-se 'abaixo' em certas situações, descobre uma nova forma de realização pessoal. Esse entendimento profundo pode criar um impacto duradouro no coração das pessoas que foram beneficiadas por sua capacidade de liderança genuína e empática."
     },
     "T4": {
       "title": "TIPO 4 - ROMÂNTICO",
       "cssClass": "roma",
       "type": "TIPO 4",
       "generalCharacteristics": [
-        "O artista",
-        "O melancólico",
-        "O esteta",
-        "O individualista",
-        "O especial",
-        "A pobre vítima"
+        "O Tipo 4, também conhecido como Romântico, é frequentemente chamado de Artista, Melancólico, Esteta, Individualista, Especial ou, em situações menos equilibradas, Pobre Vítima. Este perfil é profundamente emocional, marcado por uma intensa busca por autenticidade e significado em tudo o que faz. Pessoas do Tipo 4 são únicas em sua expressão e frequentemente procuram criar algo extraordinário que as diferencie dos demais."
       ],
-      "positivePoints": ["Criatividade", "Detalhismo singular", "Autenticidade"],
-      "negativePoints": ["Posição depressiva", "Crítica extrema", "Sensibilidade alta"],
+      "positivePoints": [
+        "Criatividade: O Tipo 4 possui uma imaginação fértil e uma habilidade natural para criar, seja em arte, ideias ou soluções inovadoras.",
+        "Detalhismo Singular: Ele presta atenção minuciosa aos detalhes, valorizando as sutilezas que outros podem deixar passar despercebidas.",
+        "Autenticidade: O Tipo 4 é genuíno em sua expressão e busca ser fiel a si mesmo, valorizando a originalidade em tudo o que faz."
+      ],
+      "negativePoints": [
+        "Posição Depressiva: A sensibilidade elevada pode levar o Tipo 4 a momentos de melancolia e introspecção excessiva.",
+        "Crítica Extrema: Sua busca pela perfeição e autenticidade pode torná-lo excessivamente crítico, tanto consigo mesmo quanto com os outros.",
+        "Sensibilidade Alta: O Tipo 4 é altamente sensível, o que pode torná-lo vulnerável a sentimentos de rejeição e incompreensão."
+      ],
       "fundamentalDesire": "Ser único(a): Para o TIPO 4, a maior importância é resolver algo que ninguém está conseguindo, ou ser a única referência de algo extraordinário. Logo, é um perfil que deseja que suas obras sejam mais reconhecidas do que ele mesmo, tornando-se um dos perfis mais criativos do eneagrama.",
       "centersImbalance": "O TIPO 4 é predominantemente EMOCIONAL, tem o INSTINTIVO reprimido e, portanto, tem o MENTAL como secundário.",
       "naturalSkills": {
@@ -1330,193 +1340,212 @@
         "management": "O TIPO 4 pode demonstrar uma habilidade razoável em gestão devido à sua prática com recursos disponíveis. No entanto, seu ponto forte é na gestão de pessoas, onde tem uma boa assertividade em delegação. No entanto, pode precisar se desenvolver na gestão de outros recursos."
       },
       "hiddenTalent": "O TIPO 4 porta o talento oculto da comparação. Sendo o 'único' perfil do eneagrama com seu talento 'no lado negativo', a comparação pode ser vista como algo ruim quando mal compreendida. No entanto, é a melhor maneira de buscar e preencher as lacunas para criar e apresentar soluções 'únicas'.",
-      "improvementPoints": "Para se tornar uma pessoa ainda mais autêntica, o TIPO 4 precisa colocar mais em prática suas ideias e objetivos, desenvolvendo pontos e exemplos de sua credibilidade. Também deve ser mais tolerante com os outros, utilizando menos sua língua afiada, que, embora deseje ajudar e resolver problemas de maneira assertiva, pode ferir as pessoas."
+      "improvementPoints": [
+        "Para se tornar ainda mais autêntico, o Tipo 4 precisa aprender a colocar em prática suas ideias e objetivos, permitindo que suas criações sejam concretizadas e reconhecidas por sua credibilidade.",
+        "Ele deve trabalhar para ser mais tolerante com as pessoas ao seu redor, evitando o uso de críticas severas que, embora bem-intencionadas, podem causar feridas emocionais.",
+        "Ao encontrar um equilíbrio entre sua busca por autenticidade e a empatia pelos outros, o Tipo 4 pode se tornar uma pessoa mais realizada e apreciada."
+      ]
     },
     "T5": {
       "title": "TIPO 5 - OBSERVADOR",
       "cssClass": "observador",
       "type": "TIPO 5",
       "generalCharacteristics": [
-        "O observador",
-        "O pensador",
-        "O investigador",
-        "O inovador",
-        "O experto",
-        "O especialista"
+        "O Tipo 5, também conhecido como Observador, é frequentemente chamado de Pensador, Investigador, Inovador, Expert ou Especialista. Este perfil é caracterizado por uma profunda sede de conhecimento e uma abordagem analítica em relação ao mundo. O Tipo 5 busca entender o funcionamento das coisas de maneira detalhada, preferindo manter uma certa distância emocional para observar e processar informações de forma objetiva e racional."
       ],
-      "positivePoints": ["Ponderação", "Racionalidade", "Analítico ao extremo"],
-      "negativePoints": ["Frieza", "Distância", "Calculistas"],
-      "fundamentalDesire": "Ser capaz e competente: Para o TIPO 5, resolver o problema pela raiz com o menor número de pessoas é o ideal. Por isso, ele se dedica na maioria das vezes de forma autodidata para que o resultado final aconteça da maneira mais analítica possível.",
-      "centersImbalance": "O TIPO 5 é predominantemente MENTAL, tem o INSTINTIVO reprimido e, portanto, tem o EMOCIONAL como secundário.",
+      "positivePoints": [
+        "Ponderação: O Tipo 5 é extremamente cuidadoso em suas decisões, sempre buscando entender todas as variáveis antes de agir.",
+        "Racionalidade: Ele é capaz de manter a calma em situações de alta pressão, focando em soluções lógicas e práticas.",
+        "Análise Profunda: O Tipo 5 se destaca pela capacidade de examinar detalhes com profundidade, o que o torna excelente em resolver problemas complexos."
+      ],
+      "negativePoints": [
+        "Frieza: Sua tendência a priorizar a lógica pode fazê-lo parecer distante ou indiferente aos sentimentos dos outros.",
+        "Distância: O Tipo 5 frequentemente mantém um certo afastamento emocional, o que pode dificultar suas relações interpessoais.",
+        "Calculismo: Ele pode ser visto como excessivamente calculista, tomando decisões baseadas em fatos e números, às vezes à custa da consideração humana."
+      ],
+      "fundamentalDesire": "Ser capaz e competente: O desejo central do Tipo 5 é resolver problemas de forma independente e eficiente, utilizando o mínimo de recursos possíveis e confiando em seu próprio conhecimento. A autodidática é uma característica marcante deste perfil, que prefere se aprofundar em temas de interesse até dominar completamente o assunto.",
+      "centersImbalance": "O Tipo 5 é predominantemente MENTAL, tem o INSTINTIVO reprimido e, portanto, tem o EMOCIONAL como secundário.",
       "naturalSkills": {
-        "communication": "O TIPO 5, sendo um dos mais frios do eneagrama, tem uma comunicação mais linear e robótica, focada em dados e estatísticas. Isso pode ser um desafio dependendo da necessidade de se comunicar, devido à sua falta de paciência com intromissões.",
-        "selling": "O TIPO 5, por ser um dos perfis de maior profundidade em conhecimento do eneagrama, é excelente em vendas que necessitam de muitos argumentos, fatos e informações a serem transmitidas. No entanto, seu instintivo reprimido o deixa recuado e o faz buscar uma menor quantidade de vendas com altos valores negociados, já que é um dos perfis que mais sabe lidar com objeções.",
-        "leadership": "O TIPO 5 é o perfil mais solitário do eneagrama, o que dificulta suas habilidades naturais de liderança, especialmente devido à combinação com suas habilidades de comunicação técnica e metódica. Isso pode deixar os processos extremamente engessados e desconectados das pessoas, focando apenas no resultado final. No ponto de vista numérico e financeiro, pode ser uma liderança assertiva com desperdício zero e alta exigência.",
-        "management": "O TIPO 5, como o perfil da análise mais profunda do eneagrama, pode ter uma grande noção natural de gestão de recursos. Principalmente porque a retenção é um de seus pontos fortes e a utilização de recursos é proveniente de uma ponderação assertiva quando está saudável. O cuidado é não reter demais, o que pode travar processos que precisam de mais flexibilidade."
+        "communication": "A comunicação do Tipo 5 tende a ser linear e objetiva, muitas vezes vista como fria ou robótica. Ele foca em dados, estatísticas e informações concretas, o que pode ser desafiador em situações que demandam empatia ou interação emocional. Sua falta de paciência para interrupções ou desvios do assunto principal pode tornar a comunicação mais difícil em ambientes menos formais.",
+        "selling": "O Tipo 5, com sua profundidade de conhecimento, é excelente em vendas que exigem muitos argumentos e informações detalhadas. Ele é particularmente eficaz em negociações complexas, onde seu conhecimento profundo pode ser utilizado para lidar com objeções e apresentar soluções bem fundamentadas. No entanto, seu instinto reprimido o leva a preferir vendas de alto valor e menor volume, onde pode aplicar toda sua expertise com maior eficiência.",
+        "leadership": "O Tipo 5 é um líder solitário e metódico, o que pode dificultar sua conexão com a equipe. Sua abordagem técnica e racional pode tornar os processos excessivamente rígidos, focados exclusivamente no resultado final, com pouca consideração para o aspecto humano. No entanto, do ponto de vista numérico e financeiro, sua liderança pode ser altamente eficaz, com desperdício mínimo e alta exigência de qualidade.",
+        "management": "Como o perfil mais analítico do eneagrama, o Tipo 5 tem uma forte capacidade natural para a gestão de recursos. Ele é particularmente bom em reter e utilizar recursos de maneira eficiente, graças à sua ponderação cuidadosa. Contudo, deve ter cuidado para não reter recursos em excesso, o que pode travar processos que requerem maior flexibilidade."
       },
-      "hiddenTalent": "O TIPO 5 porta o talento oculto da ponderação. Ponderar é analisar quais recursos e em qual quantidade devem ser aplicados com a maior precisão possível para obter resultados positivos. Logo, tempo e dinheiro são recursos de grande valor para o perfil, que busca equilibrar investimentos com prazos, evitando desperdícios e perdas.",
-      "improvementPoints": "Para se tornar uma pessoa ainda mais eficiente, o TIPO 5 precisa focar em ação. Conhecer a teoria é importante, mas aplicar a prática é fundamental. Ao melhorar sua capacidade de ação, as pessoas vão se conectar mais com ele, e os processos passíveis de erros humanos terão menos falhas e mais resultados positivos graças à confiança e apoio pessoal vindos do TIPO 5."
+      "hiddenTalent": "O talento oculto do Tipo 5 é a ponderação. Ele possui a habilidade única de avaliar com precisão quais recursos, em que quantidade, devem ser aplicados para alcançar os melhores resultados. O tempo e o dinheiro são particularmente valiosos para o Tipo 5, que busca equilibrar investimentos e prazos para evitar desperdícios e maximizar a eficiência.",
+      "improvementPoints": [
+        "Para se tornar ainda mais eficaz, o Tipo 5 precisa focar em ação. Conhecimento sem aplicação prática tem pouco valor. Ao melhorar sua capacidade de colocar teorias em prática, o Tipo 5 pode estabelecer conexões mais fortes com as pessoas, reduzindo erros humanos e aumentando a eficácia dos processos. Além disso, a confiança e o apoio dos outros podem ser fortalecidos à medida que o Tipo 5 se torna mais acessível e envolvido nas ações do dia a dia."
+      ]
     },
     "T6": {
       "title": "TIPO 6 - QUESTIONADOR",
       "cssClass": "questionador",
       "type": "TIPO 1",
       "generalCharacteristics": [
-        "O questionador",
-        "O guardião",
-        "O cético",
-        "O tradicionalista",
-        "O apoiador",
-        "O partidário"
+        "O Tipo 6, conhecido como Questionador, também é frequentemente chamado de Guardião, Cético, Tradicionalista, Apoiador ou Partidário. Este perfil é caracterizado por uma busca constante por segurança e estabilidade. Os Tipo 6 são conhecidos por sua lealdade, mas também por sua tendência a questionar e avaliar cuidadosamente todas as situações antes de agir. Eles preferem ambientes estruturados e previsíveis, onde possam antecipar riscos e criar planos de contingência."
       ],
-      "positivePoints": ["Gregários", "Lealdade", "Planejamento"],
-      "negativePoints": ["Apego", "Rigidez", "Insegurança extrema"],
-      "fundamentalDesire": "Encontrar apoio e segurança: Para o TIPO 6, ter apenas um plano nunca é a opção. Esse perfil depende de ter várias alternativas para cada situação de adversidade que aparecer em sua frente e também nos cenários mentais que sua imaginação trouxer. Assim, processos e pessoas ajudam nessa busca de satisfazer a necessidade fundamental de estar seguro.",
-      "centersImbalance": "O TIPO 6 é o MENTAL que reprimiu o MENTAL. Assim, é um perfil que vive oscilando entre EMOCIONAL e INSTINTIVO como dois centros ativos.",
+      "positivePoints": [
+        "Gregários: O Tipo 6 valoriza a conexão com os outros, sendo altamente cooperativo e leal dentro de grupos.",
+        "Lealdade: Eles são extremamente leais, tanto em suas relações pessoais quanto profissionais, garantindo a confiança de quem os cerca.",
+        "Planejamento: O Tipo 6 é meticuloso no planejamento, sempre preparado com alternativas para cada eventualidade."
+      ],
+      "negativePoints": [
+        "Apego: Sua necessidade de segurança pode levá-los a se apegar a métodos tradicionais e resistir a mudanças.",
+        "Rigidez: A busca por estabilidade pode torná-los inflexíveis, dificultando a adaptação a novas situações.",
+        "Insegurança Extrema: A tendência de questionar tudo pode gerar dúvidas excessivas, resultando em paralisia decisória."
+      ],
+      "fundamentalDesire": "Encontrar apoio e segurança: O desejo central do Tipo 6 é encontrar apoio e segurança. Eles sentem a necessidade de ter planos alternativos para qualquer situação que possa surgir, seja real ou imaginária. Para o Tipo 6, processos bem estabelecidos e a confiança em pessoas ao seu redor são essenciais para satisfazer essa necessidade fundamental de segurança.",
+      "centersImbalance": "O Tipo 6 é predominantemente MENTAL, mas com o MENTAL reprimido, levando a uma oscilação entre os centros EMOCIONAL e INSTINTIVO como ativos.",
       "naturalSkills": {
-        "communication": "O TIPO 6, sendo um dos mais emotivos do eneagrama, traz sua comunicação focada em seguranças emocionais, buscando transmitir para as pessoas suas maiores necessidades, sejam elas para cobrar ou ajudar. Logo, sua comunicação depende do seu grau de segurança perante o domínio do assunto a ser tratado e das suas habilidades humanas de oratória e falar em público, que podem ser desenvolvidas com a prática e o apoio de seu líder.",
-        "selling": "O TIPO 6, por ser um dos perfis de maior argumentação e questionamentos do eneagrama, pode ser um vendedor de qualidade em bater metas e se realizar, desde que se sinta seguro e amparado pela empresa com todo tipo de apoio interno (segurança financeira, pessoas para tirar dúvidas, treinamentos, acompanhamentos...). Uma vez seguro, o TIPO 6 é capaz de transmitir a resolução das inseguranças dos clientes com as soluções a serem vendidas justamente pela sua necessidade de sanar o pior. Logo, um vendedor TIPO 6 não deixa que o cliente seja ludibriado ou prejudicado pela falta de informação e nem se torne consumidor de um produto sem a plena certeza de que ele vai ficar satisfeito.",
-        "leadership": "O TIPO 6 é o perfil mais gregário do eneagrama, logo ele tem a necessidade de estar em grupo e fazer atividades juntos. Então, na liderança, o TIPO 6 depende de uma reciprocidade da equipe para com ele, em atos de lealdade extrema. Uma vez que a equipe siga seus processos e atenda suas ordens, a complicação pode acontecer quando membros da equipe se tornarem mais independentes ou diferentes do padrão, o que vai incomodar a rigidez do perfil.",
-        "management": "O TIPO 6, por ser o perfil que mais busca segurança, vai cuidar dos recursos de maneira a seguir as ordens e processos vindos de seu gestor. Quando é gestor ou líder, pode organizar os recursos sempre com 'um pé atrás', tanto os recursos humanos quanto os demais, afinal, 'e se' acontecer algum imprevisto e não estivermos preparados para lidar com ele? 'E se' seguirmos esse plano de ação e der errado? As perguntas condicionais, massivamente provenientes do 'e se', assombram o perfil 6 em sua busca insaciável pela segurança."
+        "communication": "Como um dos perfis mais emocionais do eneagrama, o Tipo 6 tende a comunicar-se com foco em segurança emocional, tanto para si quanto para os outros. Ele expressa suas preocupações e necessidades, buscando apoio e clareza. A eficácia da comunicação do Tipo 6 está diretamente ligada ao seu nível de confiança no assunto e em sua habilidade de oratória, que pode ser aprimorada com prática e suporte adequado.",
+        "selling": "O Tipo 6, sendo altamente argumentativo e questionador, pode se destacar em vendas, especialmente quando se sente seguro e apoiado pela empresa. Quando equipado com o treinamento necessário e o suporte interno, ele é capaz de transmitir essa segurança aos clientes, abordando suas preocupações e oferecendo soluções confiáveis. Um vendedor Tipo 6 se empenha em garantir que o cliente não seja prejudicado pela falta de informação, fornecendo uma experiência de compra que prioriza a satisfação e a confiança.",
+        "leadership": "Como o perfil mais gregário do eneagrama, o Tipo 6 valoriza o trabalho em equipe e a lealdade mútua. Na liderança, ele depende do apoio e da cooperação de sua equipe, buscando criar um ambiente de trabalho seguro e previsível. A complicação surge quando membros da equipe demonstram independência ou divergem dos padrões estabelecidos, o que pode desafiar a rigidez do Tipo 6 e criar desconforto.",
+        "management": "Como um perfil que busca segurança acima de tudo, o Tipo 6 segue rigorosamente processos e diretrizes, tanto como gestor quanto como subordinado. Quando em posições de gestão, ele organiza recursos de forma cautelosa, sempre considerando os possíveis imprevistos. Sua constante preocupação com o 'e se' pode, por vezes, retardar a tomada de decisões, mas também garante que a equipe esteja preparada para lidar com adversidades."
       },
-      "hiddenTalent": "O TIPO 6 porta o talento oculto da Guarnição/Lealdade. Guardar algo é uma responsabilidade que exige uma alta lealdade do guardião para com o portador. Logo, o perfil 6 tem o talento de cumprir o que for proposto vindo de seu gestor, líder ou afins para garantir a total e precisa execução e demais atitudes de garantia do resultado pedido. A lealdade dá a coragem de enfrentar os que buscam mudar as coisas por conta própria, de defender algo, de bater uma meta e qualquer outra ação de não deixar algo diferente do desejado acontecer.",
-      "improvementPoints": "Para se tornar uma pessoa mais segura verdadeiramente, o TIPO 6 precisa aprender a confiar mais nas pessoas, principalmente quando o assunto for transmitir o que sabe. O TIPO 6 tem medo de ser substituído se ensinar tudo o que sabe, mas a única maneira de crescer é sendo substituído, senão quem vai fazer o que você está fazendo hoje para o caminho estar livre para você crescer? Ao confiar nas pessoas e ensiná-las, a verdadeira segurança vai dar resultados, ainda mais com a segurança de si mesmo cada vez mais aflorada e percebida pelos demais."
+      "hiddenTalent": "O talento oculto do Tipo 6 é a Guarnição/Lealdade. Este perfil tem uma capacidade única de guardar e proteger, sendo extremamente responsável e comprometido com as tarefas que lhe são confiadas. Sua lealdade o impulsiona a cumprir com precisão as demandas de seus superiores e a defender firmemente os valores e metas estabelecidos. Esse talento também se manifesta em sua coragem para enfrentar desafios e proteger o que considera importante, garantindo que nada saia dos trilhos.",
+      "improvementPoints": [
+        "Para alcançar uma verdadeira sensação de segurança, o Tipo 6 precisa trabalhar na confiança—não apenas nos outros, mas em si mesmo. Ele muitas vezes teme ser substituído se compartilhar todo o seu conhecimento, mas o crescimento profissional vem com a capacidade de delegar e ensinar. Ao confiar mais nas pessoas ao seu redor e ao permitir que elas assumam responsabilidades, o Tipo 6 pode liberar espaço para seu próprio desenvolvimento e, simultaneamente, fortalecer sua segurança interior. À medida que sua autoconfiança cresce, ele se tornará mais eficaz e mais percebido como uma figura de apoio e estabilidade."
+      ]
     },
     "T7": {
       "title": "TIPO 7 - SONHADOR",
       "cssClass": "sonhador",
       "type": "TIPO 7",
       "generalCharacteristics": [
-        "O sonhador",
-        "O entusiasta",
-        "O generalista",
-        "O versátil",
-        "O dinâmico",
-        "A criança prodígio"
+        "O Tipo 7, conhecido como Sonhador, também é chamado de Entusiasta, Generalista, Versátil, Dinâmico e Criança Prodígio. Este perfil é marcado por uma energia vibrante e uma busca constante por novas experiências e aventuras. São pessoas que veem o mundo com otimismo e estão sempre em busca de satisfação e realização, evitando o tédio e a dor."
       ],
-      "positivePoints": ["Positividade", "Humor", "Solucionadores de problemas"],
-      "negativePoints": ["Inconsequência", "Impulsividade", "Fantasia demasiada"],
-      "fundamentalDesire": "Satisfazer-se/realizar-se: Para o TIPO 7, ter as suas ansiedades mentais resolvidas rapidamente é fundamental. Por isso se concentra em executar rapidamente suas ideias brilhantes e inovadoras para obter a satisfação instantânea.",
-      "centersImbalance": "O TIPO 7 é predominantemente MENTAL, tem o EMOCIONAL reprimido e, portanto, tem o INSTINTIVO como secundário.",
+      "positivePoints": [
+        "Positividade: O Tipo 7 é naturalmente otimista, sempre encontrando o lado positivo das situações e inspirando os outros com seu entusiasmo.",
+        "Humor: Seu senso de humor é contagiante, tornando o ambiente ao seu redor mais leve e agradável.",
+        "Solucionadores de Problemas: Com uma mente criativa e rápida, eles são excelentes em encontrar soluções inovadoras para problemas complexos."
+      ],
+      "negativePoints": [
+        "Inconsequência: A busca incessante por novidades pode levar à falta de consideração pelas consequências de suas ações.",
+        "Impulsividade: O desejo de satisfazer suas necessidades imediatamente pode resultar em decisões precipitadas.",
+        "Fantasia Excessiva: O Tipo 7 pode se perder em sonhos e ideias, dificultando o foco em uma única tarefa ou objetivo."
+      ],
+      "fundamentalDesire": "Satisfazer-se e realizar-se: O desejo central do Tipo 7 é satisfazer-se e realizar-se. Eles têm uma necessidade urgente de resolver rapidamente suas ansiedades mentais, o que os leva a buscar a execução imediata de suas ideias inovadoras. A satisfação instantânea é fundamental para este perfil, que prefere a ação rápida à reflexão prolongada.",
+      "centersImbalance": "O Tipo 7 é predominantemente MENTAL, com o EMOCIONAL reprimido, o que faz com que o INSTINTIVO seja o centro secundário. Esse desequilíbrio pode levar a uma desconexão emocional e a um foco excessivo em ideias e ações impulsivas, sem considerar profundamente os impactos emocionais.",
       "naturalSkills": {
-        "communication": "O TIPO 7, como um dos mais inovadores do eneagrama, tem uma capacidade extremamente boa em se comunicar e transmitir suas ideias. Por sua vez, eles podem ser extremamente falantes e enérgicos na comunicação, o que pode ser eufórico demais para perfis menos comunicativos entenderem as verdadeiras intenções uma vez que o TIPO 7 tem a aptidão de tornar tudo fácil de fazer ou produzir.",
-        "selling": "O TIPO 7, por ser altamente comunicativo, tende a ser um dos vendedores mais naturais do eneagrama. Porém, pode ter problemas ao lidar com as consequências de suas falas, que às vezes podem derrubar vendas ao levantar informações contraditórias dependendo do gatilho utilizado. Quando o TIPO 7 aprende técnicas de fechamento de vendas, esse detalhe é resolvido e ele pode usar toda sua capacidade de entusiasmar o cliente junto com seu conhecimento para realizar boas vendas até mesmo em cenários de grandes adversidades.",
-        "leadership": "O TIPO 7 é visionário e ativo. Com isso, tem uma maneira natural de engajar as pessoas a seguirem seus passos e darem continuidade aos projetos iniciados por ele. O ponto que pode atrapalhar a conexão total das pessoas é a sua necessidade de mudanças, que pode deixar os perfis mais dependentes de rotinas inseguros. Se tornando mais sólidos e estáveis, sintonizando com mais facilidade a paixão de inovar com as pessoas que vão ajudá-lo a realizar as metas, planos e trazer resultados.",
-        "management": "O TIPO 7, por ter esse estado rápido em tomar decisões, pode tanto ser um excelente gestor de pessoas e recursos, quanto um inconsequente. Isso dependerá da sua evolução pessoal e experiência com ferramentas e aperfeiçoamentos que o ensinem habilidades. Se a ideia for promissora, muitos recursos serão aplicados sem tanta certeza de retorno, enquanto ideias medíocres e lucrativas podem ser desinteressantes para o perfil. Logo, a sabedoria aqui é buscar certeza dos investimentos antes de aplicar os recursos."
+        "communication": "O Tipo 7 é um dos perfis mais inovadores do eneagrama e possui uma habilidade excepcional em comunicar e transmitir suas ideias. Eles tendem a ser extremamente falantes e expressivos, o que pode, em alguns casos, ser excessivo ou eufórico demais para perfis mais reservados. No entanto, essa capacidade de tornar tudo acessível e entusiasmante é uma de suas maiores forças.",
+        "selling": "Com sua comunicação altamente eficaz e natural, o Tipo 7 tende a ser um dos melhores vendedores do eneagrama. No entanto, sua impulsividade pode levá-los a cometer erros ao apresentar informações contraditórias, dependendo do gatilho emocional usado. Ao dominar técnicas de fechamento de vendas, o Tipo 7 pode alavancar sua capacidade de entusiasmar os clientes, mesmo em cenários desafiadores, transformando suas habilidades em grandes resultados de vendas.",
+        "leadership": "O Tipo 7 é um visionário nato, com uma energia contagiante que inspira os outros a seguir suas ideias e projetos. Sua necessidade de mudança e inovação pode ser um ponto de tensão para membros da equipe que preferem estabilidade e rotina. Ao equilibrar sua paixão por inovação com uma abordagem mais estável e consistente, o Tipo 7 pode engajar sua equipe de forma eficaz, alcançando resultados tangíveis e duradouros.",
+        "management": "A rápida tomada de decisões é uma marca registrada do Tipo 7, o que pode ser uma vantagem ou um desafio na gestão de pessoas e recursos. Dependendo de sua maturidade e experiência, o Tipo 7 pode ser um gestor inovador e eficaz ou, ao contrário, impulsivo e inconsequente. Para evitar riscos desnecessários, é importante que o Tipo 7 busque garantir a viabilidade dos investimentos antes de comprometer recursos, equilibrando sua natureza aventureira com uma avaliação criteriosa."
       },
-      "hiddenTalent": "O TIPO 7 porta o talento oculto do dinamismo. Dinamismo é a capacidade de resolver problemas sérios em situações adversas sem preparação prévia. É encontrar o lado positivo das coisas... é alegrar a vida com soluções boas para solucionar os problemas. O TIPO 7 corre da dor e rapidamente toma ações para sair de situações ruins e negativas com seu talento oculto.",
-      "improvementPoints": "Para se tornar uma pessoa mais inovadora, o TIPO 7 precisa aprender a frear mais sua mente acelerada e acompanhar seus projetos e ideias até o final, ao invés de seguir sua tendência de abrir mais e mais projetos e ideias. Quando ele se envolve totalmente em algo, o sucesso e a adesão são praticamente garantidos e as pessoas podem segui-lo com mais segurança."
+      "hiddenTalent": "O talento oculto do Tipo 7 é o Dinamismo. Essa habilidade permite que eles resolvam problemas complexos em situações adversas, muitas vezes sem preparação prévia. O dinamismo do Tipo 7 se manifesta na capacidade de encontrar rapidamente soluções positivas e criativas, trazendo leveza e alegria mesmo em momentos desafiadores. Eles tendem a fugir da dor, agindo rapidamente para transformar situações negativas em oportunidades de crescimento e aprendizado.",
+      "improvementPoints": [
+        "Para se tornar ainda mais inovador e eficaz, o Tipo 7 precisa aprender a frear sua mente acelerada e a se comprometer com seus projetos até o final. A tendência de iniciar novos projetos e ideias constantemente pode diluir seu foco e comprometer o sucesso de suas iniciativas. Ao se envolver plenamente em um projeto e levá-lo até a conclusão, o Tipo 7 não só alcançará resultados mais consistentes, como também ganhará a confiança e o apoio das pessoas ao seu redor."
+      ]
     },
     "T8": {
       "title": "TIPO 8 - CONFRONTADOR",
       "cssClass": "confrontador",
       "type": "TIPO 8",
       "generalCharacteristics": [
-        "O confrontador",
-        "O desafiador",
-        "O líder",
-        "O provedor",
-        "O empreendedor",
-        "O rochedo"
+        "O Tipo 8, conhecido como Confrontador, também é referido como Desafiador, Líder, Provedor, Empreendedor e Rochedo. Este perfil é marcado por uma presença imponente e uma força natural que impulsiona a liderança e a proteção dos que estão ao seu redor. Os Tipo 8 têm uma necessidade inata de controlar seu ambiente e de proteger seu território e suas pessoas."
       ],
-      "positivePoints": ["Assertividade", "Objetividade", "Poder de realização"],
-      "negativePoints": ["Agressividade", "Insensibilidade", "Intolerância"],
-      "fundamentalDesire": "Proteger-se: Para o TIPO 8, o mundo é dividido entre gente forte e gente fraca, entre pessoas do bem que querem ajudar e pessoas do mal que precisamos evitar. Por isso, existe essa conexão com a proteção de seus territórios e das pessoas que nele habitam para não sofrerem tanto as pancadas do mundo.",
-      "centersImbalance": "O TIPO 8 é predominantemente INSTINTIVO, tem o EMOCIONAL reprimido e, portanto, tem o MENTAL como secundário.",
+      "positivePoints": [
+        "Assertividade: O Tipo 8 é direto e decidido, o que lhe permite tomar decisões rápidas e eficazes.",
+        "Objetividade: Com um olhar prático e focado nos resultados, o Tipo 8 é excelente em identificar o que precisa ser feito e em seguir em frente com determinação.",
+        "Poder de Realização: A capacidade de transformar ideias em ações concretas é uma das maiores forças deste perfil."
+      ],
+      "negativePoints": [
+        "Agressividade: A intensidade do Tipo 8 pode ser percebida como agressividade, especialmente quando se sente ameaçado ou contrariado.",
+        "Insensibilidade: Focado em objetivos, o Tipo 8 pode ignorar as emoções dos outros, priorizando resultados sobre relacionamentos.",
+        "Intolerância: Sua visão clara do que é certo e errado pode torná-lo inflexível e impaciente com aqueles que não compartilham de suas opiniões."
+      ],
+      "fundamentalDesire": "Proteger-se e proteger os seus: O desejo central do Tipo 8 é proteger-se e proteger os seus. Este perfil vê o mundo como um lugar dividido entre os fortes e os fracos, entre aqueles que ajudam e aqueles que devem ser evitados. A proteção de seu território, seja ele físico, emocional ou social, e das pessoas que fazem parte dele, é uma prioridade. Para o Tipo 8, a vida é uma batalha, e é essencial estar sempre preparado para enfrentar qualquer desafio.",
+      "centersImbalance": "O Tipo 8 é predominantemente Instintivo, com o Emocional reprimido, o que coloca o Mental como centro secundário. Esse desequilíbrio pode levar a uma abordagem pragmática e impetuosa da vida, com pouca consideração para o impacto emocional de suas ações sobre si mesmo e sobre os outros.",
       "naturalSkills": {
-        "communication": "O TIPO 8, como um dos perfis mais carismáticos do eneagrama, carrega a força de vontade e sabe expressá-la muito bem, podendo influenciar positivamente ou negativamente alguma situação quando precisar avançar nas suas conquistas ou influenciar as pessoas.",
-        "selling": "O TIPO 8 é um dos perfis mais negociadores do eneagrama. Portanto, sua habilidade de venda vai depender do seu esforço para estudar o produto ou serviço a ser apresentado. Uma vez conectado ao propósito da empresa e entendendo que esse propósito pode levar a conquistar mais territórios e melhorar sua vida, esse perfil pode se tornar um excelente vendedor.",
-        "leadership": "O TIPO 8, como instintivo nato, possui o maior dom natural de liderança de todos, pois entende que para crescer e ampliar território é importante deixar pessoas de confiança aptas e capacitadas para administrar parcelas do território geral, liberando espaço para continuar as conquistas. Por isso, a liderança do TIPO 8 é mais focada em mentorias e ensinamentos. Os cuidados a serem tomados são em relação a possíveis ações agressivas que, embora sejam para ajudar, podem acabar machucando ou espantando algumas pessoas.",
-        "management": "O TIPO 8, como um dos dois perfis mais estrategistas do eneagrama, traz consigo uma maestria notável em administração de recursos humanos e gerais. Afinal, os territórios precisam ser zelados e cuidados para que as coisas possam florescer e mais resultados possam vir. Novamente, ressalta-se a necessidade de polimento do perfil para com as pessoas, pois ele pode ser benevolente com os favoritos e difícil de lidar com os demais, dificultando algumas formas de administração."
+        "communication": "Como um dos perfis mais carismáticos do eneagrama, o Tipo 8 possui uma notável força de vontade, que se reflete em sua comunicação. Eles são expressivos e diretos, capazes de influenciar e persuadir com facilidade. Dependendo de suas intenções, essa habilidade pode ser usada para avançar suas conquistas ou influenciar pessoas de forma positiva ou negativa, moldando o ambiente à sua volta.",
+        "selling": "O Tipo 8 é um negociador nato. Sua capacidade de vender está intrinsecamente ligada à sua conexão com o propósito do que está sendo oferecido. Quando o Tipo 8 acredita que o produto ou serviço que está vendendo contribuirá para a conquista de seus objetivos pessoais ou profissionais, ele pode se tornar um vendedor excepcional. Estudar e dominar o que está sendo vendido é crucial para que ele canalize sua energia e assertividade de forma eficaz, conquistando mais territórios e aprimorando sua vida.",
+        "leadership": "Com seu instinto natural de liderança, o Tipo 8 entende que o crescimento e a expansão de seu território dependem de deixar pessoas de confiança em posições-chave. Este perfil é orientado para a ação e a conquista, e vê na liderança uma oportunidade para mentorizar e capacitar outros, delegando responsabilidades enquanto continua a explorar novas fronteiras. O desafio para o Tipo 8 está em controlar sua tendência à agressividade, que pode afastar ou machucar aqueles que ele busca proteger e guiar.",
+        "management": "Sendo um dos perfis mais estratégicos do eneagrama, o Tipo 8 demonstra uma maestria notável na administração de recursos, sejam eles humanos ou materiais. Para o Tipo 8, cuidar do que foi conquistado é tão importante quanto continuar a expandir. Eles tendem a ser benevolentes com aqueles que consideram aliados, mas podem ser implacáveis com aqueles que não atendem às suas expectativas. Polir esse aspecto é essencial para garantir que todos, independentemente de seu status, sejam tratados com justiça e respeito."
       },
-      "hiddenTalent": "O TIPO 8 porta o talento oculto de arriscar. Arriscar é enfrentar crises e descobrir as ricas oportunidades que estão lá aguardando ser lapidadas nos momentos mais difíceis. Esse perfil traz segurança e engajamento para os lugares, agindo com uma assertividade absurda quando confiante do seu propósito, abrindo espaço para as outras pessoas se desenvolverem dentro desses ambientes protegidos.",
-      "improvementPoints": "Para se tornar uma pessoa mais assertiva, o TIPO 8 precisa desenvolver seu lado humano e sentimental. Reprimido pela infância, o tornou mais duro e guerreiro, às vezes impiedoso. Uma vez com o senso da humanidade e interesse genuíno em se conectar com as pessoas emocionalmente, poderá ser um líder ainda mais provedor, tendo a oportunidade de atuar exatamente onde as pessoas que ele admira e protege gostariam de ter o apoio personalizado dele."
+      "hiddenTalent": "O talento oculto do Tipo 8 é a Capacidade de Arriscar. Enfrentar crises e descobrir oportunidades em meio às dificuldades é uma habilidade que o Tipo 8 domina. Esse perfil traz consigo segurança e engajamento, agindo com uma assertividade impressionante quando confiante em seu propósito. O Tipo 8 é capaz de abrir espaço para que outras pessoas se desenvolvam, criando ambientes onde elas possam crescer e prosperar, protegidas e inspiradas por sua liderança.",
+      "improvementPoints": [
+        "Para se tornar ainda mais assertivo e equilibrado, o Tipo 8 deve desenvolver seu lado humano e emocional, que muitas vezes foi reprimido devido às experiências de vida. Ao cultivar um senso mais profundo de humanidade e ao se conectar genuinamente com as pessoas em um nível emocional, o Tipo 8 pode se transformar em um líder ainda mais completo e eficaz. Essa conexão permitirá que ele ofereça apoio personalizado e atue diretamente nas áreas onde seus liderados mais necessitam de sua presença e orientação."
+      ]
     },
     "T9": {
       "title": "TIPO 9 - INTERMEDIADOR",
       "cssClass": "intermediador",
       "type": "TIPO 9",
       "generalCharacteristics": [
-        "O intermediador",
-        "O pacifista",
-        "O otimista",
-        "O confortador",
-        "O mediador",
-        "O utopista"
+        "O Tipo 9, conhecido como Intermediador, também é referido como Pacifista, Otimista, Confortador, Mediador e Utopista. Este perfil é marcado por uma busca constante pela paz e harmonia, tanto interna quanto externa. Os Tipo 9 têm uma habilidade natural de criar um ambiente de tranquilidade e de evitar conflitos, fazendo deles os pacificadores do eneagrama."
       ],
-      "positivePoints": ["Calma", "Flexibilidade", "Mediação"],
-      "negativePoints": ["Apatia", "Insegurança", "Lentidão"],
-      "fundamentalDesire": "Manter o equilíbrio interior: Para o TIPO 9, as pressões e cobranças do mundo tornam tudo intenso sem necessidade de tantos conflitos. Portanto, ele se concentra em sobreviver no meio, resolvendo conflitos que o impactam de alguma maneira e literalmente fugindo de conflitos que ele puder evitar, mantendo um equilíbrio entre razões e emoções interiores.",
-      "centersImbalance": "O TIPO 9 é o INSTINTIVO que reprimiu o INSTINTIVO. Assim sendo, é um perfil que vive oscilando entre EMOCIONAL e MENTAL como dois centros ativos.",
+      "positivePoints": [
+        "Calma: O Tipo 9 transmite uma serenidade que acalma e conforta os que estão ao seu redor, criando um ambiente de paz.",
+        "Flexibilidade: Eles são adaptáveis e dispostos a ouvir todos os lados antes de tomar uma decisão, valorizando a harmonia e o consenso.",
+        "Mediação: Com uma capacidade nata de ver os dois lados de uma situação, o Tipo 9 é um excelente mediador de conflitos, sempre buscando soluções que agradem a todos."
+      ],
+      "negativePoints": [
+        "Apatia: A busca pela paz pode levá-los a evitar confrontos, o que às vezes resulta em passividade excessiva.",
+        "Insegurança: A incerteza sobre suas próprias capacidades pode fazer com que o Tipo 9 hesite em tomar decisões ou assumir responsabilidades.",
+        "Lentidão: Em sua tentativa de evitar conflitos e manter a paz, o Tipo 9 pode demorar a agir ou procrastinar, deixando questões importantes sem solução."
+      ],
+      "fundamentalDesire": [
+        "Manter o equilíbrio interior: O desejo central do Tipo 9 é manter o equilíbrio interior. Para este perfil, o mundo pode ser um lugar intenso e cheio de pressões e cobranças desnecessárias. O Tipo 9 se concentra em sobreviver a esse ambiente, resolvendo os conflitos que o afetam diretamente e evitando aqueles que ele considera desnecessários. Essa abordagem permite que ele mantenha um equilíbrio entre razão e emoção, preservando sua paz interior."
+      ],
+      "centersImbalance": [
+        "O Tipo 9 é um perfil Instintivo que reprimiu seu centro Instintivo. Como resultado, ele vive oscilando entre os centros Emocional e Mental, que se tornam seus centros ativos. Essa oscilação pode criar um conflito interno entre o que sente e o que pensa, dificultando a tomada de decisões."
+      ],
       "naturalSkills": {
-        "communication": "O TIPO 9, como deseja se esquivar de conflitos, pode ser apático na maior parte do tempo. Quando requisitado, pode explicar as coisas de uma forma que mistura o mental e o emocional, falando de maneira, na maioria das vezes, mais lenta e linear, com bastante devaneios e histórias paralelas. Esse aspecto precisa ser melhorado para ter uma comunicação mais assertiva.",
-        "selling": "O TIPO 9 pode se tornar o melhor vendedor quando se submeter a processos de evolução e aplicação de ferramentas, pois evita desgastes entre o cliente e a empresa, bem como entre seus colegas de trabalho e o líder. Sempre procura entregar o necessário para atender às expectativas do cliente. Enquanto não evoluído, pode ser inseguro quanto às metas.",
-        "leadership": "O TIPO 9 também pode se tornar o melhor líder do eneagrama quando evoluído. Afinal, ele tem o talento de entender todos os 9 TIPOS do eneagrama, sempre visando ouvir os dois lados antes de tomar qualquer decisão. Essa habilidade altruísta o torna uma pessoa extremamente confiável e com um relacionamento sólido para a maioria dos perfis que tiverem paciência com seu jeito de lidar com as coisas. Entretanto, quando não evoluído, tenderá a escapar da liderança para não assumir a responsabilidade total de decisões que inevitavelmente geram conflitos, pois não se pode agradar a todos.",
-        "management": "O TIPO 9 pode ter dificuldades em gestão, principalmente gestão de tempo, uma vez que tende a se concentrar nas atividades mais fáceis e procrastinar as atividades mais difíceis, ou mais importantes, ou mais conflituosas, ou que exigem mais energia para serem realizadas."
+        "communication": [
+          "O Tipo 9, ao tentar evitar conflitos, pode parecer apático ou desinteressado em suas comunicações. Quando solicitado a se expressar, ele tende a misturar aspectos mentais e emocionais, falando de forma mais lenta e linear, muitas vezes com divagações e histórias paralelas. Para melhorar, o Tipo 9 precisa trabalhar em uma comunicação mais direta e assertiva, reduzindo os desvios e focando na mensagem central."
+        ],
+        "selling": [
+          "O Tipo 9 pode se tornar um vendedor eficaz ao se submeter a processos de evolução e aplicação de ferramentas adequadas. Sua tendência natural é evitar desgastes, tanto entre o cliente e a empresa quanto entre seus colegas de trabalho e líderes, buscando sempre atender às expectativas do cliente de forma equilibrada. No entanto, enquanto não evoluído, ele pode apresentar insegurança em relação às metas, o que pode afetar seu desempenho."
+        ],
+        "leadership": [
+          "Quando evoluído, o Tipo 9 pode se tornar o melhor líder do eneagrama. Sua habilidade de compreender e considerar todos os 9 Tipos do eneagrama, ouvindo atentamente os diferentes lados antes de tomar decisões, faz dele uma pessoa extremamente confiável e de relacionamentos sólidos. Essa abordagem altruísta o torna um líder que inspira lealdade e paciência. No entanto, quando não evoluído, o Tipo 9 tende a evitar posições de liderança para não assumir a responsabilidade por decisões que possam gerar conflitos, já que ele sabe que não é possível agradar a todos."
+        ],
+        "management": [
+          "O Tipo 9 pode enfrentar desafios na gestão, especialmente na gestão de tempo. Ele tende a se concentrar em tarefas mais fáceis, procrastinando aquelas que são mais difíceis, importantes, ou que envolvem conflitos e exigem mais energia. Essa procrastinação pode afetar a eficiência e a eficácia de sua gestão, prejudicando o alcance dos resultados desejados."
+        ]
       },
-      "hiddenTalent": "O TIPO 9 porta o talento oculto de intermediar conflitos. Um dos mais importantes talentos numa organização, ser mediador e intermediar conflitos é o talento desse perfil, que busca a perfeita harmonia e paz entre todos os indivíduos ao seu redor. O TIPO 9 não é inimigo de ninguém; ele busca que todos tenham seu espaço igual de atuação e responsabilidades e vai se doar para garantir isso.",
-      "improvementPoints": "Para se tornar uma pessoa mais forte e de referências positivas, o TIPO 9 precisa se desenvolver no lado mais de ação. Principalmente na ação assertiva perante situações que estão sendo procrastinadas. A procrastinação é a única barreira que impede o TIPO 9 de ser o melhor líder, o melhor vendedor, o melhor qualquer coisa dentro do eneagrama, porque tende a escapar das coisas conflituosas ou esperar o tempo ou outras pessoas resolverem questões que já foram procrastinadas."
+      "hiddenTalent": [
+        "O talento oculto do Tipo 9 é a Capacidade de Intermediar Conflitos. Esse é um dos talentos mais valiosos dentro de uma organização. Ser um mediador eficaz é o dom deste perfil, que busca a harmonia e a paz entre todos ao seu redor. O Tipo 9 não vê inimigos, mas sim pessoas que precisam encontrar um espaço comum de atuação e responsabilidades. Ele se dedica a garantir que todos tenham uma chance justa de expressar suas opiniões e contribuir para o bem-estar coletivo."
+      ],
+      "improvementPoints": [
+        "Para se tornar ainda mais equilibrado e eficaz, o Tipo 9 precisa desenvolver um plano de ação mais proativo e enfrentar os desafios com maior determinação. Ele deve trabalhar para reduzir sua tendência à procrastinação e evitar o adiamento de decisões importantes, focando em uma abordagem mais direta e assertiva, especialmente em situações que envolvam conflito ou risco."
+      ]
     }
   },
   "groupCharacteristcs": {
     "institive": {
       "title": "INSTINTIVO",
       "cssClass": "ins",
-      "generalCharacteristics": "Instintivos basicamente usam a ação como mentor de suas vidas. São pessoas determinadas, protetoras, não se deixam controlar facilmente e tendem mais a mandar do que a obedecer.",
-      "positivePoints": [
-        "DINÂMICOS",
-        "DIRETOS",
-        "ATIVOS"
-      ],
-      "negativePoints": [
-        "INTOLERANTES",
-        "INCONSEQUENTES",
-        "AGRESSIVOS"
-      ],
-      "basicMotivation": "Instintivos basicamente usam a ação como mentor de suas vidas. São pessoas determinadas, protetoras, não se deixam controlar facilmente e tendem mais a mandar do que a obedecer.",
+      "generalCharacteristics": "Indivíduos com um perfil predominantemente instintivo baseiam suas vidas na ação. São pessoas determinadas e protetoras, que não se deixam controlar facilmente e preferem liderar em vez de seguir ordens. Sua natureza assertiva e independente os leva a agir de maneira rápida e decisiva, sempre prontos para enfrentar desafios de frente.",
+      "positivePoints": ["DINÂMICOS", "DIRECTOS", "ATIVOS"],
+      "negativePoints": ["INTOLERANTES", "INCONSEQUENTES", "AGRESSIVOS"],
+      "basicMotivation": "A autonomia é a principal motivação dos instintivos. Eles valorizam a liberdade para agir de maneira independente, sem restrições ou controles externos que possam limitar sua capacidade de ação. A submissão e qualquer forma de controle que comprometa sua independência são extremamente desconfortáveis para eles.",
       "naturalSkills": {
-        "communication": "Por agirem por instinto, os instintivos podem ter boas habilidades básicas de comunicação de formas mais diretas e objetivas, assim podendo manifestar as suas vontades ou relatar seus feitos.",
+        "communication": "Instintivos tendem a ser comunicadores diretos e objetivos, manifestando suas vontades e relatando seus feitos de forma clara e concisa. Sua comunicação é prática, focada em resultados e na execução rápida de ações, o que pode ser altamente eficaz em ambientes que exigem respostas rápidas.",
         "selling": "",
-        "leadership": "Os instintivos tendem a ser líderes natos uma vez que são excelentes motivadores, mesmo com sua natural falta de paciência conseguem extrair o melhor de cada um quando a ação é a chave. Podem sofrer um pouco inicialmente ao ingressarem no campo estratégico, mas de imediato são excelentes no tático e operacional.",
-        "management": "Como são rápidos e ativos, podem sofrer um pouco na gestão de pessoas, porém podem ser bons gestores de alguns tipos de recursos uma vez que costumam estar sempre com 'a mão na massa', consumindo e gerenciando os recursos das ações."
+        "leadership": "Instintivos são líderes natos, capazes de motivar e energizar suas equipes com sua determinação e foco em ação. Embora possam enfrentar desafios iniciais ao lidar com estratégias complexas, eles brilham no nível tático e operacional, onde a ação é fundamental. Sua impaciência pode ser uma barreira, mas também pode impulsionar resultados rápidos e eficientes.",
+        "management": "Devido à sua rapidez e natureza prática, instintivos podem enfrentar dificuldades na gestão de pessoas, especialmente em aspectos que exigem empatia e paciência. No entanto, eles são excelentes gestores de recursos, sempre envolvidos diretamente nas operações, consumindo e gerenciando os recursos necessários para alcançar seus objetivos."
       }
     },
     "emotional": {
       "title": "EMOCIONAL",
       "cssClass": "emo",
-      "generalCharacteristics": "Emocionais basicamente têm as emoções como mentor de suas vidas. São pessoas sociáveis, comunicativas que criam relações com facilidade com o fim de serem notados, apreciados, admirados e queridos por todos com quem se relacionam.",
-      "positivePoints": [
-        "AMIGÁVEIS",
-        "SOCIAIS",
-        "COMUNICATIVOS"
-      ],
-      "negativePoints": [
-        "MANIPULADORES",
-        "DRAMÁTICOS",
-        "RANCOROSOS"
-      ],
-      "basicMotivation": "Os emocionais têm como motivação básica a ATENÇÃO. Essa busca de atenção é voltada para eles mesmos de alguma maneira distinta de acordo com o perfil. Os emocionais tendem a buscar conexão com as pessoas para se sentirem confortáveis e avançar nos demais assuntos. Logo, os emocionais odeiam ser ignorados, esquecidos ou tratados com indiferença.",
+      "generalCharacteristics": "Os indivíduos com uma predominância emocional baseiam suas vidas nas emoções, que funcionam como o principal guia em suas decisões e ações. São pessoas naturalmente sociáveis e comunicativas, capazes de criar relações com facilidade. Sua busca é por reconhecimento, apreciação e afeto daqueles com quem interagem, sendo movidos pela necessidade de serem notados e admirados.",
+      "positivePoints": ["AMIGÁVEIS", "SOCIAIS", "COMUNICATIVOS"],
+      "negativePoints": ["MANIPULADORES", "DRAMÁTICOS", "RANCOROSOS"],
+      "basicMotivation": "A motivação central dos emocionais é a busca por atenção. Eles necessitam sentir-se conectados e reconhecidos para se sentirem confortáveis e prosperarem em outras áreas da vida. Ser ignorado, esquecido ou tratado com indiferença é particularmente doloroso para eles, pois ameaça sua necessidade fundamental de se sentir valorizado.",
       "naturalSkills": {
-        "communication": "Os emocionais são comunicadores natos, porque sentem conexão com as pessoas e fazem rapport com naturalidade. Eles se preocupam se o ouvinte está prestando atenção e entendendo o que está sendo passado e buscam maneiras de serem bem compreendidos tanto em público quanto em interações um a um. Lembrando que a habilidade de falar em público às vezes pode ser desenvolvida com técnicas e ferramentas de acordo com a timidez de cada indivíduo.",
-        "selling": "Os emocionais podem vender de acordo com a sua afinidade ou aceitação do produto ou serviço, porque transmitem para as pessoas o sentimento delas em utilizar tais produtos/serviços, e essa sinceridade na maioria das vezes será perceptível pelos clientes. Logo, os emocionais têm habilidade natural de transmitir a experiência para o cliente.",
-        "leadership": "Os emocionais tendem a ser líderes mais solícitos e amigáveis, buscando ajudar, agradar e recompensar seus liderados.",
-        "management": "Os emocionais podem ser negligentes com algumas formas de organização, o que pode prejudicar alguns mecanismos de gestão de recursos. Por outro lado, são impressionantes em gestão de pessoas."
+        "communication": "Os emocionais são comunicadores por natureza, estabelecendo conexões de forma instintiva. Eles têm uma preocupação genuína com o entendimento de seus interlocutores, buscando garantir que sua mensagem seja clara e bem-recebida, seja em contextos públicos ou em interações individuais. Embora possam necessitar de treinamento adicional para falar em público, essa habilidade pode ser desenvolvida e aprimorada.",
+        "selling": "Emocionais têm uma capacidade inata de vender produtos ou serviços pelos quais sentem afinidade. Sua sinceridade ao expressar o valor desses produtos ou serviços é geralmente perceptível pelos clientes, o que cria uma experiência de venda autêntica e confiável.",
+        "leadership": "Como líderes, os emocionais são solícitos e amigáveis, focados em ajudar, agradar e recompensar seus liderados. Eles criam um ambiente de trabalho colaborativo e motivador, onde os membros da equipe se sentem valorizados e incentivados a contribuir.",
+        "management": "Embora possam enfrentar desafios em aspectos organizacionais, os emocionais se destacam na gestão de pessoas. Sua habilidade em criar e manter relacionamentos fortes permite que eles gerenciem equipes de forma eficaz, mesmo que precisem de suporte em áreas de planejamento e organização."
       }
     },
     "mental": {
       "title": "MENTAL",
       "cssClass": "men",
       "generalCharacteristics": "Mentais basicamente usam a razão como mentor de suas vidas. São pessoas planejadoras, dedicam mais tempo em conhecer e calcular consequências no campo teórico do que a executá-las.",
-      "positivePoints": [
-        "ANALISTAS",
-        "ESTRATEGISTAS",
-        "PENSATIVOS"
-      ],
-      "negativePoints": [
-        "FRIOS",
-        "DISTANTES",
-        "CALCULISTAS"
-      ],
+      "positivePoints": ["ANALISTAS", "ESTRATEGISTAS", "PENSATIVOS"],
+      "negativePoints": ["FRIOS", "DISTANTES", "CALCULISTAS"],
       "basicMotivation": "Os mentais têm como motivação básica a SEGURANÇA. Logo, estão sempre buscando mais dados, informações e estatísticas sobre as coisas. Por isso, os mentais podem detestar alguma mudança sem planejamento e ficam constantemente ansiosos para realizar seus planos.",
       "naturalSkills": {
         "communication": "Por natureza, o centro mental armazena bastante informação e tem dificuldade em transmitir seu aprendizado, já que com seu raciocínio rápido conseguem pensar e interpretar as coisas com facilidade. Portanto, podem ser pouco comunicativos e adeptos de uma comunicação mais técnica.",
