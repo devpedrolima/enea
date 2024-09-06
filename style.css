@@ -242,7 +242,7 @@ a:hover {
     justify-content: center; /* Centraliza verticalmente */
     width: 100vw; /* Ocupa toda a largura da tela */
     height: auto; /* Ajusta a altura automaticamente */
-    padding: 30px; /* Adiciona padding de 10px nas bordas */
+    padding: 10px; /* Adiciona padding de 10px nas bordas */
     margin: 0 auto; /* Centraliza horizontalmente */
   }
 
@@ -265,14 +265,13 @@ a:hover {
   }
 
   .button {
-    height: auto;
     font-size: 3vw; /* Diminui o tamanho do texto do botão */
-    padding: 20px; /* Reduz o padding para evitar um botão grande demais */
+    padding: 10px; /* Reduz o padding para evitar um botão grande demais */
     margin-top: 10px;
     text-align: center;
     word-wrap: break-word;
     white-space: normal;
-    width: 600px; /* Remove a largura total */
+    width: 80%; /* Define a largura do botão como 80% da largura disponível */
     max-width: 400px; /* Limita o tamanho máximo do botão */
   }
 
