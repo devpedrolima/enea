@@ -271,7 +271,7 @@ a:hover {
     text-align: center;
     word-wrap: break-word;
     white-space: normal;
-    width: 80%; /* Define a largura do botão como 80% da largura disponível */
+    width: 90%; /* Define a largura do botão como 80% da largura disponível */
     max-width: 400px; /* Limita o tamanho máximo do botão */
   }
 
