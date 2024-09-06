@@ -73,7 +73,7 @@ function startTimer() {
   if (currentQuestionIndex >= 4 && currentQuestionIndex <= 7) {
     seconds = 120; // 120 seconds for questions 5, 6, 7, and 8
   } else {
-    seconds = 60; // 60 seconds for the rest
+    seconds = 10; // 60 seconds for the rest
   }
   document.getElementById(
     "timer"
