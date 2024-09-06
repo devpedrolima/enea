@@ -223,29 +223,69 @@ a:hover {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.122); /* Sombra sutil */
 }
 
+#codigo-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.122); /* Sombra sutil */
+}
+
 /* Responsividade */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centraliza verticalmente */
+    width: 100vw; /* Ocupa toda a largura da tela */
+    height: auto; /* Ajusta a altura automaticamente */
+    padding: 0; /* Remove padding desnecessário */
+    margin: 0 auto; /* Centraliza horizontalmente */
+  }
+
   .container {
+    width: 90%; /* Limita a largura para 90% da tela */
+    max-width: 768px;
     padding: 10px;
+    text-align: center;
+    margin: 0 auto; /* Garante que o container esteja sempre centralizado */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinha o conteúdo internamente */
+    justify-content: center; /* Centraliza verticalmente */
   }
 
   .question {
-    font-size: 3vw;
-    margin-bottom: 305px;
+    font-size: 4vw; /* Ajusta o tamanho da fonte de forma mais responsiva */
+    margin-bottom: 20px; /* Reduz a margem inferior */
+    width: 100%; /* Garante que a pergunta ocupe a largura total */
   }
 
   .button {
-    height: auto; /* Ajusta a altura automaticamente de acordo com o conteúdo */
-    font-size: 13px;
-    padding: 20px 20px; /* Uniformiza o padding para cima e para baixo */
+    height: auto;
+    font-size: 3vw; /* Diminui o tamanho do texto do botão */
+    padding: 20px; /* Reduz o padding para evitar um botão grande demais */
     margin-top: 10px;
     text-align: center;
-    word-wrap: break-word; /* Quebra o texto se for necessário */
-    white-space: normal; /
+    word-wrap: break-word;
+    white-space: normal;
+    width: 600px; /* Remove a largura total */
+    max-width: 400px; /* Limita o tamanho máximo do botão */
   }
 
-  h1 { font-size: 22px; }
-  h2 { font-size: 20px; }
-  h3 { font-size: 16px; }
-  p { font-size: 14px; }
+  h1 { font-size: 5vw; } /* Ajusta o tamanho das fontes com relação à largura da tela */
+  h2 { font-size: 4.5vw; }
+  h3 { font-size: 4vw; }
+  p { font-size: 3.5vw; }
+
+  .right-section {
+    order: -1; /* Move a seção direita para cima */
+  }
+
+  .left-section {
+    order: 1; /* Mantém a seção esquerda abaixo da seção direita */
+  }
 }

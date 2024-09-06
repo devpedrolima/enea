@@ -417,7 +417,7 @@ function displayPieChart() {
     cutout: "80%", // Define the size of the center hole as 50% of the chart's radius
     plugins: {
       legend: {
-        position: "top",
+        position:  "bottom",
       },
       tooltip: {
         callbacks: {
@@ -445,10 +445,13 @@ function reloadPage() {
 
 
 // Start displaying the first question
-document
-  .getElementById("start-test-button")
-  .addEventListener("click", function () {
-    document.getElementById("pre-teste-container").classList.add("hidden");
-    document.getElementById("test-container").classList.remove("hidden");
-    displayQuestion(); // Exibir primeira pergunta após iniciar o teste
-  });
+document.addEventListener("DOMContentLoaded", function () {
+  document
+    .getElementById("start-test-button")
+    .addEventListener("click", function () {
+      document.getElementById("pre-teste-container").classList.add("hidden");
+      document.getElementById("test-container").classList.remove("hidden");
+      displayQuestion(); // Exibir primeira pergunta após iniciar o teste
+    });
+});
+

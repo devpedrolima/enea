@@ -1,91 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
+<head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <link rel="stylesheet" href="./style.css" />
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
     <title>Teste EneaBusiness</title>
-  </head>
-  <body>
+</head>
+<body>
+    <!-- Container do pré-teste -->
     <div id="pre-teste-container">
-      <div class="container">
-        <img src="../src/logo1.png" alt="logo" />
-        <h1>Teste Eneagrama</h1>
-        <p>
-          Descubra seu verdadeiro eu respondendo ao teste de Eneagrama para revelar seu perfil único e aprofundar o autoconhecimento.
-        </p>
-      
-        <!-- teste do formuário na view (ainda nao está em fucionamento)
-          <form id="email-form">
-          <input type="email" id="email-input" placeholder="Digite seu e-mail" required />
-          <br>
-        </form> -->
-        <button type="submit" id="start-test-button" class="buttoon">Começar</button>
-        <p>
-          <a
-            href="https://wa.me/5564992563627?text=Ol%C3%A1+Igor%21+estou+com+d%C3%BAvidas+no+teste+do+EneaBusiness"
-          >Falar com o instrutor</a>
-        </p>
-      </div>
-    </div>
-    
+        <div class="container">
+            <img src="../src/logo1.png" alt="Logo do Teste Eneagrama" />
+            <h1>Teste Eneagrama</h1>
+            <p>Descubra seu verdadeiro eu respondendo ao teste de Eneagrama para revelar seu perfil único e aprofundar o autoconhecimento.</p>
 
+            <!-- Formulário de entrada -->
+            <button type="submit" id="start-test-button" class="buttoon">Começar</button>
+            <p>
+                <a href="https://wa.me/5564992563627?text=Ol%C3%A1+Igor%21+estou+com+d%C3%BAvidas+no+teste+do+EneaBusiness">Falar com o instrutor</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Container do teste -->
     <div id="test-container" class="hidden">
-      <div class="container">
-        <h1 id="question"></h1>
-        <p class="timer" id="timer"></p>
-        <div id="options"></div>
-      </div>
+        <div class="container">
+            <h1 id="question"></h1>
+            <p class="timer" id="timer"></p>
+            <div id="options"></div>
+        </div>
     </div>
 
+    <!-- Container dos resultados -->
     <div id="result-container" class="hidden">
-      <div class="container">
-        <button id="download-button" class="buttoon">
-          Faça o download do seu resultado
-        </button>
-        <h2>Seu perfil deve ser</h2>
-        <h1 id="result-names"></h1>
-        <canvas id="choicesChart"></canvas>
-        <div id="result"></div>
-      </div>
+        <div class="container">
+            <button id="download-button" class="buttoon">Faça o download do seu resultado</button>
+            <h2>Seu perfil deve ser</h2>
+            <h1 id="result-names"></h1>
+            <canvas id="choicesChart"></canvas>
+            <div id="result"></div>
+        </div>
     </div>
 
-    <div id="overlay"></div>
-
-    <div id="overlay" class="overlay" style="display: none"></div>
-    <div id="reminder-popup" class="popup" style="display: none">
-      <div class="popup-content">
-        <iframe
-          src="https://giphy.com/embed/fLRAdolRlMDcc"
-          width="280"
-          height="160"
-          style=""
-          frameborder="0"
-          class="giphy-embed"
-          allowfullscreen
-        ></iframe>
-        <p>
-          <a
-            href="https://giphy.com/gifs/trippy-goats-feels-good-man-fLRAdolRlMDcc"
-          ></a>
-        </p>
-        <h2>Hey! Você ainda está aí?</h2>
-        <p>
-          Não deixe seu teste ocioso! Faça com tempo e use o seu instinto!
-          Clique no botão para recomeçar seu teste.
-        </p>
-        <button onclick="reloadPage()">Reload</button>
-      </div>
+    <!-- Sobreposição e pop-up de lembrete -->
+    <div id="overlay" class="overlay hidden"></div>
+    <div id="reminder-popup" class="popup hidden">
+        <div class="popup-content">
+            <iframe src="https://giphy.com/embed/fLRAdolRlMDcc" width="280" height="160" frameborder="0" allowfullscreen></iframe>
+            <h2>Hey! Você ainda está aí?</h2>
+            <p>Não deixe seu teste ocioso! Faça com tempo e use o seu instinto! Clique no botão para recomeçar seu teste.</p>
+            <button onclick="reloadPage()">Recarregar</button>
+        </div>
     </div>
+
+    <!-- Scripts -->
     <script type="module" src="./script.js"></script>
     <script type="module">
-      import { selectAlternative } from "./script.js";
-      window.selectAlternative = selectAlternative;
+        import { selectAlternative } from "./script.js";
+        window.selectAlternative = selectAlternative;
     </script>
-  </body>
+</body>
 </html>
